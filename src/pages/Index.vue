@@ -23,7 +23,7 @@
             TAILORED TO YOUR PASSIONS AND TASTES
           </h6>
 
-          <button class="btn-main-index">LEARN WHAT WE DO</button>
+          <button class="btn-main-index" @click="$router.push('/start_planning')">LEARN WHAT WE DO</button>
         </div>
       </q-img>
 
@@ -61,7 +61,7 @@
           itineraries, all kinds of bookings, and being frustrated.
         </p>
 
-        <button class="general-btn-1 q-mt-xl" style="padding: 1% 2%">
+        <button class="general-btn-1 q-mt-xl" style="padding: 1% 2%" @click="$router.push('/start_planning')">
           LEARN WHAT WE DO
         </button>
       </div>
@@ -140,7 +140,7 @@
             the most beautiful and captivating trip of your life?
           </p>
           <div class="btn-fifth-block-x">
-            <button class="general-btn-2 btn-fifth-block">
+            <button class="general-btn-2 btn-fifth-block" @click="$router.push('/start_planning')">
               START PLANNING
             </button>
           </div>
@@ -223,7 +223,7 @@
         </p>
 
         <div class="btn-fifth-block-x">
-          <button class="general-btn-1 btn-start-quiz">START THE QUIZ</button>
+          <button class="general-btn-1 btn-start-quiz" @click="$router.push('/quiz')">START THE QUIZ</button>
         </div>
       </div>
 

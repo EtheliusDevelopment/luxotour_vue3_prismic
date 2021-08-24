@@ -34,7 +34,7 @@
 
             <q-space />
 
-            <button class="btn-toolbar-new q-mt-md">START PLANNING</button>
+            <button class="btn-toolbar-new q-mt-md" @click="$router.push('/start_planning')">START PLANNING</button>
           </q-toolbar>
 
           <q-separator
@@ -327,7 +327,7 @@
               LIMITED ONLY BY YOUR IMAGINATION .
             </h6>
 
-            <button class="btn-toolbar-new btn-dialog-footer">
+            <button class="btn-toolbar-new btn-dialog-footer" @click="$router.push('/quiz')">
               START THE QUIZ
             </button>
           </div>
