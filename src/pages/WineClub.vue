@@ -41,7 +41,7 @@
           at your local store, delivered directly to your doorstep.
         </p>
 
-        <button class="general-btn-1" style="padding: 1% 2%">
+        <button class="general-btn-1" style="padding: 1% 2%" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
           JOIN THE WINE CLUB NOW !
         </button>
       </div>
@@ -168,7 +168,7 @@
             spinner-size="82px"
           />
 
-          <button class="general-btn-1 btn-step" style="padding: 1% 2%">
+          <button class="general-btn-1 btn-step" style="padding: 1% 2%" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
             JOIN THE WINE CLUB NOW !
           </button>
         </div>
@@ -193,7 +193,7 @@
             <h6 class="h6-wine-card text-center text-primary">CLASSIC</h6>
             <h4 class="h4-wine-card text-center text-info">€ 1100</h4>
             <div class="flex flex-center q-mb-xl">
-              <button class="btn-wine-card" @click="fnalert">
+              <button class="btn-wine-card" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
                 MORE INFORMATION
               </button>
             </div>
@@ -209,7 +209,7 @@
             <h6 class="h6-wine-card text-center text-primary">PREMIUM</h6>
             <h4 class="h4-wine-card text-center text-info">€ 2350</h4>
             <div class="flex flex-center q-mb-xl">
-              <button type="button" class="btn-wine-card" @click="fnalert">
+              <button type="button" class="btn-wine-card" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
                 MORE INFORMATION
               </button>
             </div>
@@ -248,7 +248,7 @@
           in your wine box.
         </p>
 
-        <button class="general-btn-1 btn-1 btn-step" style="padding: 2% 4%">
+        <button class="general-btn-1 btn-1 btn-step" style="padding: 2% 4%" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
           DISCOVER THE PLANS
         </button>
       </div>
@@ -359,11 +359,9 @@ export default defineComponent({
     PreLoader,
   },
   setup() {
-    const fnalert = () => {
-      alert("Funziono");
-    };
+
     return {
-      fnalert,
+
     };
   },
 });

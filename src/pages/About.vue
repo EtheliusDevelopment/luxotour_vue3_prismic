@@ -59,7 +59,7 @@
           is completely customized. What travel experience do you seek?
         </p>
 
-        <button class="general-btn-1 q-mt-xl" style="padding: 1% 2%">
+        <button class="general-btn-1 q-mt-xl" style="padding: 1% 2%" @click="$router.push('/start_planning')">
           LET’S FIND OUT TOGHETER
         </button>
       </div>
@@ -205,7 +205,7 @@
           we instill our passion and experience—100% Italian.
         </p>
 
-        <button class="general-btn-1 q-mt-xl desktop-only" style="padding: 2% 4%">
+        <button class="general-btn-1 q-mt-xl desktop-only" style="padding: 2% 4%" @click="$router.push('/start_planning')">
           TALK WITH US
         </button>
       </div>
@@ -265,7 +265,7 @@
         </div>
       </q-img>
 
-        <button class="general-btn-1 q-mx-xl mobile-only btn-grid" style="padding: 2% 4%">
+        <button class="general-btn-1 q-mx-xl mobile-only btn-grid" style="padding: 2% 4%" @click="$router.push('/start_planning')">
           TALK WITH US
         </button>
     </div>
@@ -301,6 +301,7 @@
           <button
             class="general-btn-2 btn-fifth-block q-mb-md"
             style="margin-left: 5%"
+            @click="$router.push('/testimonials')"
           >
             READ ABOUT OUR CLIENTS’ TRAVEL EXPERIENCES
           </button>
