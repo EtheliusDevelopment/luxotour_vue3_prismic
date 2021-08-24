@@ -173,8 +173,8 @@
 
         <div class="btn-box-fourth-block">
           <button
-            class="general-btn-2 btn-fifth-block"
-            style="padding: 2% 4%; width: 80%; margin-bottom: 5%"
+            class="general-btn-2 btn-fifth-block btn-fifth-block-mb"
+            style="padding: 2% 4%"
           >
             BOOK NOW
           </button>
@@ -395,7 +395,12 @@ hr {
   margin-top: 3%;
   width: 60%;
   display: flex;
+
 }
+
+ .btn-fifth-block-mb {
+    margin-right: 5%;
+  }
 
 .sub-section-first-fourth {
   margin: 0 9%;
@@ -425,7 +430,6 @@ ul {
   }
 
   .h6-body-title {
-
   }
 
   // FIRST BLOCK*****************
@@ -454,7 +458,6 @@ ul {
   }
 
   .h6-body-title {
-
   }
 
   // HEADER BLOCK****************
@@ -495,6 +498,13 @@ ul {
     flex-direction: column;
     align-items: center;
   }
+
+  .btn-fifth-block-mb {
+    width: 80%;
+    margin-bottom: 5%;
+    margin-right: unset;
+  }
+
   .fourth-block {
     margin-top: 15%;
   }
