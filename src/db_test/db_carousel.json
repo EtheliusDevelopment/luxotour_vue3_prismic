@@ -1,0 +1,26 @@
+[
+  {
+    "testimonial_name": "Anna & Gill",
+    "payoff": "a second honeymoon",
+    "img": "/italy_pics/foto_carousel_testimonials_2.jpg",
+    "slug": "anna_and_gill"
+  },
+  {
+    "testimonial_name": "Meghan & Lara",
+    "payoff": "a second honeymoon",
+    "img": "/italy_pics/foto_carousel_testimonials_3.jpg",
+    "slug": "meghan_and_lara"
+  },
+  {
+    "testimonial_name": "Mr. Hamilton & Family",
+    "payoff": "a second honeymoon",
+    "img": "/italy_pics/foto_carousel_testimonials_1.jpg",
+    "slug": "mr_hamilton_and_family"
+  },
+  {
+    "testimonial_name": "Olivia & Michael",
+    "payoff": "a second honeymoon",
+    "img": "/italy_pics/foto_carousel_testimonials_4.jpg",
+    "slug": "olivia_and_michael"
+  }
+]

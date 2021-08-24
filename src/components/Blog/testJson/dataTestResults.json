@@ -1,0 +1,225 @@
+{
+  "article-title": [
+    {
+      "type": "heading1",
+      "text": "TOP TEN LUXURY HOTELS IN ITALY",
+      "spans": []
+    }
+  ],
+  "main_img": {
+    "dimensions": { "width": 1000, "height": 1000 },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/luxobackend/f8506086-11d5-42f9-9a5f-043d7e89536e_blog_luxury_5.jpeg?auto=compress,format&rect=172,0,681,681&w=1000&h=1000"
+  },
+  "post-body": [
+    {
+      "post-image": {},
+      "paragraph-title": [],
+      "paragraph-body": [
+        {
+          "type": "paragraph",
+          "text": "Italy is teaming with accommodation options and the last thing you want is to pick the wrong one. We’ve travelled across the country to sample the best of the best and have compiled a list of what we believe to be the top ten luxury hotels in Italy. Whether you’re looking for an off-the-beaten-track gem or a sanctuary in a crowded city, we’ve found something for everyone.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/56ee871e-141d-45dc-9168-10ebc757236c_blog_luxury_1.jpeg?auto=compress,format&rect=148,0,728,728&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        {
+          "type": "paragraph",
+          "text": "Belmond Splendido Portofino",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Set against the hills overlooking Portofino, you’ll find a treasure of the Italian Riviera. Belmond Splendido Portofino, a converted 16th century monastery, is the epitome of glamour and old-world elegance. The high ceilings and double doors capture the spirit of the Mediterrean and a feeling of luxury like no other. Take your morning coffee on one of their sun-soaked balconies or enjoy an evening aperitivo on the beautiful terrazza. Belmond Splendido Portofino offers a new perspective on a much-loved setting.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/fe34b710-03f8-40a2-890b-56c7fe4b76a9_blog_luxury_2.jpeg?auto=compress,format&rect=147,0,729,729&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        { "type": "paragraph", "text": "Hotel Cipriani, Venice", "spans": [] },
+        {
+          "type": "paragraph",
+          "text": "Hotel Cipriani is a Venetian classic situated on Giudecca Island, a short boat trip from St Mark’s Square. The 15th century palace has achieved the perfect balance between traditional Venetian charm and luxurious contemporary design. Floor-to-ceiling windows line the side of the hotel that looks out over the lagoon, making it feel as if you’re suspended just above the water’s edge. Whether you’re spending the afternoon unwinding in the gorgeous spa, or you’re sampling one of the exquisite dishes at the onsite restaurant, a visit to Cipriani Venice is never short of exceptional.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/9116360f-4e71-4910-abdb-277b18539322_blog_luxury_3.jpeg?auto=compress,format&rect=172,0,681,681&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        { "type": "paragraph", "text": "Hotel Hassler, Rome", "spans": [] },
+        {
+          "type": "paragraph",
+          "text": "If you’re going to be visiting one of the most magnificent cities in the world, you need accommodation to match. Hotel Hassler is everything that you could hope for when looking for luxury hotels in Italy. Situated in the centre of Rome, at the top of the iconic Spanish Steps, this five star hotel has been voted among the best independently owned luxury hotels in all of Europe. Enjoy panoramic views of Rome while dining at their signature restaurant Imàgo or take a break from sightseeing at their one-of-a-kind spa. Hassler is the ultimate in city break accommodation and the perfect base from which to explore all that Rome has to offer.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/8284506c-9183-45da-9898-906fbdd8141e_blog_luxury_4.jpeg?auto=compress,format&rect=170,0,684,684&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        { "type": "paragraph", "text": "Caesar Augustus, Capri", "spans": [] },
+        {
+          "type": "paragraph",
+          "text": "The island of Capri is known for its glitz and glam, and Caesar Augustus is no exception. This stunning hotel offers the illusion of feeling suspended between sea and sky. Not only will you be treated to the most incredible hospitality but the expansive views and idyllic placement will no doubt take your breath away. Choose Hotel Augustus if you’re looking for a spot that’s tucked away from the crowds, but still captures the best aspects of an escape to Capri.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/f8506086-11d5-42f9-9a5f-043d7e89536e_blog_luxury_5.jpeg?auto=compress,format&rect=172,0,681,681&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        { "type": "paragraph", "text": "The Place, Firenze", "spans": [] },
+        {
+          "type": "paragraph",
+          "text": "Embedded in the rhythm of the city, The Place is the ideal base from which to explore the heart of Tuscany. The Place has been welcoming guests for over seventeen years and is known to be a standout among hotels in Italy. With the duomo on your doorstep, the location is unparalleled and the team will see to it that you leave with a piece of Florence close to your heart.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/59dc7af9-eb75-4289-bf38-a202713b2424_blog_luxury_6.jpeg?auto=compress,format&rect=170,0,680,680&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        { "type": "paragraph", "text": "Il Sereno, Como", "spans": [] },
+        {
+          "type": "paragraph",
+          "text": "Il Sereno is lakeside luxury at its finest. Sereno Hotels is world renowned for their immaculate attention to detail, their award winning design and their breathtaking settings. Designed by the formidable Patricia Urquiola, the hotel has been carefully constructed down to the smallest detail and perfectly incorporates the ambiance of its iconic setting. Whether you’re looking to experience the tantalising culinary scene first hand, or simply soak in the natural beauty of the surroundings, Il Sereno is the place to be.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/89675147-526c-496f-8742-3438b0a14e9b_blog_luxury_7.jpeg?auto=compress,format&rect=224,0,576,576&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        {
+          "type": "paragraph",
+          "text": "Monastero Santa Rosa, Amalfi Coast",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Can you imagine a better way to experience the Amalfi Coast than from inside the walls of a 17th century Dominican monastery? Neither can we. Set against the cliffs in the fishing village of Conca dei Marini, Monastero Santa Rosa offers a way to see the beauty of the coast without having to fight the crowds. At Monastero Santa Rosa you’ll find Italian hospitality at its finest, as well as all the ingredients you need to unwind and enjoy this unique destination.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/65e6aa06-00fb-42e5-bbbe-9fb24e003bea_blog_luxury_8.jpeg?auto=compress,format&rect=128,0,768,768&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        { "type": "paragraph", "text": "Forestis, Dolomites", "spans": [] },
+        {
+          "type": "paragraph",
+          "text": "At FORESTIS, they take the concept of tranquility to new heights. Located at the foot of the Dolomites, this luxurious Italian hotel has been designed to draw from the majesty of the elements. The architecture and design let nature do all the work, leaving a feeling of utter peace and relaxation. Ideal for anyone looking for the postcard perfect winter escape, FORESTIS is complete with superb views, scrumptious cuisine and rejuvenating onsite spa.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/0d206d4c-327b-4b39-b7b6-971286eab1ad_blog_luxury_9.jpeg?auto=compress,format&rect=133,0,586,586&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        {
+          "type": "paragraph",
+          "text": "Lefay Resorts, Lake Garda",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Lake Garda is known for its pristine natural beauty, and Lefay incorporates that beauty seamlessly. Located in Gargnano, the core of the much loved Riviera dei Limoni, Lefay is well situated to show off the gems of the region. From the infinity pool to the gardens, the spa to the onsite restaurant, no matter where you turn, elegance is around every corner.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/c36172aa-6b51-467d-a526-7361643a568b_blog_luxury_10.jpeg?auto=compress,format&rect=172,0,680,680&w=1000&h=1000"
+      },
+      "paragraph-title": [],
+      "paragraph-body": [
+        {
+          "type": "paragraph",
+          "text": "Hotel Il Pellicano, Porto Ercole",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Situated between Rome and Pisa at the gateway of the Tuscan Archipelago, Hotel Il Pellicano is a fine example of a quintessential Italian seaside escape. If you’re looking for an off-the-beaten track destination, but you’re not keen to compromise on luxury, then this is the spot for you. The hotel boasts a stunning seafront location, beautiful pool deck and sumptuous amenities. Porto Ercole is loved for the calm, holiday feeling it has all year round.",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "post-image": {},
+      "paragraph-title": [],
+      "paragraph-body": [
+        {
+          "type": "paragraph",
+          "text": "We’ve travelled around the country sampling the best that Italy has to offer so that when you book with Luxo Italia, you receive the ultimate in luxury travel. With carefully crafted itineraries and custom-made packages, we’ll ensure that your next trip to Italy exceeds all expectations. Get in touch with us today and start planning.",
+          "spans": []
+        }
+      ]
+    }
+  ]
+}

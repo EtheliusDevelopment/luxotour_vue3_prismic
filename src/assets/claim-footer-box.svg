@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="50" viewBox="0 0 700 50">
+  <defs>
+    <filter id="Limited_only_by_your_imagination." x="0" y="0" width="700" height="50" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#0d0c15"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Limited_only_by_your_imagination.)">
+    <text id="Limited_only_by_your_imagination.-2" data-name="Limited only by your imagination." transform="translate(350 35)" fill="#fff" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.3em"><tspan x="-340.042" y="0">LIMITED ONLY BY YOUR IMAGINATION.</tspan></text>
+  </g>
+</svg>

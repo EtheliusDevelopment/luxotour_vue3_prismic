@@ -1,0 +1,98 @@
+{
+  "package_title": [
+    { "type": "heading1", "text": "the grand classic", "spans": [] }
+  ],
+  "location_title": [
+    { "type": "heading1", "text": "ultimate city break", "spans": [] }
+  ],
+  "when-from": "January",
+  "when-to": "December",
+  "price": 8490,
+  "ideal_length": 10,
+  "at_glance_bullet_point": [
+    {
+      "bullet_point": [
+        {
+          "type": "paragraph",
+          "text": "10 Day Package Exploring the Best of Venice, Florence and Rome",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "bullet_point": [
+        {
+          "type": "paragraph",
+          "text": "Rooftop Dinners with Panoramic Views",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "bullet_point": [
+        { "type": "paragraph", "text": "Private City Tours", "spans": [] }
+      ]
+    },
+    {
+      "bullet_point": [
+        { "type": "paragraph", "text": "Evening Gondola Serenade", "spans": [] }
+      ]
+    },
+    {
+      "bullet_point": [
+        {
+          "type": "paragraph",
+          "text": "Boat Tour of Venice’s Islands",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "bullet_point": [
+        {
+          "type": "paragraph",
+          "text": "Wine Tasting in the Chianti Region",
+          "spans": []
+        }
+      ]
+    },
+    {
+      "bullet_point": [
+        {
+          "type": "paragraph",
+          "text": "Exclusive, After-hours Vatican Tour",
+          "spans": []
+        }
+      ]
+    }
+  ],
+  "at_glance_excerpt": [
+    {
+      "type": "paragraph",
+      "text": "We at Luxo Italia go out of our way to bring you quintessential Italy travel packages, and the Ultimate City Breaks Package, which covers three of Italy’s most iconic cities, is no exception. This exceptional package offers the chance to indulge in the romance of Venice, soak in the culture of Florence and feel the passion of Rome, all in one sensational trip.",
+      "spans": []
+    }
+  ],
+  "itinerary_field": [
+    { 
+      "itinerary_title": [], 
+      "itinerary_paragraph": [] 
+      }
+    ],
+  "main_img": {
+    "dimensions": { "width": 1000, "height": 1000 },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/luxobackend/f7246186-074c-4136-bb96-96e1a25fe245_roma.jpg?auto=compress,format&rect=307,0,1200,1200&w=1000&h=1000"
+  },
+  "other_imgs": [
+    {
+      "other_img": {
+        "dimensions": { "width": 1000, "height": 1000 },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/luxobackend/4efcca8c-aee9-4ac5-8565-48efc3ba8ef4_venezia.jpg?auto=compress,format&rect=300,0,1200,1200&w=1000&h=1000"
+      }
+    }
+  ]
+}

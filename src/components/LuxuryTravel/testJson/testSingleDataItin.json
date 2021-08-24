@@ -1,0 +1,22 @@
+{
+  "itinerary_title": [
+    { "type": "heading1", "text": "EXCLUSIVE RIVA BOAT TOUR", "spans": [] }
+  ],
+  "itinerary_paragraph": [
+    {
+      "type": "paragraph",
+      "text": "Arguably one of the most tranquil places in all of northern Italy,Lake Comohas long been a draw card for travellers looking to enjoy the country’s natural beauty. Spend the day soaking in the serenity of the expansive lake and its breathtaking surroundings from the comfort of your own traditional Riva boat. An expert local guide will lead you along the shoreline, weaving the histories of the ancient fishing villages, Romanesque churches and majestic villas lining its bank as you go. The first stop is the 19th century Villa Balbianello, built on a promontory that juts out into the lake. While its unique location is something to behold, the interior is just as impressive – with an astounding collection of antiques and artworks. Next, you will move on to the beauty of Bellagio and the gardens of Villa Melzi, which boasts an array of classical statues and rare, exotic plants. Enjoy a leisurely lunch at one of the town’s much-loved restaurants before making your way back to the water.",
+      "spans": [
+        {
+          "start": 66,
+          "end": 75,
+          "type": "hyperlink",
+          "data": {
+            "link_type": "Web",
+            "url": "https://www.luxoitalia.com/2019/10/11/italys-luxury-lake-destinations/"
+          }
+        }
+      ]
+    }
+  ]
+}

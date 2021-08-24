@@ -1,0 +1,296 @@
+{
+  "id": "YP7S6hIAACwARYHn",
+  "uid": "the-grand-classic-venice-rome-florence",
+  "url": null,
+  "type": "pacchetti",
+  "href": "https://luxobackend.cdn.prismic.io/api/v2/documents/search?ref=YP7V7xIAACoARY-h&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22YP7S6hIAACwARYHn%22%29+%5D%5D",
+  "tags": [],
+  "first_publication_date": "2021-07-26T15:21:20+0000",
+  "last_publication_date": "2021-07-26T15:21:20+0000",
+  "slugs": ["the-grand-classic"],
+  "linked_documents": [],
+  "lang": "en-gb",
+  "alternate_languages": [
+    {
+      "id": "YP7TTxIAACoARYO8",
+      "uid": "grande-classico-venezia-roma-firenze",
+      "type": "pacchetti",
+      "lang": "it-it"
+    }
+  ],
+  "data": {
+    "package_title": [
+      { "type": "heading1", "text": "the grand classic", "spans": [] }
+    ],
+    "location_title": [
+      { "type": "heading1", "text": "ultimate city break", "spans": [] }
+    ],
+    "from": "January",
+    "when-to": "December",
+    "price": 8.49,
+    "ideal_length": 10,
+    "at_glance_bullet_point": [
+      {
+        "bullet_point": [
+          {
+            "type": "paragraph",
+            "text": "10 Day Package Exploring the Best of Venice, Florence and Rome",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "bullet_point": [
+          {
+            "type": "paragraph",
+            "text": "Rooftop Dinners with Panoramic Views",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "bullet_point": [
+          { "type": "paragraph", "text": "Private City Tours", "spans": [] }
+        ]
+      },
+      {
+        "bullet_point": [
+          {
+            "type": "paragraph",
+            "text": "Evening Gondola Serenade",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "bullet_point": [
+          {
+            "type": "paragraph",
+            "text": "Boat Tour of Venice’s Islands",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "bullet_point": [
+          {
+            "type": "paragraph",
+            "text": "Wine Tasting in the Chianti Region",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "bullet_point": [
+          {
+            "type": "paragraph",
+            "text": "Exclusive, After-hours Vatican Tour",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "at_glance_excerpt": [
+      {
+        "type": "paragraph",
+        "text": "We at Luxo Italia go out of our way to bring you quintessential Italy travel packages, and the Ultimate City Breaks Package, which covers three of Italy’s most iconic cities, is no exception. This exceptional package offers the chance to indulge in the romance of Venice, soak in the culture of Florence and feel the passion of Rome, all in one sensational trip.",
+        "spans": []
+      }
+    ],
+    "group_field": [
+      {
+        "itinerary_title": [
+          { "type": "heading1", "text": "Venice", "spans": [] }
+        ],
+        "itinerary_paragraph": [
+          {
+            "type": "paragraph",
+            "text": "Hotel Londra Palace",
+            "spans": [{ "start": 0, "end": 19, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "Start your Ultimate City Break in true Venitian style with a private water taxi transfer to your first destination, Hotel Londra Palace. With awe-inspiring views of the San Marco basin, Londra Palace would impress even the most discerning traveller. With 53 individually styled rooms, this Venice hotel is the epitome of tailor-made luxury. Equipped with standout facilities and lush comforts, there’s no better place from which to explore the magic of Venice.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Rooftop Dinner",
+            "spans": [{ "start": 0, "end": 14, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "As a welcome to The Floating City, your first evening will be spent dining on a rooftop terrace with expansive views of the incredible city. Get the lie of the land as you sip on sparkling wine and let the worries of everyday life slowly slip away. Your holiday has truly begun.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Private Tour of The Floating City",
+            "spans": [{ "start": 0, "end": 33, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "Starting at the famous St Mark’s Square, this private city tour will not only include the much-loved landmarks, but it will also showcase a local, personalised magic that not everyone is lucky enough to discover. From golden mosaics and hidden spiral staircases, to panoramic views and canal-side cafes, our local guides will lead you to unlock the romance and beauty that makes Venice one of the most spectacular destinations in the world.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Romantic Gondola Serenade",
+            "spans": [{ "start": 0, "end": 25, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "The best way to experience Venice at its most extraordinary is from the water. With nothing more than the sound of the tide lapping against the side of the gondola and the lights of the city around you, it’s not hard to guess why this activity is on top of so many bucket-lists. As you float along The Grand Canal, you will pass exquisite sites such as Basilica di Santa Maria della Salute, the Peggy Guggenheim Collection and Accademia Bridge, while a traditional Venetian singer croons into the night sky.",
+            "spans": [
+              {
+                "start": 16,
+                "end": 33,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.luxoitalia.com/2019/09/27/top-10-venice/"
+                }
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Explore Venice’s Islands",
+            "spans": [{ "start": 0, "end": 24, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "The Venetian lagoon surrounds a number of different islands and this remarkable boat tour will showcase the surprising history of this unique body of water. Choose one of the three main islands to visit, each with a special selling point. Learn more about glass blowing in Murano, photograph the colourful houses of Burano, or explore the ancient architectural complexes in Torcello. The choice is yours.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "itinerary_title": [
+          { "type": "heading1", "text": "Florence", "spans": [] }
+        ],
+        "itinerary_paragraph": [
+          {
+            "type": "paragraph",
+            "text": "Rooftop Dining at B-Roof",
+            "spans": [{ "start": 0, "end": 24, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "After a day of zipping through the Italian country-side on the famous fast train, a delectable rooftop dinner awaits you in Florence at the fabulous B-Roof restaurant and bar. Sip on a glass of prosecco as you feast on gourmet cuisine with the Florence skyline as your backdrop.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Check into Hotel Spadai",
+            "spans": [{ "start": 0, "end": 23, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "Looking to experience Renaissance Florence at its best? Hotel Spadai is the place for you. A mere 100m from the famous Florence cathedral, this stylish hotel offers an unmatched location and top class service. The space is adorned with the perfect blend of materials that pay homage to the building’s rich past, as well as state-of-the-art and luxurious modern amenities to ensure utmost comfort.",
+            "spans": [
+              {
+                "start": 11,
+                "end": 42,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.luxoitalia.com/2020/02/27/72-hour-florence-itinerary/"
+                }
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Wander through Florence",
+            "spans": [{ "start": 0, "end": 23, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "To walk the streets of Florence is to wander through an open-air museum. The city is drenched in art and culture and has something new and exciting around every corner. Let our local guides uncover a side to this cultural epi-centre that not many people are lucky enough to see, while they lead you through the ancient streets, frescoed chapels and much-loved museums. From Uffizi to Accademia, San Marco monastery to Palazzo Vecchio, the list of attractions is endless. Set your own pace, and see for yourself what this superb city has in store.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Wine Tasting in the Chianti Region",
+            "spans": [{ "start": 0, "end": 34, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "Italy is synonymous with fine wining and dining and there’s no better place to experience this first hand than wine tasting in the Chianti region. On this gourmet tour, you will follow the journey from vine to table, and be privy to each step of this age-old process. Go back to where it all began and sample sumptuous wines across an array of ancient cellars – deciding which you love best. Lunch will be served by the masters of Tuscan cuisine at Osteria di Passignano, before moving on to try more of what the region has to offer.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "itinerary_title": [
+          { "type": "heading1", "text": "Rome", "spans": [] }
+        ],
+        "itinerary_paragraph": [
+          {
+            "type": "paragraph",
+            "text": "Check in to Grand Hotel Palace",
+            "spans": [{ "start": 0, "end": 30, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "The magnificence of Rome and its complex history is captured beautifully in this boutique five star hotel. Enter Grand Hotel Palace through a majestic wrought iron gate, and prepare for service fit for a king. Styled around the Bohemian street cafes of Rome, the elaborate art deco style, marble floors and elaborate chandeliers make you feel that you are among royalty. From your balcony you’ll have front row seats to the hustle and bustle of the famous Vio Veneto below.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Walking Tour of Rome",
+            "spans": [{ "start": 0, "end": 20, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "Roam the historical centre and let the stories and history unfold as you wind through the cobble-stoned streets. Have lunch in one of the many charming piazzas, before spending a moment in awe of the remarkable churches. People-watch from the Spanish Steps, marvel at the Pantheon and toss a coin in the Trevi fountain, although we’re sure you won’t need any help making your way back to this legendary city.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Private Vatican Tour",
+            "spans": [{ "start": 0, "end": 20, "type": "em" }]
+          },
+          {
+            "type": "paragraph",
+            "text": "There’s no need to fight the crowds with a private Vatican tour. This exclusive tour awards you access after closing time, as well as a tour of two rooms that are closed to the general public. Spend quality time with the Renaissance masters and their masterpieces while an expert guide brings the history of the magnificent artworks to life. Take your time and peruse the beauty within the Sistine Chapel, without the distraction of camera phones clicking in your ears. This is a standout experience for all of our guests, and one we would absolutely recommend.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "The Ultimate City Break package is a standout among Italy travel packages and is perfect for anyone looking to experience the magic of three of Italy’s major cities. For more information on Luxury Tours of Italy and our exclusive city break itineraries, get in touch with our team today!",
+            "spans": [
+              {
+                "start": 254,
+                "end": 287,
+                "type": "hyperlink",
+                "data": {
+                  "link_type": "Web",
+                  "url": "https://www.luxoitalia.com/contact-us/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      { "itinerary_title": [], "itinerary_paragraph": [] }
+    ],
+    "main_img": {
+      "dimensions": { "width": 1000, "height": 1000 },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.prismic.io/luxobackend/f7246186-074c-4136-bb96-96e1a25fe245_roma.jpg?auto=compress,format&rect=307,0,1200,1200&w=1000&h=1000"
+    },
+    "other_imgs": [
+      {
+        "other_img": {
+          "dimensions": { "width": 1000, "height": 1000 },
+          "alt": null,
+          "copyright": null,
+          "url": "https://images.prismic.io/luxobackend/4efcca8c-aee9-4ac5-8565-48efc3ba8ef4_venezia.jpg?auto=compress,format&rect=300,0,1200,1200&w=1000&h=1000"
+        }
+      }
+    ]
+  }
+}

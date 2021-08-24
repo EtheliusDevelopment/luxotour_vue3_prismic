@@ -1,0 +1,25 @@
+{
+  "post_image": {
+    "dimensions": { "width": 1000, "height": 1000 },
+    "alt": null,
+    "copyright": null,
+    "url": "https://images.prismic.io/luxobackend/f8506086-11d5-42f9-9a5f-043d7e89536e_blog_luxury_5.jpeg?auto=compress,format&rect=172,0,681,681&w=1000&h=1000"
+  },
+  "paragraph_title": [
+    { "type": "heading1", "text": "WHERE YOU’LL SLEEP", "spans": [] }
+  ],
+  "paragraph_body": [
+    {
+      "type": "paragraph",
+      "text": "Grand Hotel Convento di Amalfi ",
+      "spans": []
+    },
+    {
+      "type": "paragraph",
+      "text": "From the moment you set foot in the Grand Hotel Convento di Amalfi, there’s no denying its majesty. With crisp, neutral lines and sumptuous comforts, this little piece of paradise has done an exceptional job of letting the view take centre stage. Breathe in the fresh sea air from your own private balcony or enjoy a glass of prosecco on the expansive pool deck.  Grand Hotel Convento di Amalfi is renowned for its hospitality and location, and we think it’s the perfect introduction to this exclusive package. You’ll spend two nights in this spectacular hotel, before the next exciting leg of the journey.",
+      "spans": []
+    }
+  ]
+}
+
+

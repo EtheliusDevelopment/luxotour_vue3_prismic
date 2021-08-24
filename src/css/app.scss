@@ -1,0 +1,565 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: Hatton-Ultralight;
+  src: url(./fonts/Hatton-Ultralight.otf);
+}
+@font-face {
+  font-family: Hatton-Semibold;
+  src: url(./fonts/Hatton-Semibold.otf);
+}
+@font-face {
+  font-family: Hatton-Medium;
+  src: url(./fonts/Hatton-Medium.otf);
+}
+
+@font-face {
+  font-family: Commuters-Sans-Light;
+  src: url(./fonts/CommutersSans-Light.ttf);
+}
+@font-face {
+  font-family: Commuters-Sans-Bold;
+  src: url(./fonts/CommutersSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: CommutersSans-Regular;
+  src: url(./fonts/CommutersSans-Regular.ttf);
+}
+
+// GLOBAL BUTTONS
+
+.general-btn-1 {
+  border: 2px solid;
+  padding: 2% 4%;
+  background-color: transparent;
+  color: #4c4571;
+  border-color: #d9c5a0;
+  font-family: "Commuters-Sans-Bold";
+  font-size: 13px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.general-btn-1:hover {
+  background-color: #d9c5a0;
+  color: white;
+}
+
+.general-btn-2 {
+  border: 2px solid;
+  padding: 2% 4%;
+  background-color: transparent;
+  color: #4c4571;
+  border-color: white;
+  font-family: "Commuters-Sans-Bold";
+  font-size: 13px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.general-btn-2:hover {
+  background-color: white;
+}
+
+// RADIO INPUTS******
+.q-radio__label.q-anchor--skip {
+  font-family: "CommutersSans-Regular" !important;
+}
+
+// ****LAYOUT*******************
+
+
+
+.navigation-block > div {
+  flex-wrap: wrap !important;
+}
+
+span.block {
+  font-size: 14px !important;
+}
+
+.q-tab__content {
+  min-width: unset !important;
+}
+
+.q-tab__indicator.absolute-bottom {
+  display: none !important;
+}
+
+.q-drawer-container + .q-header {
+  display: none !important;
+}
+.q-drawer {
+  background: $info;
+  width: 100% !important;
+}
+
+
+.q-page-container {
+  padding-top: unset !important;
+}
+
+// BREADCRUMBS REMOVED********************
+.breadcrumbs {
+  display: none;
+}
+
+// *********FOOTER BLOCK *******************
+
+// ****C O R R E G G E R E ***********
+.img3-index {
+  object-position: 15% 50% !important;
+}
+
+.quiz + .footer {
+  display: none !important;
+}
+// ***********************************
+
+// declare a class which applies it
+body {
+  // font-family: 'Hatton-Medium';
+  font-family: Hatton-Semibold;
+}
+
+h1 {
+  font-family: Hatton-Semibold;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+h2 {
+  font-family: Hatton-Medium;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+h6 {
+  font-family: Commuters-Sans-Bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 4px;
+}
+
+.title-h2 {
+  line-height: 65px;
+  margin-bottom: 5%;
+  padding: 0 47% 0 0;
+  letter-spacing: 1px;
+}
+
+.subtitle-h6 {
+  font-family: Commuters-Sans-Bold;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.q-toolbar .q-tab__label {
+  font-family: "Commuters-Sans-Bold";
+  font-size: 12px;
+  line-height: 12px;
+}
+
+span.block {
+  font-family: "Commuters-Sans-Bold";
+  font-size: 13px;
+  line-height: 13px;
+}
+
+p {
+  font-family: "Commuters-Sans-Light";
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.q-breadcrumbs__el {
+  font-family: "Commuters-Sans-Light";
+}
+
+// STYLES CAROUSEL INDEX
+.third-block button.carousel__prev,
+.third-block button.carousel__next {
+  background-color: white;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin: 0 12%;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.third-block button.carousel__next:hover,
+.third-block button.carousel__prev:hover {
+  background-color: #d9c5a0;
+}
+
+.third-block .carousel__slide--active .figcaption {
+  background-color: transparent;
+}
+
+.third-block .carousel__slide--active .q-img.q-img--menu.img1 {
+  height: 650px !important;
+  /* z-index: 9999; */
+}
+
+.third-block
+  li.carousel__slide.carousel__slide--active.carousel__slide--visible {
+  z-index: 9;
+}
+
+.third-block svg.carousel__icon {
+  display: none;
+}
+
+.third-block button.carousel__prev:after {
+  transform: rotate(180deg);
+}
+
+.third-block button.carousel__prev:after,
+.third-block button.carousel__next:after {
+  content: "";
+  background-image: url("src/assets/freccia.svg");
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  position: relative;
+  bottom: 1%;
+}
+
+// END STYLES CAROUSEL INDEX
+
+// CAROUSEL TESTIMONIAL 1
+
+.second-block-carousel button.carousel__prev,
+.second-block-carousel button.carousel__next {
+  background-color: transparent;
+  // border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  margin: 0 5%;
+  transition: all 0.1s ease-in;
+}
+
+.second-block-carousel button.carousel__next:hover,
+.second-block-carousel button.carousel__prev:hover {
+  width: 11rem;
+  height: 11rem;
+}
+
+.second-block-carousel svg.carousel__icon {
+  display: none;
+}
+
+.second-block-carousel button.carousel__prev:after {
+  transform: rotate(180deg);
+}
+
+.second-block-carousel button.carousel__prev:after,
+.second-block-carousel button.carousel__next:after {
+  content: "";
+  background-image: url("src/assets/arrow.svg");
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  position: relative;
+  bottom: 1%;
+}
+
+.second-block-carousel .carousel__item {
+  background-color: transparent !important;
+}
+
+//END CAROUSEL TESTIMONIAL 1
+
+// CAROUSEL LUXURY SINGLE
+
+.second-block-carousel-luxury button.carousel__prev,
+.second-block-carousel-luxury button.carousel__next {
+  background-color: transparent;
+  // border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  margin: 0 5%;
+  transition: all 0.1s ease-in;
+}
+
+.second-block-carousel-luxury button.carousel__next:hover,
+.second-block-carousel-luxury button.carousel__prev:hover {
+  width: 12rem;
+  height: 12rem;
+}
+.second-block-carousel-luxury svg.carousel__icon {
+  display: none;
+}
+
+.second-block-carousel-luxury button.carousel__prev:after {
+  transform: rotate(180deg);
+}
+
+.second-block-carousel-luxury button.carousel__prev:after,
+.second-block-carousel-luxury button.carousel__next:after {
+  content: ">";
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 30%;
+  font-size: 2vw;
+  // border-radius: 50%;
+  position: relative;
+  bottom: 1%;
+}
+
+.second-block-carousel-luxury .carousel__item {
+  background-color: transparent !important;
+}
+
+// END CAROUSEL LUXURY SINGLE
+
+// WINCLUB
+
+// END WINE CLUB
+
+// QUIZ
+
+.wrapped-section-three div {
+  font-family: "Commuters-Sans-Regular" !important;
+  font-size: 3rem !important;
+}
+
+// END QUIZ
+
+// CONTACT
+.form-component div {
+  font-family: "Commuters-Sans-Bold" !important;
+}
+
+.q-item__label span {
+  font-family: "CommutersSans-Regular" !important;
+}
+// END CONTACT
+
+// ITALY LUXURY SINGLE
+
+.btn-component-luxury span.block {
+  line-height: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  h1 {
+    font-family: Hatton-Semibold;
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  h6 {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .q-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .third-block button.carousel__prev,
+  .third-block button.carousel__next {
+    // background-color: white;
+    // border-radius: 50%;
+    // width: 4rem;
+    // height: 4rem;
+    margin: 0px -4%;
+  }
+
+  // .third-block button.carousel__prev,
+  // button.carousel__next {
+  //   // background-color: white;
+  //   // border-radius: 50%;
+  //   // width: 4rem;
+  //   // height: 4rem;
+  //   // margin: 0px -9%;
+  // }
+
+  .third-block .carousel__slide--active .q-img.q-img--menu.img1 {
+    height: 250px !important;
+    /* z-index: 9999; */
+  }
+  .breadcrumbs {
+    display: none !important;
+  }
+  .title-h2 {
+    line-height: 50px !important;
+  }
+  // CAROUSEL TESTIMONIAL 1
+  .img-carousel-testimonials-1 {
+    height: 70vh !important;
+  }
+
+  .second-block-carousel button.carousel__prev,
+  .second-block-carousel button.carousel__next {
+    // background-color: transparent;
+    // border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    // margin: 0 5%;
+
+    // transition: all .2s ease-in-out;
+  }
+  .second-block-carousel button.carousel__next:hover,
+  .second-block-carousel button.carousel__prev:hover {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  // END CAROUSEL TESTIMONIAL 1
+}
+
+@media screen and (max-width: 680px) {
+  h1 {
+    font-family: Hatton-Semibold;
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  h6 {
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .third-block button.carousel__prev,
+  .third-block button.carousel__next {
+    margin: 0px -9%;
+  }
+
+  .title-h2 {
+    line-height: 30px !important;
+  }
+
+  .img-about-4-index {
+    object-position: 40% 50% !important; //riportato in app.css
+  }
+
+  .img-wine-block .img5-index {
+    object-fit: contain !important;
+  }
+  // CAROUSEL TESTIMONIAL 1
+  .img-carousel-testimonials-1 {
+    height: 35vh !important;
+  }
+
+  .second-block-carousel button.carousel__prev,
+  .second-block-carousel button.carousel__next {
+    // background-color: transparent;
+    // border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    // margin: 0 5%;
+
+    // transition: all .2s ease-in-out;
+  }
+  .second-block-carousel button.carousel__next:hover,
+  .second-block-carousel button.carousel__prev:hover {
+    width: 5rem;
+    height: 5rem;
+  }
+
+
+  .q-toolbar{
+    padding: unset !important;
+  }
+
+  // END CAROUSEL TESTIMONIAL 1
+
+  // GLOBAL BUTTONS
+
+.general-btn-1 {
+  border: 2px solid;
+  padding: 3% 6% !important;
+  background-color: transparent;
+  color: #4c4571;
+  border-color: #d9c5a0;
+  font-family: "Commuters-Sans-Bold";
+  font-size: 13px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.general-btn-1:hover {
+  background-color: #d9c5a0;
+  color: white;
+}
+
+.general-btn-2 {
+  border: 2px solid;
+  padding: 3% 6% !important;
+  background-color: transparent;
+  color: #4c4571;
+  border-color: white;
+  font-family: "Commuters-Sans-Bold";
+  font-size: 13px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.general-btn-2:hover {
+  background-color: white;
+}
+
+
+
+img.q-img__image.img4-index.q-img__image--with-transition.q-img__image--loaded {
+  padding: 0 6% !important;
+}
+
+
+  // ***fine Media Query 680
+}
+
+// *****SCROLLBAR
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+// * {
+//   scrollbar-width: auto;
+//   scrollbar-color: #8f54a0 #ffffff;
+// }
+
+// /* Chrome, Edge, and Safari */
+// *::-webkit-scrollbar {
+//   width: 12px;
+// }
+
+// *::-webkit-scrollbar-track {
+//   background: #4c4571;
+// }
+
+// *::-webkit-scrollbar-thumb {
+//   background-color: rgba(158, 143, 230, 0.801);
+//   border-radius: 7px;
+//   border: 3px solid #525252;
+// }
+
+.q-img__content.absolute-full.q-anchor--skip {
+  grid-column: 2;
+}
