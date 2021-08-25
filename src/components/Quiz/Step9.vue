@@ -35,8 +35,6 @@
         class="q-mb-xl input-quiz"
       />
     </div>
-
-
   </div>
 </template>
 

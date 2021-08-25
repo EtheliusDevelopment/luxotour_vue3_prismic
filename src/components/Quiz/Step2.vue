@@ -26,7 +26,7 @@
     <div class="wrapper" :class="wrapper1">
       <q-img
         class="wrapped-section wrapped-section-one"
-        src="~assets/quiz_countryside.jpg"
+        src="~assets/5-countryside.jpg"
         spinner-color="primary"
         spinner-size="82px"
         height="75%"
@@ -47,7 +47,7 @@
     <div class="wrapper" :class="wrapper2">
       <q-img
         class="wrapped-section wrapped-section-one"
-        src="~assets/quiz_sea.jpg"
+        src="~assets/6-yacht.jpg"
         spinner-color="primary"
         spinner-size="82px"
         height="75%"
@@ -68,7 +68,7 @@
     <div class="wrapper" :class="wrapper3">
       <q-img
         class="wrapped-section wrapped-section-one"
-        src="~assets/index_luxo_small_village.png"
+        src="~assets/7-Sustainable-Travel.jpg"
         spinner-color="primary"
         spinner-size="82px"
         height="75%"
@@ -89,7 +89,7 @@
     <div class="wrapper" :class="wrapper4">
       <q-img
         class="wrapped-section wrapped-section-one"
-        src="~assets/quiz_mix.jpg"
+        src="~assets/8-art-culture.jpg"
         spinner-color="primary"
         spinner-size="82px"
         height="75%"
