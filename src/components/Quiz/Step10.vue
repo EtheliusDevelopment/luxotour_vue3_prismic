@@ -1,19 +1,25 @@
 <template>
   <div class="question-box">
     <div class="inner-question-box">
-      <h4 class="text-center text-info question">
-        Graet Job, You've Finished the Quiz!
-      </h4>
+      <h4 class="text-center text-info question">Congratulations!</h4>
 
       <h6 class="text-center text-primary answer">
-        To get your results and a full detailed itinerary customized to your
-        preferences, please subscribe below! In addition to your quiz result and
-        a professional designed itinerary, you will get our BONUS guide!
+        Check your Email, and find out what kind of traveler you are
       </h6>
+
+      <div class="flex flex-center q-mt-xl">
+        <button
+          type="button"
+          class="general-btn-1"
+          style="padding: 1% 2%"
+          @click="$router.push('/')"
+        >
+          BACK TO HOME
+        </button>
+      </div>
     </div>
   </div>
-  <div class="quiz-layout">
-
+  <!-- <div class="quiz-layout">
     <div class="input-box q-mt-lg">
       <q-input
         outlined
@@ -35,9 +41,7 @@
         class="q-mb-xl input-quiz"
       />
     </div>
-
-
-  </div>
+  </div> -->
 </template>
 
 <script>

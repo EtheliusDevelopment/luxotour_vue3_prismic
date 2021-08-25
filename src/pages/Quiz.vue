@@ -78,15 +78,16 @@
               <Step7 v-if="count == 6" :step="value" />
               <Step8 v-if="count == 7" :step="value" />
               <Step9 v-if="count == 8" :step="value" />
+              <Step10 v-if="count == 9" :step="value" />
 
               <div class="button-group">
                 <button
                   type="submit"
                   class="general-btn-1"
                   style="padding: 1% 2%"
-                  v-if="count >= 8"
+                  v-if="count === 8"
                 >
-                  SUBMIT
+                  YES! SEND ME THE TRAVEL ITINERARY &amp; MY BONUS GUIDE!
                 </button>
               </div>
             </q-form>
@@ -187,6 +188,7 @@ import Step6 from "../components/Quiz/Step6.vue";
 import Step7 from "../components/Quiz/Step7.vue";
 import Step8 from "../components/Quiz/Step8.vue";
 import Step9 from "../components/Quiz/Step9.vue";
+import Step10 from "../components/Quiz/Step10.vue";
 
 import PreLoader from "src/components/PreLoader.vue";
 
@@ -205,6 +207,7 @@ export default {
     Step7,
     Step8,
     Step9,
+    Step10,
     PreLoader,
   },
   methods: {
@@ -340,12 +343,13 @@ export default {
           )
           .then(
             (response) => {
-              alert(JSON.stringify(response));
+              // alert(JSON.stringify(response));
               // $q.notify({
               //   color: "green-4",
               //   textColor: "white",
               //   icon: "cloud_done",
               //   message: "Your data has been submitted",
+                count.value ++
               // });
             },
             (error) => {
