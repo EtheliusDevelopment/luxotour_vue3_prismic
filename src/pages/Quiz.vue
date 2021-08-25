@@ -85,15 +85,22 @@
                   type="submit"
                   class="general-btn-1"
                   style="padding: 1% 2%"
-                  v-if="count === 8"
+                  v-if="count === 8 && !spinner_quiz"
                 >
                   YES! SEND ME THE TRAVEL ITINERARY &amp; MY BONUS GUIDE!
                 </button>
+
+                <q-img
+                  src="~assets/spinner_quiz.gif"
+                  width="5vw"
+                  spinner-color="primary"
+                  spinner-size="82px"
+                  v-if="count === 8 && spinner_quiz"
+                />
               </div>
             </q-form>
           </div>
           <div class="button-group" v-if="!starter">
-
             <button
               type="button"
               @click="prevPage"
@@ -232,6 +239,7 @@ export default {
     const value = ref(1 / 9);
     const starter = ref(true);
     const card = ref(false);
+    const spinner_quiz = ref(false);
     watchEffect(() => (value.value = (count.value + 1) / 9));
 
     return {
@@ -240,6 +248,7 @@ export default {
       starter,
       card,
       $store,
+      spinner_quiz,
       stars: ref(3),
 
       startQuiz() {
@@ -322,6 +331,8 @@ export default {
       },
 
       onSubmit() {
+        spinner_quiz.value = true;
+
         const payload = {
           step1: $store.state.quiz.step1,
           step2: $store.state.quiz.step2,
@@ -349,10 +360,11 @@ export default {
               //   textColor: "white",
               //   icon: "cloud_done",
               //   message: "Your data has been submitted",
-                count.value ++
+              count.value++;
               // });
             },
             (error) => {
+              spinner_quiz.value = false;
               alert(error);
               // $q.notify({
               //   color: "red-5",
@@ -462,7 +474,7 @@ hr {
     height: 35vh !important;
   }
 
-   .figcaption h1.text-white.text-center {
+  .figcaption h1.text-white.text-center {
     margin-top: 0;
     margin-bottom: 3vh;
   }

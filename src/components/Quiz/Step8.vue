@@ -36,7 +36,7 @@
       <q-item-section avatar class="wrapped-section wrapped-section-two">
         <q-radio
           v-model="answer"
-          val="teal"
+          val="Just looking around to see where to go next"
           color="primary"
           label="Just looking around to see where to go next"
           @update:model-value="addClass"
@@ -57,7 +57,7 @@
       <q-item-section avatar class="wrapped-section wrapped-section-two">
         <q-radio
           v-model="answer"
-          val="red"
+          val="I have decided I will go to Italy, but still not actively planning"
           color="primary"
           label="I have decided I will go to Italy, but still not actively planning"
           @update:model-value="addClass"
@@ -78,7 +78,7 @@
       <q-item-section avatar class="wrapped-section wrapped-section-two">
         <q-radio
           v-model="answer"
-          val="blue"
+          val="I'm planning my next vacation to Italy and ready to book!"
           color="primary"
           label="I'm planning my next vacation to Italy and ready to book!"
           @update:model-value="addClass"
@@ -86,26 +86,6 @@
       </q-item-section>
     </div>
 
-    <!-- <div class="wrapper" :class="wrapper4">
-      <q-img
-        class="wrapped-section wrapped-section-one"
-        src="~assets/quiz_mix.jpg"
-        spinner-color="primary"
-        spinner-size="82px"
-        height="75%"
-      >
-      </q-img>
-
-      <q-item-section avatar class="wrapped-section wrapped-section-two">
-        <q-radio
-          v-model="answer"
-          val="green"
-          color="primary"
-          label="Hideaway"
-          @update:model-value="addClass"
-        />
-      </q-item-section>
-    </div> -->
   </div>
 </template>
 
@@ -186,12 +166,11 @@ export default {
 
 .wrapper {
   width: 20%;
-  height: 50vh;
+  height: 60vh;
   flex-direction: column;
   margin-left: 3%;
   border: 3px solid #4c457149;
   border-radius: 5px;
-  padding: 0.4%;
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   transition: all 0.2s ease;
   cursor: pointer;
@@ -214,9 +193,10 @@ export default {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: -4%;
   // position: relative;
   // top: 5vh;
-  margin: 0 6%;
+  // margin: 0 6%;
 }
 
 .hr {

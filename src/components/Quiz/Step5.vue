@@ -36,7 +36,7 @@
       <q-item-section avatar class="wrapped-section wrapped-section-two">
         <q-radio
           v-model="answer"
-          val="teal"
+          val="Alone - I like to Meet People Along the Way"
           color="primary"
           label="Alone - I like to Meet People Along the Way"
           @update:model-value="addClass"
@@ -57,7 +57,7 @@
       <q-item-section avatar class="wrapped-section wrapped-section-two">
         <q-radio
           v-model="answer"
-          val="red"
+          val="My Significant Other"
           color="primary"
           label="My Significant Other"
           @update:model-value="addClass"
@@ -78,7 +78,7 @@
       <q-item-section avatar class="wrapped-section wrapped-section-two">
         <q-radio
           v-model="answer"
-          val="blue"
+          val="With My Family"
           color="primary"
           label="With My Family"
           @update:model-value="addClass"
@@ -99,7 +99,7 @@
       <q-item-section avatar class="wrapped-section wrapped-section-two">
         <q-radio
           v-model="answer"
-          val="green"
+          val="With A Group Of Friends"
           color="primary"
           label="With A Group Of Friends"
           @update:model-value="addClass"
@@ -186,12 +186,11 @@ export default {
 
 .wrapper {
   width: 20%;
-  height: 50vh;
+  height: 60vh;
   flex-direction: column;
   margin-left: 3%;
   border: 3px solid #4c457149;
   border-radius: 5px;
-  padding: 0.4%;
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   transition: all 0.2s ease;
   cursor: pointer;
@@ -214,9 +213,10 @@ export default {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: -4%;
   // position: relative;
   // top: 5vh;
-  margin: 0 6%;
+  // margin: 0 6%;
 }
 
 .hr {
