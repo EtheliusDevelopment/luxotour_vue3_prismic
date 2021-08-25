@@ -2,7 +2,7 @@
   <div class="question-box">
     <div class="inner-question-box">
       <h4 class="text-center text-primary question">
-        What’s the #222 thing you look for when planning a trip?
+        Where Would You Love To Be Now?
       </h4>
 
       <h6 class="text-center text-primary answer">
@@ -38,7 +38,7 @@
           v-model="answer"
           val="teal"
           color="primary"
-          label="Hideaway"
+          label="The Countryside"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -59,7 +59,7 @@
           v-model="answer"
           val="red"
           color="primary"
-          label="Hideaway"
+          label="The City"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -80,13 +80,13 @@
           v-model="answer"
           val="blue"
           color="primary"
-          label="Hideaway"
+          label="A Mix Of Both"
           @update:model-value="addClass"
         />
       </q-item-section>
     </div>
 
-    <div class="wrapper" :class="wrapper4">
+    <!-- <div class="wrapper" :class="wrapper4">
       <q-img
         class="wrapped-section wrapped-section-one"
         src="~assets/quiz_mix.jpg"
@@ -105,7 +105,7 @@
           @update:model-value="addClass"
         />
       </q-item-section>
-    </div>
+    </div> -->
   </div>
 </template>
 

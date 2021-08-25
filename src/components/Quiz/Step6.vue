@@ -2,7 +2,7 @@
   <div class="question-box">
     <div class="inner-question-box">
       <h4 class="text-center text-primary question">
-        What’s the #222 thing you look for when planning a trip?
+        How Old Are You?
       </h4>
 
       <h6 class="text-center text-primary answer">
@@ -38,7 +38,7 @@
           v-model="answer"
           val="teal"
           color="primary"
-          label="Hideaway"
+          label="20 - 40"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -59,7 +59,7 @@
           v-model="answer"
           val="red"
           color="primary"
-          label="Hideaway"
+          label="40 - 50"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -80,7 +80,7 @@
           v-model="answer"
           val="blue"
           color="primary"
-          label="Hideaway"
+          label="50 - 60"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -101,7 +101,7 @@
           v-model="answer"
           val="green"
           color="primary"
-          label="Hideaway"
+          label="60+"
           @update:model-value="addClass"
         />
       </q-item-section>

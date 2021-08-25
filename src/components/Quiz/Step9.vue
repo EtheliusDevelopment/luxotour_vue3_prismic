@@ -21,91 +21,9 @@
     </div>
   </div>
   <div class="quiz-layout">
-    <hr class="hr" />
-    <hr class="hr" />
-    <div class="wrapper" :class="wrapper1">
-      <q-img
-        class="wrapped-section wrapped-section-one"
-        src="~assets/quiz_countryside.jpg"
-        spinner-color="primary"
-        spinner-size="82px"
-        height="75%"
-      >
-      </q-img>
 
-      <q-item-section avatar class="wrapped-section wrapped-section-two">
-        <q-radio
-          v-model="answer"
-          val="teal"
-          color="primary"
-          label="Hideaway"
-          @update:model-value="addClass"
-        />
-      </q-item-section>
-    </div>
+  <h1>FORM PAYLOAD</h1>
 
-    <div class="wrapper" :class="wrapper2">
-      <q-img
-        class="wrapped-section wrapped-section-one"
-        src="~assets/quiz_sea.jpg"
-        spinner-color="primary"
-        spinner-size="82px"
-        height="75%"
-      >
-      </q-img>
-
-      <q-item-section avatar class="wrapped-section wrapped-section-two">
-        <q-radio
-          v-model="answer"
-          val="red"
-          color="primary"
-          label="Hideaway"
-          @update:model-value="addClass"
-        />
-      </q-item-section>
-    </div>
-
-    <div class="wrapper" :class="wrapper3">
-      <q-img
-        class="wrapped-section wrapped-section-one"
-        src="~assets/index_luxo_small_village.png"
-        spinner-color="primary"
-        spinner-size="82px"
-        height="75%"
-      >
-      </q-img>
-
-      <q-item-section avatar class="wrapped-section wrapped-section-two">
-        <q-radio
-          v-model="answer"
-          val="blue"
-          color="primary"
-          label="Hideaway"
-          @update:model-value="addClass"
-        />
-      </q-item-section>
-    </div>
-
-    <div class="wrapper" :class="wrapper4">
-      <q-img
-        class="wrapped-section wrapped-section-one"
-        src="~assets/quiz_mix.jpg"
-        spinner-color="primary"
-        spinner-size="82px"
-        height="75%"
-      >
-      </q-img>
-
-      <q-item-section avatar class="wrapped-section wrapped-section-two">
-        <q-radio
-          v-model="answer"
-          val="green"
-          color="primary"
-          label="Hideaway"
-          @update:model-value="addClass"
-        />
-      </q-item-section>
-    </div>
   </div>
 </template>
 

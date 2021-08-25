@@ -2,7 +2,7 @@
   <div class="question-box">
     <div class="inner-question-box">
       <h4 class="text-center text-primary question">
-        What’s the #4 thing you look for when planning a trip?
+        What’s the #1 thing you look for when planning a trip?
       </h4>
 
       <h6 class="text-center text-primary answer">
@@ -59,7 +59,7 @@
           v-model="answer"
           val="red"
           color="primary"
-          label="Hideaway"
+          label="Indulge in luxury"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -80,7 +80,7 @@
           v-model="answer"
           val="blue"
           color="primary"
-          label="Hideaway"
+          label="Beach Life"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -101,7 +101,7 @@
           v-model="answer"
           val="green"
           color="primary"
-          label="Hideaway"
+          label="Art 	&amp; Culture"
           @update:model-value="addClass"
         />
       </q-item-section>

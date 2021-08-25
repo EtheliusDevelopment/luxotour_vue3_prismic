@@ -2,7 +2,7 @@
   <div class="question-box">
     <div class="inner-question-box">
       <h4 class="text-center text-primary question">
-        What’s the #222 thing you look for when planning a trip?
+        And now the Last Question! At what stage of your travel planning are you?
       </h4>
 
       <h6 class="text-center text-primary answer">
@@ -38,7 +38,7 @@
           v-model="answer"
           val="teal"
           color="primary"
-          label="Hideaway"
+          label="Just looking around to see where to go next"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -59,7 +59,7 @@
           v-model="answer"
           val="red"
           color="primary"
-          label="Hideaway"
+          label="I have decided I will go to Italy, but still not actively planning"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -80,13 +80,13 @@
           v-model="answer"
           val="blue"
           color="primary"
-          label="Hideaway"
+          label="I'm planning my next vacation to Italy and ready to book!"
           @update:model-value="addClass"
         />
       </q-item-section>
     </div>
 
-    <div class="wrapper" :class="wrapper4">
+    <!-- <div class="wrapper" :class="wrapper4">
       <q-img
         class="wrapped-section wrapped-section-one"
         src="~assets/quiz_mix.jpg"
@@ -105,7 +105,7 @@
           @update:model-value="addClass"
         />
       </q-item-section>
-    </div>
+    </div> -->
   </div>
 </template>
 

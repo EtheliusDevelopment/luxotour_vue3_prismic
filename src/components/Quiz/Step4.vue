@@ -2,7 +2,7 @@
   <div class="question-box">
     <div class="inner-question-box">
       <h4 class="text-center text-primary question">
-        What’s the #222 thing you look for when planning a trip?
+        What is your preferred choice for eating during your holiday?
       </h4>
 
       <h6 class="text-center text-primary answer">
@@ -38,7 +38,7 @@
           v-model="answer"
           val="teal"
           color="primary"
-          label="Hideaway"
+          label="Easy Going"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -59,7 +59,7 @@
           v-model="answer"
           val="red"
           color="primary"
-          label="Hideaway"
+          label="Fine Dining"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -80,7 +80,7 @@
           v-model="answer"
           val="blue"
           color="primary"
-          label="Hideaway"
+          label="Hidden Gems"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -101,7 +101,7 @@
           v-model="answer"
           val="green"
           color="primary"
-          label="Hideaway"
+          label="Wow Views"
           @update:model-value="addClass"
         />
       </q-item-section>

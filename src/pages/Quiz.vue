@@ -78,13 +78,13 @@
               <Step7 v-if="count == 6" :step="value" />
               <Step8 v-if="count == 7" :step="value" />
               <Step9 v-if="count == 8" :step="value" />
-              <Step10 v-if="count == 9" :step="value" />
+
               <div class="button-group">
                 <button
                   type="submit"
                   class="general-btn-1"
                   style="padding: 1% 2%"
-                  v-if="count >= 9"
+                  v-if="count >= 8"
                 >
                   SUBMIT
                 </button>
@@ -96,7 +96,7 @@
             <button
               type="button"
               @click="prevPage"
-              v-if="count > 0 && count < 9"
+              v-if="count > 0 && count < 8"
               class="general-btn-1"
               style="padding: 1% 2%"
             >
@@ -106,7 +106,7 @@
             <button
               type="button"
               @click="nextPage"
-              v-if="count >= 0 && count < 9"
+              v-if="count >= 0 && count < 8"
               class="general-btn-1"
               style="padding: 1% 2%"
             >
@@ -187,8 +187,6 @@ import Step6 from "../components/Quiz/Step6.vue";
 import Step7 from "../components/Quiz/Step7.vue";
 import Step8 from "../components/Quiz/Step8.vue";
 import Step9 from "../components/Quiz/Step9.vue";
-import Step10 from "../components/Quiz/Step10.vue";
-import StarterStep from "../components/Quiz/StarterStep.vue";
 
 import PreLoader from "src/components/PreLoader.vue";
 
@@ -207,8 +205,6 @@ export default {
     Step7,
     Step8,
     Step9,
-    Step10,
-    StarterStep,
     PreLoader,
   },
   methods: {

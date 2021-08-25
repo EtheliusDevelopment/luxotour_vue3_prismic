@@ -2,7 +2,7 @@
   <div class="question-box">
     <div class="inner-question-box">
       <h4 class="text-center text-primary question">
-        What’s the #222 thing you look for when planning a trip?
+        Ok. And What you can't just miss on a holiday?
       </h4>
 
       <h6 class="text-center text-primary answer">
@@ -38,7 +38,7 @@
           v-model="answer"
           val="teal"
           color="primary"
-          label="Hideaway"
+          label="Taking a bath in crystalline water"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -59,7 +59,7 @@
           v-model="answer"
           val="red"
           color="primary"
-          label="Hideaway"
+          label="Exploring a city and its museums"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -80,7 +80,7 @@
           v-model="answer"
           val="blue"
           color="primary"
-          label="Hideaway"
+          label="Relaxing at the pool"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -101,7 +101,7 @@
           v-model="answer"
           val="green"
           color="primary"
-          label="Hideaway"
+          label="Taste incredible wines and amazing food"
           @update:model-value="addClass"
         />
       </q-item-section>
@@ -237,7 +237,6 @@ export default {
   background: white;
   padding: 1%;
   margin-top: 6%;
-
 }
 
 .progress-bar {
