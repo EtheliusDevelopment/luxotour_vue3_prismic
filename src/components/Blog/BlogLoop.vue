@@ -1,20 +1,8 @@
 <template>
   <div class="head-main">
-    <!-- <ul class="head-navigation text-primary" style="display:none">
-      <li @click="myLi" class="li-item active">ALL</li>
-      <li @click="myLi" class="li-item">sea</li>
-      <li @click="myLi" class="li-item">lake</li>
-      <li @click="myLi" class="li-item">montain</li>
-      <li @click="myLi" class="li-item">wine</li>
-      <li @click="myLi" class="li-item">islands</li>
-      <li @click="myLi" class="li-item">food</li>
-      <li @click="myLi" class="li-item">art</li>
-      <li @click="myLi" class="li-item">yatch</li>
-      <li @click="myLi" class="li-item">wedding</li>
-      <li @click="myLi" class="li-item">hotel</li>
-    </ul> -->
 
     <div class="navigation-mobile head-navigation">
+
       <div class="chip-filter" @click="myLib">
         <q-chip outline class="activeb li-item" color="primary">ALL</q-chip>
       </div>

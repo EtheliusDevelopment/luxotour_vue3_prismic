@@ -15,7 +15,7 @@
             {{ articleTitle }}
           </h2>
 
-          <h6 class="text-primary h6-header-blog">27/02/2020</h6>
+          <h6 class="text-primary h6-header-blog">{{date}}</h6>
 
           <div class="tags-container flex">
             <h6
@@ -127,6 +127,7 @@ export default {
       this.bgImg = response.results[0].data.main_img.url;
       this.dataContent = response.results[0].data.post_body;
       this.articleTitle = response.results[0].data.article_title[0].text;
+      this.date = response.results[0].data.date[0].text;
       this.tags = response.results[0].tags;
     },
   },
@@ -140,6 +141,7 @@ export default {
     const bgImg = ref();
     const dataContent = ref();
     const articleTitle = ref();
+    const date = ref();
     const tags = ref();
 
     return {
@@ -149,6 +151,7 @@ export default {
       dataContent,
       articleTitle,
       tags,
+      date,
     };
   },
 };

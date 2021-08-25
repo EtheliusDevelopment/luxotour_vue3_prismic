@@ -79,21 +79,22 @@ export default {
       this.prev_page = response.prev_page;
     },
 
-    myFunct(val) {
-      api
-        .get(
-          `https://luxobackend.cdn.prismic.io/api/v2/documents/search?ref=YRkXHRIAAC4A4F15&q=%5B%5Bat%28document.type%2C+%22pacchetti%22%29%5D%5D&page=${val}&pageSize=${this.pageSize}`
-        )
-        .then(
-          (response) => {
-            this.secondResponse = response.data.results;
-            this.results = this.secondResponse;
-            console.log(this.results);
-          },
-          (error) => {
-            console.log(error);
-          }
-        );
+     async myFunct(val) {
+      const response = await this.$prismic.client.query(
+        this.$prismic.Predicates.at("document.type", "pacchetti"),
+        {
+          page: val,
+          pageSize: 9,
+        }
+      );
+
+      this.response = response;
+      this.results = response.results;
+      this.max = response.total_pages;
+      this.current = response.page;
+      this.pageSize = response.results_per_page;
+      this.next_page = response.next_page;
+      this.prev_page = response.prev_page;
 
       window.scroll({
         top: 1100,
