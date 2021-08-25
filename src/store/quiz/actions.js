@@ -28,3 +28,9 @@ export const actStep8 = ({ commit }, payload) => {
 export const actStep9 = ({ commit }, payload) => {
   commit("updateStep9", payload);
 };
+export const actStep9a = ({ commit }, payload) => {
+  commit("updateStep9a", payload);
+};
+export const actStep9b = ({ commit }, payload) => {
+  commit("updateStep9b", payload);
+};

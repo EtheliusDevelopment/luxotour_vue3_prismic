@@ -12,14 +12,14 @@
       </h6>
     </div>
   </div>
-  <div class="quiz-layout">
-
+   <div class="quiz-layout">
     <div class="input-box q-mt-lg">
       <q-input
         outlined
         v-model="name"
         label="Name"
         class="q-mb-xl input-quiz"
+        @blur="addClass"
       />
 
       <q-input
@@ -27,12 +27,14 @@
         v-model="surname"
         label="Surname"
         class="q-mb-xl input-quiz"
+        @blur="addClass"
       />
       <q-input
         outlined
         v-model="email"
         label="Email"
         class="q-mb-xl input-quiz"
+        @blur="addClass"
       />
     </div>
   </div>
@@ -51,7 +53,7 @@ export default {
     },
   },
   methods: {
-    ...mapActions(["quiz/actStep9"]),
+    ...mapActions(["quiz/actStep9", "quiz/actStep9a", "quiz/actStep9"]),
     ...mapMutations({
       updateStep1: "quiz/updateStep9",
     }),
@@ -63,7 +65,6 @@ export default {
     const wrapper2 = ref();
     const wrapper3 = ref();
     const wrapper4 = ref();
-    const answer = ref();
     const name = ref();
     const surname = ref();
     const email = ref();
@@ -78,13 +79,15 @@ export default {
       wrapper3,
       wrapper4,
       stepVal,
-      answer,
       name,
       surname,
       email,
+      $store,
 
       addClass(val, event) {
-        $store.dispatch("quiz/actStep9", answer);
+        $store.dispatch("quiz/actStep9", name);
+        $store.dispatch("quiz/actStep9a", surname);
+        $store.dispatch("quiz/actStep9b", email);
 
         if (val == "teal") {
           wrapper2.value = null;

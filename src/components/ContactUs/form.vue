@@ -253,6 +253,7 @@ export default {
             country: country.value,
           };
 
+          //API INTEGROMAT account ETH w/mail
           api
             .post(
               "https://hook.integromat.com/w96x9i4xjctqtwcqx89sqdaeuwbnwr1s",

@@ -79,7 +79,7 @@
               <Step8 v-if="count == 7" :step="value" />
               <Step9 v-if="count == 8" :step="value" />
               <Step10 v-if="count == 9" :step="value" />
-
+              <h5>{{ payload }}</h5>
               <div class="button-group">
                 <button
                   type="submit"
@@ -342,36 +342,25 @@ export default {
           step6: $store.state.quiz.step6,
           step7: $store.state.quiz.step7,
           step8: $store.state.quiz.step8,
-          step9: $store.state.quiz.step9,
+          name: $store.state.quiz.step9,
+          surname: $store.state.quiz.step9a,
+          email: $store.state.quiz.step9b,
         };
 
-        console.log(payload);
-
+        //API INTEGROMAT account LUXO pd con let mai
         api
           .post(
-            "https://webhook.site/85c0b276-132e-469c-ad90-b723120d830c",
+            "https://hook.integromat.com/dnp9dpl5djv7nvstbs7uw2tns1rd11se",
             payload
           )
           .then(
             (response) => {
-              // alert(JSON.stringify(response));
-              // $q.notify({
-              //   color: "green-4",
-              //   textColor: "white",
-              //   icon: "cloud_done",
-              //   message: "Your data has been submitted",
               count.value++;
-              // });
             },
             (error) => {
               spinner_quiz.value = false;
-              alert(error);
-              // $q.notify({
-              //   color: "red-5",
-              //   textColor: "white",
-              //   icon: "warning",
-              //   message: "Something was wong, try again!",
-              // });
+              console.error(error);
+
             }
           );
       },

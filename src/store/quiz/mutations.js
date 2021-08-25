@@ -26,6 +26,14 @@ export function updateStep9(state, payload) {
   state.step9 = payload.value;
 }
 
+export function updateStep9a(state, payload) {
+  state.step9a = payload.value;
+}
+
+export function updateStep9b(state, payload) {
+  state.step9b = payload.value;
+}
+
 
 export function removeStep1(state) {
   state.step1 = "";

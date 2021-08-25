@@ -9,6 +9,8 @@ export default function () {
     step7: "",
     step8: "",
     step9: "",
+    step9a: "",
+    step9b: ""
 
   }
 }
