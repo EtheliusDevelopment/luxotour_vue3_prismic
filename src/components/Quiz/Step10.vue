@@ -178,6 +178,7 @@ export default {
   background: white;
   padding: 1%;
   margin-top: 6%;
+  margin-bottom: 10%;
 }
 
 .progress-bar {
