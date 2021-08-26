@@ -456,6 +456,10 @@ p {
     line-height: 30px !important;
   }
 
+  .answer span {
+    line-height: 25px !important;
+  }
+
   .img-about-4-index {
     object-position: 40% 50% !important; //riportato in app.css
   }
@@ -506,8 +510,8 @@ p {
 }
 
 .general-btn-1:hover {
-  background-color: #d9c5a0;
-  color: white;
+  background-color: transparent;
+  color: #4c4571;
 }
 
 .general-btn-2 {
@@ -523,7 +527,7 @@ p {
 }
 
 .general-btn-2:hover {
-  background-color: white;
+  background-color: transparent;
 }
 
 

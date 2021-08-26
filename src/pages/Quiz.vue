@@ -83,7 +83,7 @@
               <div class="button-group">
                 <button
                   type="submit"
-                  class="general-btn-1"
+                  class="general-btn-1 btn-submit-form"
                   style="padding: 1% 2%"
                   v-if="count === 8 && !spinner_quiz"
                 >
@@ -121,7 +121,7 @@
               FORWARD
             </button>
           </div>
-          <div style="height: 25vh; width: 100%"></div>
+          <div style="height: 25vh; width: 100%" class="div-spacing"></div>
         </div>
       </div>
 
@@ -134,7 +134,14 @@
 
             <q-card-section>
               <div class="row no-wrap items-center">
-                <div class="col text-h6 text-center sentence-card-quiz text-primary">
+                <div
+                  class="
+                    col
+                    text-h6 text-center
+                    sentence-card-quiz
+                    text-primary
+                  "
+                >
                   I think you have to pick an option!
                 </div>
               </div>
@@ -233,10 +240,18 @@ export default {
       startQuiz() {
         $store.commit("dynamicClasses/addFooterClass", "quiz");
         starter.value = false;
-        window.scroll({
-          top: 700,
-          behavior: "smooth",
-        });
+
+        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+          window.scroll({
+            top: 250,
+            behavior: "smooth",
+          });
+        } else {
+          window.scroll({
+            top: 700,
+            behavior: "smooth",
+          });
+        }
       },
 
       prevPage() {
@@ -309,9 +324,8 @@ export default {
         }
       },
 
-      onSubmit() {
+       onSubmit() {
         spinner_quiz.value = true;
-
         const payload = {
           step1: $store.state.quiz.step1,
           step2: $store.state.quiz.step2,
@@ -325,7 +339,6 @@ export default {
           surname: $store.state.quiz.step9a,
           email: $store.state.quiz.step9b,
         };
-
         //API INTEGROMAT account LUXO pd con let mai
         api
           .post(
@@ -478,6 +491,18 @@ export default {
     margin-bottom: 5%;
     font-size: 16px;
     line-height: 25px;
+  }
+
+  .btn-submit-form {
+    width: 90% !important;
+  }
+
+  .form-body {
+    margin-bottom: 10%;
+  }
+
+  .div-spacing {
+    height: 40vh !important;
   }
 }
 

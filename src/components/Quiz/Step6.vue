@@ -1,9 +1,7 @@
 <template>
   <div class="question-box">
     <div class="inner-question-box">
-      <h4 class="text-center text-primary question">
-        How Old Are You?
-      </h4>
+      <h4 class="text-center text-primary question">How Old Are You?</h4>
 
       <h6 class="text-center text-primary answer">
         Your Answer is: <span class="text-info">{{ answer }}</span>
@@ -178,7 +176,6 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
 .radio-quiz {
   width: 100%;
@@ -238,7 +235,6 @@ export default {
   background: white;
   padding: 1%;
   margin-top: 6%;
-
 }
 
 .progress-bar {
@@ -279,11 +275,12 @@ export default {
 @media screen and (max-width: 680px) {
   .quiz-layout {
     flex-direction: column;
+    margin-top: 5% !important;
   }
 
   .wrapper {
     width: 90%;
-    height: 30vh;
+    height: 40vh;
   }
 
   .wrapped-section-two {
@@ -314,6 +311,11 @@ export default {
   .question {
     transform: scale(0.85);
     margin-bottom: 1%;
+  }
+
+  .question-box {
+    position: sticky;
+    top: 0;
   }
 }
 </style>

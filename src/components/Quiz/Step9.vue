@@ -20,9 +20,9 @@
         label="Name"
         class="q-mb-xl input-quiz"
         @blur="addClass"
-         :rules="[
-        (val) => (val && val.length > 3) || 'Please use minimum 3 characters',
-      ]"
+        :rules="[
+          (val) => (val && val.length > 3) || 'Please use minimum 3 characters',
+        ]"
       />
 
       <q-input
@@ -31,9 +31,9 @@
         label="Surname"
         class="q-mb-xl input-quiz"
         @blur="addClass"
-         :rules="[
-        (val) => (val && val.length > 3) || 'Please use minimum 3 characters',
-      ]"
+        :rules="[
+          (val) => (val && val.length > 3) || 'Please use minimum 3 characters',
+        ]"
       />
       <q-input
         outlined
@@ -244,7 +244,7 @@ export default {
 
   .wrapper {
     width: 90%;
-    height: 30vh;
+    height: 40vh;
   }
 
   .wrapped-section-two {
@@ -256,12 +256,14 @@ export default {
   }
 
   .answer {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 25px;
     margin-bottom: 1%;
   }
 
   .question {
     font-size: 25px;
+    line-height: 30px;
   }
 
   // .question-box {
@@ -271,6 +273,15 @@ export default {
   .question {
     transform: scale(0.85);
     margin-bottom: 1%;
+  }
+
+  .input-box {
+    width: 100%;
+
+  }
+
+  .input-quiz{
+    margin-bottom: 1% !important;
   }
 }
 </style>

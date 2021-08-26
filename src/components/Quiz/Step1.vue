@@ -237,7 +237,6 @@ export default {
   background: white;
   padding: 1%;
   margin-top: 6%;
-
 }
 
 .progress-bar {
@@ -278,11 +277,12 @@ export default {
 @media screen and (max-width: 680px) {
   .quiz-layout {
     flex-direction: column;
+    margin-top: 5% !important;
   }
 
   .wrapper {
     width: 90%;
-    height: 30vh;
+    height: 40vh;
   }
 
   .wrapped-section-two {
@@ -313,6 +313,11 @@ export default {
   .question {
     transform: scale(0.85);
     margin-bottom: 1%;
+  }
+
+  .question-box {
+    position: sticky;
+    top: 0;
   }
 }
 </style>
