@@ -186,7 +186,12 @@
 
     <div class="video-block">
       <a href="https://vimeo.com/464780853" target="_blank">
-        <img src="~assets/banner-video.jpg" alt="luxo_video" />
+     <q-img
+       src="~assets/banner-video.jpg"
+       :ratio="16/9"
+       spinner-color="primary"
+       spinner-size="82px"
+     />
       </a>
     </div>
 
