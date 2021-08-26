@@ -191,7 +191,13 @@ export default {
   // FIRST BLOCK *************
 
   .first-block {
-    grid-template-columns: auto;
+    display: flex !important;
+    flex-direction: column; 
   }
+
+  .img-luxury-loop {
+    margin-bottom: 10%;
+    height: 25vh !important;
+}
 }
 </style>

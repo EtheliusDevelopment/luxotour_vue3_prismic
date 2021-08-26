@@ -244,7 +244,7 @@
 
     <div class="img-block-last">
       <q-img
-        src="~assets/luxo_img_1_index.jpg"
+        src="~assets/index_luxo_small_village.jpg"
         :ratio="16 / 9"
         spinner-color="primary"
         spinner-size="82px"

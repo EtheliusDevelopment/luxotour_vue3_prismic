@@ -11,7 +11,7 @@
             <div class="mobile-navbar mobile-only q-mt-md flex flex-center">
               <q-img
                 @click="toHome"
-                class="navbar-logo-home mobile-only"
+                class="navbar-logo-home mobile-only" 
                 width="50vw"
                 src="~assets/luxoitalia_logo_white_2020.svg"
               />
@@ -196,7 +196,7 @@
               />
             </q-tabs>
 
-            <button class="btn-toolbar-new">START PLANNING</button>
+            <button class="btn-toolbar-new" @click="$router.push('/start_planning')">START PLANNING</button>
           </q-toolbar>
 
             <q-toolbar class="mobile-only">
@@ -293,7 +293,7 @@
         </q-item>
 
         <div class="btn-box-drawer flex flex-center">
-          <button class="btn-toolbar-new-drawer q-mt-md">START PLANNING</button>
+          <button class="btn-toolbar-new-drawer q-mt-md" @click="$router.push('/start_planning')">START PLANNING</button>
         </div>
       </q-list>
     </q-drawer>

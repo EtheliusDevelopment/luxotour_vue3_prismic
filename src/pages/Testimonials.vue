@@ -32,30 +32,6 @@
       </div>
     </div>
 
-    <!-- <div class="first-block">
-      <div class="sub-section-first">
-        <h2 class="text-primary">Read about our clients’ travel stories</h2>
-
-        <p class="text-primary">
-          Every travel experience that our clients have with us inevitably
-          becomes a story, and it is because it remains indelible and
-          unforgettable in their eyes and especially in their hearts.
-        </p>
-
-        <p class="text-primary">
-          Many have wanted to share with us how beautiful their luxury holiday
-          experience was and tell us why it was so special for them.
-        </p>
-
-        <p class="text-primary">
-          There are several and varied experiences, from art to those dedicated
-          to outdoor activities or immersing yourself in the most beautiful
-          Italian cities, without forgetting the well-being and comfort of the
-          luxury hotels and resorts that we choose and that characterize every story.
-        </p>
-      </div>
-    </div> -->
-
     <div class="first-block">
       <div class="sub-section-first">
         <h2 class="text-primary text-center title-first-block">
