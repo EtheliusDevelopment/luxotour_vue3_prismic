@@ -54,14 +54,14 @@
     </div>
 
     <div class="cards-block">
-      <div class="body flex flex-center">
+      <!-- <div class="body flex flex-center">
         <q-img
           src="~assets/tocancel.jpg"
           width="80%"
           spinner-color="primary"
           spinner-size="82px"
         />
-      </div>
+      </div> -->
 
       <div class="body flex flex-center">
         <div class="body-card q-mx-md" style="width: 30%">
