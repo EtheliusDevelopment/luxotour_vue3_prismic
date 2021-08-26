@@ -324,7 +324,7 @@ export default {
         }
       },
 
-       onSubmit() {
+      onSubmit() {
         spinner_quiz.value = true;
         const payload = {
           step1: $store.state.quiz.step1,
@@ -348,6 +348,9 @@ export default {
           .then(
             (response) => {
               count.value++;
+              if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+                window.scrollTo(0, 250);
+              }
             },
             (error) => {
               spinner_quiz.value = false;
@@ -502,7 +505,7 @@ export default {
   }
 
   .div-spacing {
-    height: 40vh !important;
+    height: 5vh !important;
   }
 }
 
