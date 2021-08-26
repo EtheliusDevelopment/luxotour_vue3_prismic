@@ -4,7 +4,6 @@
       <h4 class="text-center text-info question">
         Graet Job, You've Finished the Quiz!
       </h4>
-      {{email}}
       <h6 class="text-center text-primary answer">
         To get your results and a full detailed itinerary customized to your
         preferences, please subscribe below! In addition to your quiz result and
@@ -19,7 +18,7 @@
         v-model="name"
         label="Name"
         class="q-mb-xl input-quiz"
-        @blur="addClass"
+        @change="addClass"
         :rules="[
           (val) => (val && val.length > 3) || 'Please use minimum 3 characters',
         ]"
@@ -30,7 +29,7 @@
         v-model="surname"
         label="Surname"
         class="q-mb-xl input-quiz"
-        @blur="addClass"
+        @change="addClass"
         :rules="[
           (val) => (val && val.length > 3) || 'Please use minimum 3 characters',
         ]"
@@ -40,7 +39,7 @@
         v-model="email"
         label="Email"
         class="q-mb-xl input-quiz"
-        @blur="addClass"
+        @change="addClass"
         :rules="[
           (val) => (val && regexEmail.test(val)) || 'Please type a valid Email',
         ]"
