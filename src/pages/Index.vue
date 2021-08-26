@@ -189,6 +189,7 @@
      <q-img
        src="~assets/banner-video.jpg"
        :ratio="16/9"
+       fit="contain"
        spinner-color="primary"
        spinner-size="82px"
      />
@@ -534,7 +535,7 @@ h6.text-primary.subtitle-h6 {
 // **********VIDEO  BLOCK**********
 
 .video-block {
-  margin-bottom: 10%;
+ 
 }
 // **********SIXTH BLOCK**********
 
