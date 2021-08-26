@@ -79,7 +79,7 @@
               <Step8 v-if="count == 7" :step="value" />
               <Step9 v-if="count == 8" :step="value" />
               <Step10 v-if="count == 9" :step="value" />
-              <h5>{{ payload }}</h5>
+
               <div class="button-group">
                 <button
                   type="submit"
@@ -133,48 +133,28 @@
             <q-img src="~assets/luxo-italia-paul-venezia-barca.jpg" />
 
             <q-card-section>
-              <q-btn
-                fab
-                color="primary"
-                icon="place"
-                class="absolute"
-                style="top: 0; right: 12px; transform: translateY(-50%)"
-              />
-
               <div class="row no-wrap items-center">
-                <div class="col text-h6 ellipsis">
+                <div class="col text-h6 text-center sentence-card-quiz text-primary">
                   I think you have to pick an option!
                 </div>
-                <div
-                  class="
-                    col-auto
-                    text-grey text-caption
-                    q-pt-md
-                    row
-                    no-wrap
-                    items-center
-                  "
-                >
-                  <q-icon name="place" />
-                  250 ft
-                </div>
               </div>
-
-              <q-rating v-model="stars" :max="5" size="32px" />
             </q-card-section>
 
             <q-card-section class="q-pt-none">
-              <div class="text-subtitle1">$・Italian, Cafe</div>
-              <div class="text-caption text-grey">
-                Small plates, salads & sandwiches in an intimate setting.
+              <div class="text-subtitle1 text-center title-card-quiz">
+                Complete the Quiz, and get:
+              </div>
+              <div
+                class="text-caption text-info text-center subtitle-card-quiz"
+              >
+                Our BONUS guide !
               </div>
             </q-card-section>
 
             <q-separator />
 
             <q-card-actions align="right">
-              <q-btn v-close-popup flat color="primary" label="Reserve" />
-              <q-btn v-close-popup flat color="primary" round icon="event" />
+              <q-btn v-close-popup flat color="primary" round icon="close" />
             </q-card-actions>
           </q-card>
         </q-dialog>
@@ -249,7 +229,6 @@ export default {
       card,
       $store,
       spinner_quiz,
-      stars: ref(3),
 
       startQuiz() {
         $store.commit("dynamicClasses/addFooterClass", "quiz");
@@ -360,7 +339,6 @@ export default {
             (error) => {
               spinner_quiz.value = false;
               console.error(error);
-
             }
           );
       },
@@ -424,7 +402,7 @@ export default {
   margin-bottom: 7vh;
 }
 
-hr {
+.header-block hr {
   height: 2px;
   width: 20%;
   margin: 2%;
@@ -452,6 +430,24 @@ hr {
   margin-bottom: 10vh;
 }
 
+// TYPO*******************
+
+.sentence-card-quiz {
+  font-family: "CommutersSans-Regular";
+  font-size: 20px;
+  line-height: 25px;
+}
+.title-card-quiz {
+  font-family: "CommutersSans-Regular";
+  font-size: 16px;
+  line-height: 20px;
+}
+.subtitle-card-quiz {
+  font-family: "Commuters-Sans-Bold";
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: 2%;
+}
 @media screen and (max-width: 990px) {
   .img1 {
     height: 20% !important;

@@ -21,8 +21,8 @@
     </div>
   </div>
   <div class="quiz-layout">
-    <hr class="hr" />
-    <hr class="hr" />
+    <!-- <hr class="hr" />
+    <hr class="hr" /> -->
     <div class="wrapper" :class="wrapper1">
       <q-img
         class="wrapped-section wrapped-section-one"
@@ -213,7 +213,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: -4%;
+  // margin-top: -4%;
   // position: relative;
   // top: 5vh;
   // margin: 0 6%;

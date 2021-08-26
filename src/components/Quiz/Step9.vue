@@ -12,7 +12,7 @@
       </h6>
     </div>
   </div>
-   <div class="quiz-layout">
+  <div class="quiz-layout">
     <div class="input-box q-mt-lg">
       <q-input
         outlined
@@ -20,6 +20,9 @@
         label="Name"
         class="q-mb-xl input-quiz"
         @blur="addClass"
+         :rules="[
+        (val) => (val && val.length > 3) || 'Please use minimum 3 characters',
+      ]"
       />
 
       <q-input
@@ -28,6 +31,9 @@
         label="Surname"
         class="q-mb-xl input-quiz"
         @blur="addClass"
+         :rules="[
+        (val) => (val && val.length > 3) || 'Please use minimum 3 characters',
+      ]"
       />
       <q-input
         outlined
@@ -35,6 +41,9 @@
         label="Email"
         class="q-mb-xl input-quiz"
         @blur="addClass"
+        :rules="[
+          (val) => (val && regexEmail.test(val)) || 'Please type a valid Email',
+        ]"
       />
     </div>
   </div>
@@ -61,6 +70,7 @@ export default {
 
   setup(props) {
     const $store = useStore();
+
     const wrapper1 = ref();
     const wrapper2 = ref();
     const wrapper3 = ref();
@@ -68,6 +78,8 @@ export default {
     const name = ref();
     const surname = ref();
     const email = ref();
+    const regexEmail =
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     const stepVal = computed({
       get: () => $store.state.quiz.step9,
@@ -83,6 +95,7 @@ export default {
       surname,
       email,
       $store,
+      regexEmail,
 
       addClass(val, event) {
         $store.dispatch("quiz/actStep9", name);
