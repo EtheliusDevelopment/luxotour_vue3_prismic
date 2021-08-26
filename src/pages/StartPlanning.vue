@@ -336,7 +336,7 @@ hr {
   }
 
   //******** */  CARDS BLOCK**************
-  
+
   .body.flex.flex-center {
     flex-direction: column;
   }
