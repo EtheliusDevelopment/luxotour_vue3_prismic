@@ -151,22 +151,22 @@ export default {
       addClass(val, event) {
         $store.dispatch("quiz/actStep5", answer);
 
-        if (val == "teal") {
+        if (val == "Alone - I like to Meet People Along the Way") {
           wrapper2.value = null;
           wrapper3.value = null;
           wrapper4.value = null;
           wrapper1.value = "active-class";
-        } else if (val == "red") {
+        } else if (val == "My Significant Other") {
           wrapper1.value = null;
           wrapper3.value = null;
           wrapper4.value = null;
           wrapper2.value = "active-class";
-        } else if (val == "blue") {
+        } else if (val == "With My Family") {
           wrapper1.value = null;
           wrapper2.value = null;
           wrapper4.value = null;
           wrapper3.value = "active-class";
-        } else if (val == "green") {
+        } else if (val == "With A Group Of Friends") {
           wrapper1.value = null;
           wrapper2.value = null;
           wrapper3.value = null;

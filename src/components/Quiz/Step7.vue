@@ -128,17 +128,17 @@ export default {
       addClass(val, event) {
         $store.dispatch("quiz/actStep7", answer);
 
-        if (val == "teal") {
+        if (val == "The Countryside") {
           wrapper2.value = null;
           wrapper3.value = null;
           wrapper4.value = null;
           wrapper1.value = "active-class";
-        } else if (val == "red") {
+        } else if (val == "The City") {
           wrapper1.value = null;
           wrapper3.value = null;
           wrapper4.value = null;
           wrapper2.value = "active-class";
-        } else if (val == "blue") {
+        } else if (val == "A Mix Of Both") {
           wrapper1.value = null;
           wrapper2.value = null;
           wrapper4.value = null;

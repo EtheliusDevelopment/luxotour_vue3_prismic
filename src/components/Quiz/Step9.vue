@@ -4,7 +4,7 @@
       <h4 class="text-center text-info question">
         Graet Job, You've Finished the Quiz!
       </h4>
-
+      {{email}}
       <h6 class="text-center text-primary answer">
         To get your results and a full detailed itinerary customized to your
         preferences, please subscribe below! In addition to your quiz result and
@@ -277,10 +277,9 @@ export default {
 
   .input-box {
     width: 100%;
-
   }
 
-  .input-quiz{
+  .input-quiz {
     margin-bottom: 1% !important;
   }
 }

@@ -151,22 +151,22 @@ export default {
       addClass(val, event) {
         $store.dispatch("quiz/actStep2", answer);
 
-        if (val == "teal") {
+        if (val == "Exploring the countryside") {
           wrapper2.value = null;
           wrapper3.value = null;
           wrapper4.value = null;
           wrapper1.value = "active-class";
-        } else if (val == "red") {
+        } else if (val == "Charter a yacht") {
           wrapper1.value = null;
           wrapper3.value = null;
           wrapper4.value = null;
           wrapper2.value = "active-class";
-        } else if (val == "blue") {
+        } else if (val == "Doing good while traveling") {
           wrapper1.value = null;
           wrapper2.value = null;
           wrapper4.value = null;
           wrapper3.value = "active-class";
-        } else if (val == "green") {
+        } else if (val == "Lear art and culture") {
           wrapper1.value = null;
           wrapper2.value = null;
           wrapper3.value = null;

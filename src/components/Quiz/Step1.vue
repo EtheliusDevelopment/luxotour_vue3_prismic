@@ -99,7 +99,7 @@
       <q-item-section avatar class="wrapped-section wrapped-section-two">
         <q-radio
           v-model="answer"
-          val="Art 	&amp; Culture"
+          val="Art and Culture"
           color="primary"
           label="Art 	&amp; Culture"
           @update:model-value="addClass"
@@ -151,22 +151,22 @@ export default {
       addClass(val, event) {
         $store.dispatch("quiz/actStep1", answer);
 
-        if (val == "teal") {
+        if (val == "Hideaway") {
           wrapper2.value = null;
           wrapper3.value = null;
           wrapper4.value = null;
           wrapper1.value = "active-class";
-        } else if (val == "red") {
+        } else if (val == "Indulge in luxury") {
           wrapper1.value = null;
           wrapper3.value = null;
           wrapper4.value = null;
           wrapper2.value = "active-class";
-        } else if (val == "blue") {
+        } else if (val == "Beach Life") {
           wrapper1.value = null;
           wrapper2.value = null;
           wrapper4.value = null;
           wrapper3.value = "active-class";
-        } else if (val == "green") {
+        } else if (val == "Art and Culture") {
           wrapper1.value = null;
           wrapper2.value = null;
           wrapper3.value = null;

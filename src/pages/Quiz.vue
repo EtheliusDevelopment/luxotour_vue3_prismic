@@ -339,6 +339,7 @@ export default {
           surname: $store.state.quiz.step9a,
           email: $store.state.quiz.step9b,
         };
+        console.log(payload)
         //API INTEGROMAT account LUXO pd con let mai
         api
           .post(
@@ -348,9 +349,6 @@ export default {
           .then(
             (response) => {
               count.value++;
-              if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-                window.scrollTo(0, 250);
-              }
             },
             (error) => {
               spinner_quiz.value = false;
