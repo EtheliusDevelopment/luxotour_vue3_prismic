@@ -14,11 +14,11 @@
           <h6 class="text-white desktop-only">
             SPECIALIZES TAILORING LUXURY ITALIAN TOURS
           </h6>
-            <h6 class="text-white mobile-only">
-            TAILORING LUXURY ITALIAN TOURS
-          </h6>
+          <h6 class="text-white mobile-only">TAILORING LUXURY ITALIAN TOURS</h6>
           <q-separator color="white" inset />
-          <h1 class="text-white text-center desktop-only">Start your luxury journey here</h1>
+          <h1 class="text-white text-center desktop-only">
+            Start your luxury journey here
+          </h1>
           <h1 class="text-white text-center mobile-only">Start your journey</h1>
         </div>
       </q-img>
@@ -134,16 +134,29 @@
       </div>
     </div>
 
-    <div class="video-block">
-      <a href="https://vimeo.com/464780853" target="_blank">
-        <q-img
-          src="~assets/banner-video.jpg"
-          :ratio="16 / 9"
-          fit="contain"
-          spinner-color="primary"
-          spinner-size="82px"
-        />
-      </a>
+    <div class="video-block" @click="fullWidth = true" style="cursor: pointer">
+      <q-img
+        src="~assets/banner-video.jpg"
+        :ratio="16 / 9"
+        fit="contain"
+        spinner-color="primary"
+        spinner-size="82px"
+      />
+
+
+
+      <div class="dialog-div">
+        <q-dialog v-model="fullWidth" full-width class="dialog-video">
+          <div class="flex justify-end no-shadow">
+            <q-btn flat icon="close" color="white" v-close-popup />
+          </div>
+
+          <q-video
+            :ratio="16 / 9"
+            src="https://player.vimeo.com/video/464780853?dnt=1&app_id=122963"
+          ></q-video>
+        </q-dialog>
+      </div>
     </div>
 
     <div class="second-block">
@@ -196,6 +209,7 @@
 import CarouselFacebook from "src/components/Utils/CarouselFacebook.vue";
 import { useRouter } from "vue-router";
 import { ref } from "vue";
+
 export default {
   components: {
     CarouselFacebook,
@@ -203,9 +217,11 @@ export default {
 
   setup() {
     const router = useRouter();
+    const fullWidth = ref(false);
 
     return {
       router,
+      fullWidth,
     };
   },
 };
@@ -308,6 +324,14 @@ hr {
   height: 430px;
 }
 
+
+// **** VIDEO BLOCK *************
+
+.dialog-video .q-dialog__inner {
+  // WORKING IN APP.CSS
+  align-items: baseline !important;
+}
+
 // **********SECOND BLOCK**********
 
 .second-block {
@@ -392,10 +416,9 @@ hr {
 }
 
 @media screen and (max-width: 680px) {
-
   // TYPO****************
 
-  .title-first-block{
+  .title-first-block {
     padding: unset !important;
   }
 
