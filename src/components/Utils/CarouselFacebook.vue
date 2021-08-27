@@ -379,8 +379,7 @@
 
         <button
           class="
-            q-btn q-btn-item
-            q-mr-sm
+            q-btn q-btn-item q-mr-sm
             non-selectable
             no-outline
             q-btn--flat q-btn--round
@@ -569,8 +568,16 @@ hr {
   .btn-facebook-mobile {
   }
 
+  .facebook-body {
+    padding: unset !important;
+  }
+
   .active {
     opacity: 1 !important;
+  }
+
+  .payoff {
+    margin-top: 5%;
   }
 }
 </style>
