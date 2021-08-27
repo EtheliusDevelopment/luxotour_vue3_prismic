@@ -134,7 +134,7 @@
       </div>
     </div>
 
-    <div class="video-block" @click="fullWidth = true" style="cursor: pointer">
+    <div class="video-block" @click="medium = true" style="cursor: pointer">
       <q-img
         src="~assets/banner-video.jpg"
         :ratio="16 / 9"
@@ -146,13 +146,13 @@
 
 
       <div class="dialog-div">
-        <q-dialog v-model="fullWidth" full-width class="dialog-video">
+        <q-dialog v-model="medium" full-width class="dialog-video">
           <div class="flex justify-end no-shadow">
             <q-btn flat icon="close" color="white" v-close-popup />
           </div>
 
           <q-video
-            :ratio="16 / 9"
+            :ratio="16 / 6"
             src="https://player.vimeo.com/video/464780853?dnt=1&app_id=122963"
           ></q-video>
         </q-dialog>
@@ -217,11 +217,11 @@ export default {
 
   setup() {
     const router = useRouter();
-    const fullWidth = ref(false);
+    const medium = ref(false);
 
     return {
       router,
-      fullWidth,
+      medium,
     };
   },
 };

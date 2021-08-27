@@ -184,16 +184,29 @@
       </div>
     </div>
 
-    <div class="video-block">
-      <a href="https://vimeo.com/464780853" target="_blank">
-     <q-img
-       src="~assets/banner-video.jpg"
-       :ratio="16/9"
-       fit="contain"
-       spinner-color="primary"
-       spinner-size="82px"
-     />
-      </a>
+  <div class="video-block" @click="medium = true" style="cursor: pointer">
+      <q-img
+        src="~assets/banner-video.jpg"
+        :ratio="16 / 9"
+        fit="contain"
+        spinner-color="primary"
+        spinner-size="82px"
+      />
+
+
+
+      <div class="dialog-div">
+        <q-dialog v-model="medium" full-width class="dialog-video">
+          <div class="flex justify-end no-shadow">
+            <q-btn flat icon="close" color="white" v-close-popup />
+          </div>
+
+          <q-video
+            :ratio="16 / 6"
+            src="https://player.vimeo.com/video/464780853?dnt=1&app_id=122963"
+          ></q-video>
+        </q-dialog>
+      </div>
     </div>
 
     <div class="seventh-block">
@@ -273,7 +286,12 @@ export default {
   },
 
   setup() {
-    return {};
+    const medium = ref(false);
+
+
+    return {
+      medium,
+    };
   },
 };
 </script>
@@ -535,7 +553,7 @@ h6.text-primary.subtitle-h6 {
 // **********VIDEO  BLOCK**********
 
 .video-block {
- 
+
 }
 // **********SIXTH BLOCK**********
 
