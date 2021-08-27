@@ -65,26 +65,7 @@
           </div>
           <q-img
             src="https://placeimg.com/500/300/nature"
-            :ratio="16 / 9"
-            spinner-color="primary"
-            spinner-size="82px"
-          />
-          <h5 class="h5-body-card q-px-md text-center text-primary">
-            Make your journey your own. Unlimited round of revisions until you
-            are 100% happy
-          </h5>
-        </div>
-
-        <div class="body-card q-mx-md" style="width: 30%">
-          <div class="step-number text-primary flex flex-center">
-            <span
-              class="inner-step-number"
-              style="font-size: 4rem; padding-top: 10%"
-              >2</span
-            >
-          </div>
-          <q-img
-            src="https://placeimg.com/500/300/nature"
+            class="img-body-card"
             :ratio="16 / 9"
             spinner-color="primary"
             spinner-size="82px"
@@ -100,11 +81,33 @@
             <span
               class="inner-step-number"
               style="font-size: 4rem; padding-top: 10%"
+              >2</span
+            >
+          </div>
+          <q-img
+            src="https://placeimg.com/500/300/nature"
+            class="img-body-card"
+            :ratio="16 / 9"
+            spinner-color="primary"
+            spinner-size="82px"
+          />
+          <h5 class="h5-body-card q-px-md text-center text-primary">
+            Make your journey your own. Unlimited round of revisions until you
+            are 100% happy
+          </h5>
+        </div>
+
+        <div class="body-card q-mx-md" style="width: 30%">
+          <div class="step-number text-primary flex flex-center">
+            <span
+              class="inner-step-number"
+              style="font-size: 4rem; padding-top: 10%"
               >3</span
             >
           </div>
           <q-img
             src="https://placeimg.com/500/300/nature"
+            class="img-body-card"
             :ratio="16 / 9"
             spinner-color="primary"
             spinner-size="82px"
@@ -212,6 +215,14 @@ export default {
   }
 }
 
+
+// TYPO *****************
+
+.h5-body-card {
+    font-family: 'Hatton-Medium';
+    font-size: 20px;
+}
+
 .figcaption {
   width: 100%;
   height: 100%;
@@ -269,11 +280,30 @@ hr {
 
 // *********CARD BLOCK***********
 
+.body {
+  padding: 0 15rem;
+}
+
+.body-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .step-number {
   width: 100px;
   height: 100px;
   border: 2px solid $info;
+  background-color: white;
   border-radius: 50%;
+  position: relative;
+  top: 6vh;
+  z-index: 99;
+}
+
+
+.img-body-card {
+    height: 430px;
 }
 
 // **********SECOND BLOCK**********
@@ -281,7 +311,7 @@ hr {
 .second-block {
   display: grid;
   grid-template-columns: 1.8fr 0.6fr 1fr;
-  grid-template-rows: 0.1fr 1fr 0.1fr;
+  grid-template-rows: 0.2fr 1fr 0.2fr;
   margin-bottom: 10%;
 }
 
@@ -315,6 +345,10 @@ hr {
 
 .btn-box-discover {
   margin-bottom: 10%;
+}
+
+.img1-luxury {
+    object-position: 100% 50% !important;
 }
 
 // ********************************
