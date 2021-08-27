@@ -747,6 +747,10 @@ header {
     width: 100% !important;
     justify-content: space-between !important;
 }
+
+.mobile-navbar {
+    margin: 8px 0 !important;
+}
 }
 
 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {

@@ -135,12 +135,21 @@
     </div>
 
     <div class="video-block" @click="medium = true" style="cursor: pointer">
-      <q-img
+       <q-img
         src="~assets/banner-video.jpg"
         :ratio="16 / 9"
         fit="contain"
         spinner-color="primary"
         spinner-size="82px"
+        class="desktop-only"
+      />
+
+      <q-img
+        src="~assets/video-cover-mobile.jpg"
+        fit="contain"
+        spinner-color="primary"
+        spinner-size="82px"
+        class="mobile-only"
       />
 
 

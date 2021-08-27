@@ -203,6 +203,15 @@
         fit="contain"
         spinner-color="primary"
         spinner-size="82px"
+        class="desktop-only"
+      />
+
+      <q-img
+        src="~assets/video-cover-mobile.jpg"
+        fit="contain"
+        spinner-color="primary"
+        spinner-size="82px"
+        class="mobile-only"
       />
 
       <div class="dialog-div">
