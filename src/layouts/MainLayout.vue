@@ -11,8 +11,8 @@
             <div class="mobile-navbar mobile-only q-mt-md flex flex-center">
               <q-img
                 @click="toHome"
-                class="navbar-logo-home mobile-only" 
-                width="50vw"
+                class="navbar-logo-home mobile-only"
+                width="200px"
                 src="~assets/luxoitalia_logo_white_2020.svg"
               />
               <q-btn

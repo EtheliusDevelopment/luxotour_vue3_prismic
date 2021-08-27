@@ -54,17 +54,15 @@
     </div>
 
     <div class="cards-block">
-      <!-- <div class="body flex flex-center">
-        <q-img
-          src="~assets/tocancel.jpg"
-          width="80%"
-          spinner-color="primary"
-          spinner-size="82px"
-        />
-      </div> -->
-
       <div class="body flex flex-center">
         <div class="body-card q-mx-md" style="width: 30%">
+          <div class="step-number text-primary flex flex-center">
+            <span
+              class="inner-step-number"
+              style="font-size: 4rem; padding-top: 10%"
+              >1</span
+            >
+          </div>
           <q-img
             src="https://placeimg.com/500/300/nature"
             :ratio="16 / 9"
@@ -78,6 +76,13 @@
         </div>
 
         <div class="body-card q-mx-md" style="width: 30%">
+          <div class="step-number text-primary flex flex-center">
+            <span
+              class="inner-step-number"
+              style="font-size: 4rem; padding-top: 10%"
+              >2</span
+            >
+          </div>
           <q-img
             src="https://placeimg.com/500/300/nature"
             :ratio="16 / 9"
@@ -91,6 +96,13 @@
         </div>
 
         <div class="body-card q-mx-md" style="width: 30%">
+          <div class="step-number text-primary flex flex-center">
+            <span
+              class="inner-step-number"
+              style="font-size: 4rem; padding-top: 10%"
+              >3</span
+            >
+          </div>
           <q-img
             src="https://placeimg.com/500/300/nature"
             :ratio="16 / 9"
@@ -176,7 +188,7 @@
 <script>
 import CarouselFacebook from "src/components/Utils/CarouselFacebook.vue";
 import { useRouter } from "vue-router";
-
+import { ref } from "vue";
 export default {
   components: {
     CarouselFacebook,
@@ -255,6 +267,15 @@ hr {
   line-height: 60px;
 }
 
+// *********CARD BLOCK***********
+
+.step-number {
+  width: 100px;
+  height: 100px;
+  border: 2px solid $info;
+  border-radius: 50%;
+}
+
 // **********SECOND BLOCK**********
 
 .second-block {
@@ -293,7 +314,7 @@ hr {
 }
 
 .btn-box-discover {
-    margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 // ********************************
@@ -344,7 +365,7 @@ hr {
   .body-card {
     width: 100% !important;
     margin: unset;
-}
+  }
 
   // ****SECOND BLOCK **********
 
@@ -393,7 +414,6 @@ hr {
     justify-content: center;
     margin-bottom: unset !important;
   }
-
 
   // ***************************
 }
