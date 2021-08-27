@@ -145,14 +145,20 @@
 
 
 
-      <div class="dialog-div">
+    <div class="dialog-div">
         <q-dialog v-model="medium" full-width class="dialog-video">
           <div class="flex justify-end no-shadow">
             <q-btn flat icon="close" color="white" v-close-popup />
           </div>
 
           <q-video
+            class="desktop-only no-shadow"
             :ratio="16 / 6"
+            src="https://player.vimeo.com/video/464780853?dnt=1&app_id=122963"
+          ></q-video>
+          <q-video
+            class="mobile-only no-shadow"
+            :ratio="16 / 9"
             src="https://player.vimeo.com/video/464780853?dnt=1&app_id=122963"
           ></q-video>
         </q-dialog>
