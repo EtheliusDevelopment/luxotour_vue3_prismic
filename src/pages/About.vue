@@ -650,12 +650,12 @@ hr {
   }
 
   // ******THIRD BLOCK*******************
-
-  .third-block {
-    grid-template-columns: 100% !important;
-    grid-template-rows: auto auto 530px auto 530px auto !important;
+.third-block {
+    display: flex !important;
+    flex-direction: column !important;
     margin: unset !important;
-  }
+    margin-bottom: 10% !important;
+}
 
   .heading-third-block {
     grid-column: 1 !important;
@@ -688,6 +688,7 @@ hr {
   .h6-title-sub {
     font-size: 14px !important;
     text-align: center !important;
+    margin: 7% 0;
   }
 
   .text {
@@ -702,12 +703,40 @@ hr {
     width: 6vw !important;
   }
 
+  button.general-btn-1.q-mx-xl.mobile-only.btn-grid {
+    margin-top: 10%;
+}
+
+.heading-third-block{
+  order: 1;
+}
+
+.third-block .img3{
+  order: 3;
+}
+
+.sub-section-first{
+  order: 2;
+}
+
+.sub-section-second{
+  order: 4;
+}
+
+.third-block .img4{
+  order: 5;
+}
+
+  button.general-btn-1.q-mx-xl.mobile-only.btn-grid {
+    order: 6;
+}
+
+
   // *******FOURTH BLOCK***********************
 
   .fourth-block {
     grid-template-columns: auto !important;
     grid-template-rows: auto !important;
-    margin-top: 50vh !important;
     margin-bottom: 30% !important;
   }
   .fourth-block .img4 {
