@@ -586,6 +586,7 @@ hr {
 @media screen and (max-width: 680px) {
   // TYPO***************
   .figcaption-title {
+    text-align: center;
     transform: scale(0.85);
   }
 

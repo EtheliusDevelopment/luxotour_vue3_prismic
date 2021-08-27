@@ -68,9 +68,7 @@
           <p class="text-center p-inner-component">
             Via Galla Placidia 12 - Milano, Italy
           </p>
-          <p class="text-center p-inner-component">
-            info@luxoitalia.com
-          </p>
+          <p class="text-center p-inner-component">info@luxoitalia.com</p>
         </div>
       </div>
 
@@ -246,13 +244,18 @@ span.text-info {
     margin-bottom: 10%;
   }
 
- .first-block{
-   margin-bottom: 10%;
- }
+  .first-block {
+    margin-bottom: 10%;
+  }
 
   .process-text {
     margin-top: 10%;
     margin-bottom: 5%;
+    text-align: center;
+  }
+
+  .p-info {
+    text-align: center;
   }
 
   .contact-card-component {
@@ -262,11 +265,11 @@ span.text-info {
   .p-inner-component {
     margin: unset;
     padding-bottom: 20%;
-}
+  }
 
-.inner-component {
+  .inner-component {
     width: 90%;
     height: 92%;
-}
+  }
 }
 </style>

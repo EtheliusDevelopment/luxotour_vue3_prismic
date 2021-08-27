@@ -593,10 +593,7 @@ header {
 
 // *********DRAWER BLOCK *******************
 
-.btn-ham-mobile {
-  position: relative;
-  left: 25vw;
-}
+
 
 .qitem-align {
   align-items: center !important;
@@ -744,22 +741,22 @@ header {
     width: 9vw !important;
     margin-right: 1% !important;
   }
+
+
+  .mobile-navbar {
+    width: 100% !important;
+    justify-content: space-between !important;
+}
 }
 
 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
 
-  .btn-ham-mobile {
-    position: relative;
-    left: 130px;
-  }
+
 
   /* 2778x1284 pixels at 458ppi */
   @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
 
-  .btn-ham-mobile {
-      position: relative;
-      left: 130px;
-    }
+
   }
 }
 </style>
