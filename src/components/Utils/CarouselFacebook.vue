@@ -4,7 +4,7 @@
       <h2 class="text-primary text-center">Facebook Reviews</h2>
     </div>
 
-    <div class="facebook-body">
+    <div class="facebook-body desktop-only">
       <div
         class="review-first flex div-review"
         v-if="count === 0"
@@ -132,6 +132,134 @@
       </div>
     </div>
 
+    <div class="facebook-body mobile-only">
+      <div
+        class="review-first flex div-review"
+        v-if="slide1"
+        style="flex-wrap: nowrap"
+      >
+        <div class="facebook-slide flex">
+          <p class="text-center body-review">
+            I just wanted to share my experience with my friends and family, to
+            show them what is it - to be an Italian. And then I found the Luxo
+            wine club.
+          </p>
+
+          <p class="text-center body-review">
+            The wine selection, gifts, the community itself - is a literal
+            experience of Italy I wanted to share with my family!
+          </p>
+
+          <p class="payoff text-center text-primary">Mario Rossi</p>
+
+          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+        </div>
+
+        <hr color="#D9C5A0" class="desktop-only" />
+
+        <div class="facebook-slide flex desktop-only">
+          <p class="text-center body-review">
+            I just wanted to share my experience with my friends and family, to
+            show them what is it - to be an Italian. And then I found the Luxo
+            wine club.
+          </p>
+
+          <p class="text-center body-review">
+            The wine selection, gifts, the community itself - is a literal
+            experience of Italy I wanted to share with my family!
+          </p>
+
+          <p class="payoff text-center text-primary">Mario Rossi</p>
+
+          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+        </div>
+      </div>
+
+      <div
+        class="review-first flex div-review"
+        v-if="slide2"
+        style="flex-wrap: nowrap"
+      >
+        <div class="facebook-slide flex">
+          <p class="text-center body-review">
+            I just wanted to share my experience with my friends and family, to
+            show them what is it - to be an Italian. And then I found the Luxo
+            wine club.
+          </p>
+
+          <p class="text-center body-review">
+            The wine selection, gifts, the community itself - is a literal
+            experience of Italy I wanted to share with my family!
+          </p>
+
+          <p class="payoff text-center text-primary">Filippo de Sanctis</p>
+
+          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+        </div>
+
+        <hr color="#D9C5A0" class="desktop-only" />
+
+        <div class="facebook-slide flex desktop-only">
+          <p class="text-center body-review">
+            I just wanted to share my experience with my friends and family, to
+            show them what is it - to be an Italian. And then I found the Luxo
+            wine club.
+          </p>
+
+          <p class="text-center body-review">
+            The wine selection, gifts, the community itself - is a literal
+            experience of Italy I wanted to share with my family!
+          </p>
+
+          <p class="payoff text-center text-primary">Pietro Binachi</p>
+
+          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+        </div>
+      </div>
+
+      <div
+        class="review-first flex div-review"
+        v-if="slide3"
+        style="flex-wrap: nowrap"
+      >
+        <div class="facebook-slide flex">
+          <p class="text-center body-review">
+            I just wanted to share my experience with my friends and family, to
+            show them what is it - to be an Italian. And then I found the Luxo
+            wine club.
+          </p>
+
+          <p class="text-center body-review">
+            The wine selection, gifts, the community itself - is a literal
+            experience of Italy I wanted to share with my family!
+          </p>
+
+          <p class="payoff text-center text-primary">Giuseppe Verdi</p>
+
+          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+        </div>
+
+        <hr color="#D9C5A0" class="desktop-only" />
+
+        <div class="facebook-slide flex desktop-only">
+          <p class="text-center body-review">
+            I just wanted to share my experience with my friends and family, to
+            show them what is it - to be an Italian. And then I found the Luxo
+            wine club.
+          </p>
+
+          <p class="text-center body-review">
+            The wine selection, gifts, the community itself - is a literal
+            experience of Italy I wanted to share with my family!
+          </p>
+
+          <p class="payoff text-center text-primary">Mario Rossi</p>
+
+          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+        </div>
+      </div>
+    </div>
+
     <div
       class="facebook-buttons"
       style="
@@ -149,7 +277,7 @@
         src="~assets/freccia_prev.svg"
         alt=""
         @click="count--"
-        style="width: 4vw;"
+        style="width: 4vw"
       />
 
       <img
@@ -160,6 +288,140 @@
         style="width: 4vw"
       />
     </div>
+
+    <div class="navigation-mobile q-mb-md mobile-only">
+      <div class="navigation-box flex flex-center">
+        <button
+          class="
+            q-mr-sm q-btn q-btn-item
+            non-selectable
+            no-outline
+            q-btn--flat q-btn--round
+            text-white
+            q-btn--actionable
+            q-focusable q-hoverable
+            q-btn--dense
+            q-carousel__navigation-icon q-carousel__navigation-icon--inactive
+            btn-facebook-mobile
+          "
+          :class="{ active: classSlide1 }"
+          @click="slide1Fn"
+          tabindex="0"
+          type="button"
+          role="button"
+          style="font-size: 10px; color: #4c4571 !important"
+        >
+          <span class="q-focus-helper" tabindex="-1"></span
+          ><span
+            class="
+              q-btn__content
+              text-center
+              col
+              items-center
+              q-anchor--skip
+              justify-center
+              row
+            "
+            ><svg
+              class="q-icon"
+              aria-hidden="true"
+              role="img"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
+              ></path></svg
+          ></span>
+        </button>
+
+        <button
+          class="
+            q-mr-sm q-btn q-btn-item
+            non-selectable
+            no-outline
+            q-btn--flat q-btn--round
+            text-white
+            q-btn--actionable
+            q-focusable q-hoverable
+            q-btn--dense
+            q-carousel__navigation-icon q-carousel__navigation-icon--inactive
+            btn-facebook-mobile
+          "
+          :class="{ active: classSlide2 }"
+          @click="slide2Fn"
+          tabindex="0"
+          type="button"
+          role="button"
+          style="font-size: 10px; color: #4c4571 !important"
+        >
+          <span class="q-focus-helper" tabindex="-1"></span
+          ><span
+            class="
+              q-btn__content
+              text-center
+              col
+              items-center
+              q-anchor--skip
+              justify-center
+              row
+            "
+            ><svg
+              class="q-icon"
+              aria-hidden="true"
+              role="img"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
+              ></path></svg
+          ></span>
+        </button>
+
+        <button
+          class="
+            q-btn q-btn-item
+            q-mr-sm
+            non-selectable
+            no-outline
+            q-btn--flat q-btn--round
+            text-white
+            q-btn--actionable
+            q-focusable q-hoverable
+            q-btn--dense
+            q-carousel__navigation-icon q-carousel__navigation-icon--inactive
+            btn-facebook-mobile
+          "
+          :class="{ active: classSlide3 }"
+          @click="slide3Fn"
+          tabindex="0"
+          type="button"
+          role="button"
+          style="font-size: 10px; color: #4c4571 !important"
+        >
+          <span class="q-focus-helper" tabindex="-1"></span
+          ><span
+            class="
+              q-btn__content
+              text-center
+              col
+              items-center
+              q-anchor--skip
+              justify-center
+              row
+            "
+            ><svg
+              class="q-icon"
+              aria-hidden="true"
+              role="img"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
+              ></path></svg
+          ></span>
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -169,6 +431,12 @@ import { ref, onUpdated } from "vue";
 export default {
   setup() {
     const count = ref(0);
+    const slide1 = ref(true);
+    const slide2 = ref(false);
+    const slide3 = ref(false);
+    const classSlide1 = ref(true);
+    const classSlide2 = ref(false);
+    const classSlide3 = ref(false);
 
     onUpdated(() => {
       if (count.value < 0) {
@@ -181,6 +449,39 @@ export default {
     });
     return {
       count,
+      slide1,
+      slide2,
+      slide3,
+      classSlide1,
+      classSlide2,
+      classSlide3,
+      slide1Fn() {
+        classSlide2.value = false;
+        classSlide3.value = false;
+        classSlide1.value = true;
+
+        slide2.value = false;
+        slide3.value = false;
+        slide1.value = true;
+      },
+      slide2Fn() {
+        classSlide1.value = false;
+        classSlide3.value = false;
+        classSlide2.value = true;
+
+        slide1.value = false;
+        slide3.value = false;
+        slide2.value = true;
+      },
+      slide3Fn() {
+        classSlide1.value = false;
+        classSlide2.value = false;
+        classSlide3.value = true;
+
+        slide1.value = false;
+        slide2.value = false;
+        slide3.value = true;
+      },
     };
   },
 };
@@ -257,13 +558,19 @@ hr {
 }
 
 @media screen and (max-width: 680px) {
-  .next-arrow,
-  .prev-arrow {
-    width: 12vw !important;
+  .facebook-buttons {
+    display: none !important;
   }
 
-  .facebook-buttons {
-    bottom: 55vh !important;
+  .body-review {
+    padding: 0 5%;
+  }
+
+  .btn-facebook-mobile {
+  }
+
+  .active {
+    opacity: 1 !important;
   }
 }
 </style>
