@@ -140,14 +140,14 @@
       >
         <div class="facebook-slide flex">
           <p class="text-center body-review">
-            I just wanted to share my experience with my friends and family, to
-            show them what is it - to be an Italian. And then I found the Luxo
-            wine club.
+            And then I found the Luxo wine club. I just wanted to share my
+            experience with my friends and family, to show them what is it - to
+            be an Italian.
           </p>
 
           <p class="text-center body-review">
-            The wine selection, gifts, the community itself - is a literal
-            experience of Italy I wanted to share with my family!
+            I wanted to share with my family! The wine selection, gifts, the
+            community itself - is a literal experience of Italy.
           </p>
 
           <p class="payoff text-center text-primary">Mario Rossi</p>
@@ -182,38 +182,37 @@
       >
         <div class="facebook-slide flex">
           <p class="text-center body-review">
-            I just wanted to share my experience with my friends and family, to
-            show them what is it - to be an Italian. And then I found the Luxo
-            wine club.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+            temporibus. Porro incidunt numquam delectus et nisi beatae minus
+            labore excepturi!
           </p>
 
           <p class="text-center body-review">
-            The wine selection, gifts, the community itself - is a literal
-            experience of Italy I wanted to share with my family!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+            dolores est maxime.
           </p>
 
           <p class="payoff text-center text-primary">Filippo de Sanctis</p>
 
-          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+          <p class="payoff-echo text-center text-info">Denver, Colorado</p>
         </div>
 
         <hr color="#D9C5A0" class="desktop-only" />
 
         <div class="facebook-slide flex desktop-only">
           <p class="text-center body-review">
-            I just wanted to share my experience with my friends and family, to
-            show them what is it - to be an Italian. And then I found the Luxo
-            wine club.
+            to be an Italian. And then I found the Luxo
+            wine club Lorem ipsum dolor sit amet.
           </p>
 
           <p class="text-center body-review">
-            The wine selection, gifts, the community itself - is a literal
-            experience of Italy I wanted to share with my family!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            facilis corrupti maxime vel voluptatibus.
           </p>
 
           <p class="payoff text-center text-primary">Pietro Binachi</p>
 
-          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+          <p class="payoff-echo text-center text-info">Dubai, EAU</p>
         </div>
       </div>
 
