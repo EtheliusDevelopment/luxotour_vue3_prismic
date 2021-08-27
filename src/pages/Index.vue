@@ -23,7 +23,12 @@
             TAILORED TO YOUR PASSIONS AND TASTES
           </h6>
 
-          <button class="btn-main-index" @click="$router.push('/start_planning')">LEARN WHAT WE DO</button>
+          <button
+            class="btn-main-index"
+            @click="$router.push('/start_planning')"
+          >
+            LEARN WHAT WE DO
+          </button>
         </div>
       </q-img>
 
@@ -61,7 +66,11 @@
           itineraries, all kinds of bookings, and being frustrated.
         </p>
 
-        <button class="general-btn-1 q-mt-xl" style="padding: 1% 2%" @click="$router.push('/start_planning')">
+        <button
+          class="general-btn-1 q-mt-xl"
+          style="padding: 1% 2%"
+          @click="$router.push('/start_planning')"
+        >
           LEARN WHAT WE DO
         </button>
       </div>
@@ -140,7 +149,10 @@
             the most beautiful and captivating trip of your life?
           </p>
           <div class="btn-fifth-block-x">
-            <button class="general-btn-2 btn-fifth-block" @click="$router.push('/start_planning')">
+            <button
+              class="general-btn-2 btn-fifth-block"
+              @click="$router.push('/start_planning')"
+            >
               START PLANNING
             </button>
           </div>
@@ -184,7 +196,7 @@
       </div>
     </div>
 
-  <div class="video-block" @click="medium = true" style="cursor: pointer">
+    <div class="video-block" @click="medium = true" style="cursor: pointer">
       <q-img
         src="~assets/banner-video.jpg"
         :ratio="16 / 9"
@@ -193,8 +205,6 @@
         spinner-size="82px"
       />
 
-
-
       <div class="dialog-div">
         <q-dialog v-model="medium" full-width class="dialog-video">
           <div class="flex justify-end no-shadow">
@@ -202,7 +212,13 @@
           </div>
 
           <q-video
+            class="desktop-only no-shadow"
             :ratio="16 / 6"
+            src="https://player.vimeo.com/video/464780853?dnt=1&app_id=122963"
+          ></q-video>
+          <q-video
+            class="mobile-only no-shadow"
+            :ratio="16 / 9"
             src="https://player.vimeo.com/video/464780853?dnt=1&app_id=122963"
           ></q-video>
         </q-dialog>
@@ -242,7 +258,12 @@
         </p>
 
         <div class="btn-fifth-block-x">
-          <button class="general-btn-1 btn-start-quiz" @click="$router.push('/quiz')">START THE QUIZ</button>
+          <button
+            class="general-btn-1 btn-start-quiz"
+            @click="$router.push('/quiz')"
+          >
+            START THE QUIZ
+          </button>
         </div>
       </div>
 
@@ -287,7 +308,6 @@ export default {
 
   setup() {
     const medium = ref(false);
-
 
     return {
       medium,
@@ -553,7 +573,6 @@ h6.text-primary.subtitle-h6 {
 // **********VIDEO  BLOCK**********
 
 .video-block {
-
 }
 // **********SIXTH BLOCK**********
 
