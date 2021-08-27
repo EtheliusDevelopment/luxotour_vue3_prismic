@@ -11,11 +11,15 @@
         height="600px"
       >
         <div class="figcaption">
-          <h6 class="text-white">
-            SPECIALIZES IN TAILORING LUXURY ITALIAN TOURS
+          <h6 class="text-white desktop-only">
+            SPECIALIZES TAILORING LUXURY ITALIAN TOURS
+          </h6>
+            <h6 class="text-white mobile-only">
+            TAILORING LUXURY ITALIAN TOURS
           </h6>
           <q-separator color="white" inset />
-          <h1 class="text-white text-center">Start your luxury journey here</h1>
+          <h1 class="text-white text-center desktop-only">Start your luxury journey here</h1>
+          <h1 class="text-white text-center mobile-only">Start your journey</h1>
         </div>
       </q-img>
 
@@ -350,7 +354,7 @@ hr {
 @media screen and (max-width: 1300px) {
   // *****CARDS BLOCK***********
 
-    .body {
+  .body {
     padding: 0 15%;
   }
 
@@ -388,6 +392,14 @@ hr {
 }
 
 @media screen and (max-width: 680px) {
+
+  // TYPO****************
+
+  .title-first-block{
+    padding: unset !important;
+  }
+
+  // HEADER BLOCK****************
   .img1 {
     height: 35vh !important;
   }
@@ -395,6 +407,7 @@ hr {
   .figcaption h1.text-white.text-center {
     margin-top: 0;
     margin-bottom: 3vh;
+    font-size: 33px;
   }
 
   // **********FIRST BLOCK**********
