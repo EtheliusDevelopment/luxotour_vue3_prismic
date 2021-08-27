@@ -8,7 +8,7 @@
             img-class="img1-carousel"
             :src="slide.img"
             :ratio="16 / 9"
-            height="600px"
+            height="500px"
             no-spinner
           >
             <div class="figcaption" style="cursor: pointer;" @click="redirect(slide.to)">
