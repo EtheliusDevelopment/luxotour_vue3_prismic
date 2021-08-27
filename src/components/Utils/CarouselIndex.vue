@@ -6,12 +6,12 @@
           <q-img
             class="img1"
             img-class="img1-carousel"
-            src="~assets/Umbria-yoga-retreat-carousel-index.jpg"
+            :src="slide.img"
             :ratio="16 / 9"
             height="600px"
             no-spinner
           >
-            <div class="figcaption">
+            <div class="figcaption" style="cursor: pointer;" @click="redirect(slide.to)">
               <h4 class="title-carousel">{{ slide.title }}</h4>
             </div>
           </q-img>
@@ -30,12 +30,12 @@
           <q-img
             class="img1"
             img-class="img1-carousel"
-            src="~assets/venice-footer-box.png"
+            :src="'~assets/'+ slide.img"
             :ratio="16 / 9"
             height="450px"
             no-spinner
           >
-            <div class="figcaption">
+            <div class="figcaption" >
               <h4 class="title-carousel">{{ slide.title }}</h4>
             </div>
           </q-img>
@@ -54,6 +54,7 @@
 import { defineComponent } from "vue";
 import { Carousel, Pagination, Navigation, Slide } from "vue3-carousel";
 import dbIndex from "src/db_test/db_pkg_index.json";
+import { useRouter } from 'vue-router'
 
 import "vue3-carousel/dist/carousel.css";
 
@@ -66,6 +67,8 @@ export default defineComponent({
     Navigation,
   },
   setup() {
+
+    const router = useRouter();
     const db = dbIndex;
     // const breakpoints = {
     //   // 700px and up
@@ -81,6 +84,9 @@ export default defineComponent({
     // }
     return {
       db,
+      redirect(e){
+        router.push(e)
+      },
     };
   },
 });
@@ -108,7 +114,7 @@ export default defineComponent({
 .carousel__item {
   min-height: 200px;
   width: 100%;
-  background-color: var(--carousel-color-primary);
+  background-color: transparent;
   color: var(--carousel-color-white);
   font-size: 20px;
   border-radius: 8px;
