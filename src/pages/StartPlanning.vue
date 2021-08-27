@@ -64,7 +64,7 @@
             >
           </div>
           <q-img
-            src="https://placeimg.com/500/300/nature"
+            src="~assets/13-easy-going.jpg"
             class="img-body-card"
             :ratio="16 / 9"
             spinner-color="primary"
@@ -85,7 +85,7 @@
             >
           </div>
           <q-img
-            src="https://placeimg.com/500/300/nature"
+            src="~assets/8-art-culture.jpg"
             class="img-body-card"
             :ratio="16 / 9"
             spinner-color="primary"
@@ -106,7 +106,7 @@
             >
           </div>
           <q-img
-            src="https://placeimg.com/500/300/nature"
+            src="~assets/9-crystalline-water.jpg"
             class="img-body-card"
             :ratio="16 / 9"
             spinner-color="primary"
@@ -215,12 +215,11 @@ export default {
   }
 }
 
-
 // TYPO *****************
 
 .h5-body-card {
-    font-family: 'Hatton-Medium';
-    font-size: 20px;
+  font-family: "Hatton-Medium";
+  font-size: 20px;
 }
 
 .figcaption {
@@ -301,9 +300,8 @@ hr {
   z-index: 99;
 }
 
-
 .img-body-card {
-    height: 430px;
+  height: 430px;
 }
 
 // **********SECOND BLOCK**********
@@ -347,11 +345,19 @@ hr {
   margin-bottom: 10%;
 }
 
-.img1-luxury {
-    object-position: 100% 50% !important;
-}
-
 // ********************************
+
+@media screen and (max-width: 1300px) {
+  // *****CARDS BLOCK***********
+
+    .body {
+    padding: 0 15%;
+  }
+
+  .body-card {
+    width: 40% !important;
+  }
+}
 
 @media screen and (max-width: 1100px) {
   // **********FIRST BLOCK**********
@@ -361,6 +367,16 @@ hr {
     align-items: center;
     flex-direction: column;
     padding: 0 10rem !important;
+  }
+
+  // *****CARDS BLOCK***********
+
+  .body {
+    padding: 0 10%;
+  }
+
+  .body-card {
+    width: 40% !important;
   }
 
   //  SECOND BLOCK
@@ -391,6 +407,10 @@ hr {
   }
 
   //******** */  CARDS BLOCK**************
+
+  .body {
+    padding: 0 5%;
+  }
 
   .body.flex.flex-center {
     flex-direction: column;
