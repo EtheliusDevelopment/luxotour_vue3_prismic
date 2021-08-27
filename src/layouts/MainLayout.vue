@@ -578,7 +578,7 @@ header {
 
 .btn-ham-mobile {
   position: relative;
-  left: 40%;
+  left: 25vw;
 }
 
 .qitem-align {
