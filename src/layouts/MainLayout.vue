@@ -747,9 +747,19 @@ header {
 }
 
 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+
   .btn-ham-mobile {
     position: relative;
     left: 130px;
+  }
+
+  /* 2778x1284 pixels at 458ppi */
+  @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+
+  .btn-ham-mobile {
+      position: relative;
+      left: 130px;
+    }
   }
 }
 </style>
