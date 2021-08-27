@@ -34,7 +34,12 @@
 
             <q-space />
 
-            <button class="btn-toolbar-new q-mt-md" @click="$router.push('/start_planning')">START PLANNING</button>
+            <button
+              class="btn-toolbar-new q-mt-md"
+              @click="$router.push('/start_planning')"
+            >
+              START PLANNING
+            </button>
           </q-toolbar>
 
           <q-separator
@@ -196,10 +201,15 @@
               />
             </q-tabs>
 
-            <button class="btn-toolbar-new" @click="$router.push('/start_planning')">START PLANNING</button>
+            <button
+              class="btn-toolbar-new"
+              @click="$router.push('/start_planning')"
+            >
+              START PLANNING
+            </button>
           </q-toolbar>
 
-            <q-toolbar class="mobile-only">
+          <q-toolbar class="mobile-only">
             <div class="mobile-navbar mobile-only q-mt-md flex flex-center">
               <q-img
                 @click="toHome"
@@ -217,7 +227,6 @@
               />
             </div>
           </q-toolbar>
-
         </div>
       </div>
     </q-header>
@@ -293,7 +302,12 @@
         </q-item>
 
         <div class="btn-box-drawer flex flex-center">
-          <button class="btn-toolbar-new-drawer q-mt-md" @click="$router.push('/start_planning')">START PLANNING</button>
+          <button
+            class="btn-toolbar-new-drawer q-mt-md"
+            @click="$router.push('/start_planning')"
+          >
+            START PLANNING
+          </button>
         </div>
       </q-list>
     </q-drawer>
@@ -327,7 +341,10 @@
               LIMITED ONLY BY YOUR IMAGINATION .
             </h6>
 
-            <button class="btn-toolbar-new btn-dialog-footer" @click="$router.push('/quiz')">
+            <button
+              class="btn-toolbar-new btn-dialog-footer"
+              @click="$router.push('/quiz')"
+            >
               START THE QUIZ
             </button>
           </div>
@@ -726,6 +743,13 @@ header {
   .img-footer-logo-social {
     width: 9vw !important;
     margin-right: 1% !important;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .btn-ham-mobile {
+    position: relative;
+    left: 130px;
   }
 }
 </style>
