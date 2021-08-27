@@ -123,7 +123,7 @@
         </div>
       </div>
 
-      <div class="btnbox flex flex-center q-mt-lg" style="width: 100%">
+      <div class="btnbox flex flex-center q-my-lg" style="width: 100%">
         <button
           class="general-btn-1 btn-step"
           style="padding: 1% 2%"
@@ -519,6 +519,10 @@ hr {
     justify-content: center;
     margin-bottom: unset !important;
   }
+
+  button.general-btn-2.btn-fifth-block.q-my-md {
+    margin-left: unset !important;
+}
 
    // FACEBOOK BLOCK***********
 
