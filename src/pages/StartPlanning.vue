@@ -505,6 +505,10 @@ hr {
     margin-bottom: unset !important;
   }
 
-  // ***************************
+   // FACEBOOK BLOCK***********
+
+    .facebook-block{
+    margin-bottom: 10%;
+  }
 }
 </style>
