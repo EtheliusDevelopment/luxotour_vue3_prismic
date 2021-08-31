@@ -499,14 +499,14 @@ export default {
         window.scrollY > 100
           ? ((el.style.backgroundColor = "#D9C5A0"),
             (btn.style.display = "none"),
-            (navBarOffset.style.display = "block")(
-              (navBarNoOffset.style.display = "none")
-            ))
+            (navBarOffset.style.display = "block"),
+            (navBarNoOffset.style.display = "none")
+            )
           : ((el.style.backgroundColor = "transparent"),
             (btn.style.display = "flex"),
-            (navBarOffset.style.display = "none")(
-              (navBarNoOffset.style.display = "block")
-            ));
+            (navBarOffset.style.display = "none"),
+            (navBarNoOffset.style.display = "block")
+            );
       },
     };
   },

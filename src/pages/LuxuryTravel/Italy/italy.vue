@@ -33,6 +33,9 @@
     </div>
 
     <div class="first-block">
+      <h3 class="text-pink text-center">
+        {{ testRes }}
+      </h3>
       <div class="sub-section-first">
         <div class="first-component component-box">
           <q-img
@@ -152,8 +155,8 @@
             <h6 class="h6-body-title text-primary">
               {{ text.itinerary_title[0].text }}
             </h6>
-            <p class="p-body-component">
-              {{ text.itinerary_paragraph[0].text }}
+            <p class="p-body-component" v-for="(par, index) in text.itinerary_paragraph" :key="index">
+              {{ par.text }}
             </p>
           </div>
         </div>
@@ -200,6 +203,27 @@ export default {
     PreLoader,
     CarouselLuxurySingle,
   },
+  methods: {
+    async getContent() {
+      // Query the API and assign the response to "response"
+      const response = await this.$prismic.client.query(
+        this.$prismic.Predicates.at("my.pacchetti.uid", this.thisRoute)
+      );
+
+      const dataRes = response.results;
+      this.responseObj = dataRes[0].data;
+      this.bulletPoints = dataRes[0].data.at_glance_bullet_point;
+
+      // this.bgImg = response.results[0].data.main_img.url;
+      // this.dataContent = response.results[0].data.post_body;
+      // this.articleTitle = response.results[0].data.article_title[0].text;
+      // this.date = response.results[0].data.date[0].text;
+      // this.tags = response.results[0].tags;
+    },
+  },
+  created() {
+    this.getContent();
+  },
   setup() {
     const route = useRoute();
     const thisRoute = route.params.slug;
@@ -210,23 +234,24 @@ export default {
     const atglance = ref(true);
     const active = ref("active-header-component");
     const activeItin = ref("");
+    const testRes = ref();
 
     const endPoint =
       "https://luxobackend.cdn.prismic.io/api/v2/documents/search?ref=YRkXHRIAAC4A4F15";
 
-    api.get(`${endPoint}&q=[[at(my.pacchetti.uid, "${thisRoute}")]]`).then(
-      (response) => {
-        let dataRes = response.data.results;
-        dataResponse.value = dataRes;
-        responseObj.value = dataRes[0].data;
-        bulletPoints.value = dataRes[0].data.at_glance_bullet_point;
+    // api.get(`${endPoint}&q=[[at(my.pacchetti.uid, "${thisRoute}")]]`).then(
+    //   (response) => {
+    //     let dataRes = response.data.results;
+    //     dataResponse.value = dataRes;
+    //     responseObj.value = dataRes[0].data;
+    //     bulletPoints.value = dataRes[0].data.at_glance_bullet_point;
 
-        console.log(dataResponse.value);
-      },
-      (error) => {
-        console.log(error);
-      }
-    );
+    //     console.log(dataResponse.value);
+    //   },
+    //   (error) => {
+    //     console.log(error);
+    //   }
+    // );
 
     return {
       slide: ref(1),
@@ -239,6 +264,7 @@ export default {
       atglance,
       active,
       activeItin,
+      testRes,
       clickMenu() {
         atglance.value = true;
         activeItin.value = "";
@@ -395,12 +421,11 @@ hr {
   margin-top: 3%;
   width: 60%;
   display: flex;
-
 }
 
- .btn-fifth-block-mb {
-    margin-right: 5%;
-  }
+.btn-fifth-block-mb {
+  margin-right: 5%;
+}
 
 .sub-section-first-fourth {
   margin: 0 9%;
