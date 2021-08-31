@@ -1,7 +1,7 @@
 <template>
   <div class="header-block-blog-single">
     <q-img
-      class="img1"
+      class="img1 img-header-1"
       img-class="img1-blog"
       :src="bgImg"
       :ratio="16 / 9"
@@ -94,7 +94,7 @@
       </h4>
 
       <p
-        class="p-blog-par text-center"
+        class="p-blog-par"
         v-for="(postPar, index) in post.paragraph_body"
         :key="index"
       >
@@ -241,6 +241,12 @@ div:has(.figcaption) {
 .img1-blog {
   grid-column: 1;
 }
+
+
+
+
+
+
 
 // **********FIRST BLOCK**********
 .first-block {
