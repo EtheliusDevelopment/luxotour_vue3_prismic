@@ -495,17 +495,15 @@ export default {
         const btn = document.querySelector(".btn-toolbar-new");
         const navBarOffset = document.querySelector(".navbar-offset");
         const navBarNoOffset = document.querySelector(".navbar-no-offset");
-        const navBarMobile = document.querySelector(".mobile-navbar")
 
         window.scrollY > 100
           ? ((el.style.backgroundColor = "#D9C5A0"),
             (btn.style.display = "none"),
             (navBarOffset.style.display = "block")(
               (navBarNoOffset.style.display = "none")
-            ),(navBarMobile.style.display = "block"))
+            ))
           : ((el.style.backgroundColor = "transparent"),
             (btn.style.display = "flex"),
-            (navBarMobile.style.display = "none")
             (navBarOffset.style.display = "none")(
               (navBarNoOffset.style.display = "block")
             ));
@@ -752,7 +750,6 @@ header {
   .mobile-navbar {
     width: 100% !important;
     justify-content: space-between !important;
-    display: none;
 }
 
 .mobile-navbar {
