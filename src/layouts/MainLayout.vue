@@ -357,10 +357,10 @@
         </h6>
       </div>
 
+
+      
       <div class="instagram-feed">
-        <a href="https://www.instagram.com/luxoitalia/" target="_blank">
-          <q-img src="~assets/ig_feed.png" />
-        </a>
+        <InstagramFeed />
       </div>
 
       <div class="footer-content flex justify-around">
@@ -443,10 +443,14 @@ import SocialComponent from "../components/SocialComponent.vue";
 import PreLoader from "../components/PreLoader.vue";
 import { useStore, mapMutations } from "vuex";
 import { useRoute, useRouter } from "vue-router";
+import InstagramFeed from "../components/Utils/InstagramFeed.vue";
+
+
 export default {
   components: {
     SocialComponent,
     PreLoader,
+    InstagramFeed,
   },
 
   methods: {
@@ -491,15 +495,17 @@ export default {
         const btn = document.querySelector(".btn-toolbar-new");
         const navBarOffset = document.querySelector(".navbar-offset");
         const navBarNoOffset = document.querySelector(".navbar-no-offset");
+        const navBarMobile = document.querySelector(".mobile-navbar")
 
         window.scrollY > 100
           ? ((el.style.backgroundColor = "#D9C5A0"),
             (btn.style.display = "none"),
             (navBarOffset.style.display = "block")(
               (navBarNoOffset.style.display = "none")
-            ))
+            ),(navBarMobile.style.display = "block"))
           : ((el.style.backgroundColor = "transparent"),
             (btn.style.display = "flex"),
+            (navBarMobile.style.display = "none")
             (navBarOffset.style.display = "none")(
               (navBarNoOffset.style.display = "block")
             ));
@@ -746,6 +752,7 @@ header {
   .mobile-navbar {
     width: 100% !important;
     justify-content: space-between !important;
+    display: none;
 }
 
 .mobile-navbar {
