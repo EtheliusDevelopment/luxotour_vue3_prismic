@@ -55,7 +55,7 @@
         :ratio="16 / 9"
       /> -->
       <q-parallax
-        src="~assets/vineyard.jpg"
+        src="~assets/vineyard.1cf7c021-2.jpg"
         :speed="0.5"
         style="max-width: 100%; height: 700px"
       >
@@ -93,7 +93,7 @@
           <q-img
             class="img-step"
             img-class="img1-step-wine"
-            src="~assets/wine_club_luxo.jpg"
+            src="~assets/wine-lover.jpg"
             :ratio="16 / 9"
             spinner-color="primary"
             spinner-size="82px"
@@ -128,7 +128,7 @@
           <q-img
             class="img-step"
             img-class="img1-step-wine"
-            src="~assets/wine_club_luxo.jpg"
+            src="~assets/wine-curator.jpg"
             :ratio="16 / 9"
             spinner-color="primary"
             spinner-size="82px"
@@ -162,7 +162,7 @@
           <q-img
             class="img-step"
             img-class="img1-step-wine"
-            src="~assets/wine_club_luxo.jpg"
+            src="~assets/food-pairing.jpg"
             :ratio="16 / 9"
             spinner-color="primary"
             spinner-size="82px"
@@ -187,7 +187,7 @@
             <q-img
               class="img-step"
               img-class="img1-step-wine"
-              src="~assets/ca_del_bosco.png"
+              src="~assets/ca_del_bosco.3544ef38.jpg"
               fit="contain"
             />
             <h6 class="h6-wine-card text-center text-primary">CLASSIC</h6>
@@ -203,7 +203,7 @@
             <q-img
               class="img-step"
               img-class="img1-step-wine"
-              src="~assets/ca_del_bosco.png"
+              src="~assets/ca_del_bosco.3544ef38.jpg"
               fit="contain"
             />
             <h6 class="h6-wine-card text-center text-primary">PREMIUM</h6>
@@ -256,7 +256,7 @@
       <q-img
         class="img5 img-wine-block"
         img-class="img5-index"
-        src="~assets/index_luxo_small_village.png"
+        src="~assets/luxo-wine-plans.jpg"
         spinner-color="primary"
         spinner-size="82px"
       />
@@ -343,7 +343,7 @@
       <q-img
         class="img7"
         img-class="img7-wine"
-        src="~assets/main_sponsors_index.jpg"
+        src="~assets/wine-partner.jpg"
       />
     </div>
   </q-page>

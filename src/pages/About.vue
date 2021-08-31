@@ -87,7 +87,7 @@
       <q-img
         class="img1 img-about"
         img-class="img1-luxury"
-        src="~assets/about_luxo_wine.png"
+        src="~assets/about_luxo_wine.11c50a94.jpg"
         spinner-color="primary"
         spinner-size="82px"
       />
@@ -100,7 +100,7 @@
       <q-img
         class="img3"
         img-class="img-about-4-index"
-        src="~assets/paul_lewis.png"
+        src="~assets/paul_lewis.b442fb78.jpg"
         spinner-color="primary"
         spinner-size="82px"
       >
@@ -213,7 +213,7 @@
       <q-img
         class="img4"
         img-class="img-degasperi-index"
-        src="~assets/andrea_degasperi.png"
+        src="~assets/andrea_degasperi.7a2f3e59.jpg"
         spinner-color="primary"
         spinner-size="82px"
       >
@@ -274,7 +274,7 @@
       <q-img
         class="img4"
         img-class="img4-index"
-        src="~assets/about_luxo_partners_lake.png"
+        src="~assets/about_luxo_partners_lake.b8139956.jpg"
         spinner-color="primary"
         spinner-size="82px"
       />
