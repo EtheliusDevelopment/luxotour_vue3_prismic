@@ -2,7 +2,7 @@
   <q-page class="main-content-index">
     <PreLoader />
 
-    <div class="header-block" >
+    <div class="header-block">
       <q-img
         class="imgMain"
         img-class="imgMain-index"
@@ -12,21 +12,29 @@
         height="120vh"
       >
         <div class="absolute-top figcaption" style="height: 100%">
-          <h1 class="text-white text-center h1-header-block" data-aos="fade-up" data-aos-duration="1000">
+          <h1 class="text-white text-center h1-header-block">
             Italy’s Finest <br />
             Luxury Experiences
           </h1>
 
-          <q-separator color="white" inset data-aos="fade-up" data-aos-duration="2000"/>
+          <q-separator
+            color="white"
+            inset
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          />
 
-          <h6 class="text-white title-header-h6 text-center" data-aos="fade-up" data-aos-duration="3000">
+          <h6
+            class="text-white title-header-h6 text-center"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             TAILORED TO YOUR PASSIONS AND TASTES
           </h6>
 
           <button
             class="btn-main-index"
             @click="$router.push('/start_planning')"
-
           >
             LEARN WHAT WE DO
           </button>
@@ -49,7 +57,11 @@
     </div>
 
     <div class="first-block">
-      <div class="sub-section-first" data-aos="fade-up" data-aos-duration="2000">
+      <div
+        class="sub-section-first"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <h2 class="text-primary text-center">
           Luxury private tour of Italy and custom experiences
         </h2>
@@ -118,7 +130,11 @@
       <Carouselindex />
     </div>
 
-    <LuxuryHomePage class="luxury-home-page" data-aos="fade-up" data-aos-duration="2000"/>
+    <LuxuryHomePage
+      class="luxury-home-page"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    />
 
     <div class="fourth-block" data-aos="fade-up" data-aos-duration="2000">
       <q-img
@@ -197,7 +213,13 @@
       </div>
     </div>
 
-    <div class="video-block" @click="medium = true" style="cursor: pointer" data-aos="fade-up" data-aos-duration="2000">
+    <div
+      class="video-block"
+      @click="medium = true"
+      style="cursor: pointer"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <q-img
         src="~assets/banner-video.jpg"
         :ratio="16 / 9"
@@ -296,7 +318,11 @@
       />
     </div>
 
-    <CarouselFacebook style="margin-bottom: 10%" data-aos="fade-up" data-aos-duration="2000"/>
+    <CarouselFacebook
+      style="margin-bottom: 10%"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    />
   </q-page>
 </template>
 
