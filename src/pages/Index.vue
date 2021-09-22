@@ -48,7 +48,7 @@
     </div>
 
     <div class="first-block">
-      <div class="sub-section-first">
+      <div class="sub-section-first" data-aos="fade-up" data-aos-duration="1000">
         <h2 class="text-primary text-center">
           Luxury private tour of Italy and custom experiences
         </h2>
@@ -94,7 +94,7 @@
       />
     </div>
 
-    <div class="second-block-add">
+    <div class="second-block-add" data-aos="fade-up">
       <div class="sub-section-first-2">
         <h2 class="text-primary h2-inspiration">Need some inspiration?</h2>
         <p class="p-first-block p-inspiration">
