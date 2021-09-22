@@ -2,7 +2,7 @@
   <q-page class="main-content-index">
     <PreLoader />
 
-    <div class="header-block" data-aos="fade-up" data-aos-duration="1000">
+    <div class="header-block" >
       <q-img
         class="imgMain"
         img-class="imgMain-index"
@@ -12,20 +12,21 @@
         height="120vh"
       >
         <div class="absolute-top figcaption" style="height: 100%">
-          <h1 class="text-white text-center h1-header-block">
+          <h1 class="text-white text-center h1-header-block" data-aos="fade-up" data-aos-duration="1000">
             Italy’s Finest <br />
             Luxury Experiences
           </h1>
 
-          <q-separator color="white" inset />
+          <q-separator color="white" inset data-aos="fade-up" data-aos-duration="1000"/>
 
-          <h6 class="text-white title-header-h6 text-center">
+          <h6 class="text-white title-header-h6 text-center" data-aos="fade-up" data-aos-duration="1000">
             TAILORED TO YOUR PASSIONS AND TASTES
           </h6>
 
           <button
             class="btn-main-index"
             @click="$router.push('/start_planning')"
+            data-aos="fade-up" data-aos-duration="1000"
           >
             LEARN WHAT WE DO
           </button>

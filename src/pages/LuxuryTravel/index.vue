@@ -13,9 +13,9 @@
         height="600px"
       >
         <div class="figcaption">
-          <h6 class="text-white" data-aos="fade-up">NEED SOME INSPIRATION?</h6>
-          <q-separator color="white" inset data-aos="fade-up"/>
-          <h1 class="text-white text-center" data-aos="fade-up">Italy Luxury Travel</h1>
+          <h6 class="text-white" >NEED SOME INSPIRATION?</h6>
+          <q-separator color="white" inset />
+          <h1 class="text-white text-center" >Italy Luxury Travel</h1>
         </div>
       </q-img>
 
