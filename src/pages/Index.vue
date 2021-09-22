@@ -48,7 +48,7 @@
     </div>
 
     <div class="first-block">
-      <div class="sub-section-first" data-aos="fade-up" data-aos-duration="1000">
+      <div class="sub-section-first" data-aos="fade-up" data-aos-duration="2000">
         <h2 class="text-primary text-center">
           Luxury private tour of Italy and custom experiences
         </h2>
@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    <div class="second-block">
+    <div class="second-block" data-aos="fade-up" data-aos-duration="2000">
       <q-img
         class="img2"
         img-class="img2-index"
@@ -94,7 +94,7 @@
       />
     </div>
 
-    <div class="second-block-add" data-aos="fade-up">
+    <div class="second-block-add" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first-2">
         <h2 class="text-primary h2-inspiration">Need some inspiration?</h2>
         <p class="p-first-block p-inspiration">
@@ -113,13 +113,13 @@
       </div>
     </div>
 
-    <div class="third-block">
+    <div class="third-block" data-aos="fade-up" data-aos-duration="2000">
       <Carouselindex />
     </div>
 
-    <LuxuryHomePage class="luxury-home-page" />
+    <LuxuryHomePage class="luxury-home-page" data-aos="fade-up" data-aos-duration="2000"/>
 
-    <div class="fourth-block">
+    <div class="fourth-block" data-aos="fade-up" data-aos-duration="2000">
       <q-img
         class="img4"
         img-class="img4-index"
@@ -196,7 +196,7 @@
       </div>
     </div>
 
-    <div class="video-block" @click="medium = true" style="cursor: pointer">
+    <div class="video-block" @click="medium = true" style="cursor: pointer" data-aos="fade-up" data-aos-duration="2000">
       <q-img
         src="~assets/banner-video.jpg"
         :ratio="16 / 9"
@@ -234,7 +234,7 @@
       </div>
     </div>
 
-    <div class="seventh-block">
+    <div class="seventh-block" data-aos="fade-up" data-aos-duration="2000">
       <q-img
         img-class="col-md-2 test22"
         src="~assets/main_sponsors_index.jpg"
@@ -243,7 +243,7 @@
       />
     </div>
 
-    <div class="fifth-block">
+    <div class="fifth-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first-4">
         <h6 class="text-primary subtitle-h6">
           HELP US CREATE THE MOST BEAUTIFUL SCRIPT FOR YOUR HOLIDAY
@@ -285,7 +285,7 @@
       />
     </div>
 
-    <div class="img-block-last">
+    <div class="img-block-last" data-aos="fade-up" data-aos-duration="2000">
       <q-img
         src="~assets/index_luxo_small_village.jpg"
         :ratio="16 / 9"
@@ -295,7 +295,7 @@
       />
     </div>
 
-    <CarouselFacebook style="margin-bottom: 10%" />
+    <CarouselFacebook style="margin-bottom: 10%" data-aos="fade-up" data-aos-duration="2000"/>
   </q-page>
 </template>
 
