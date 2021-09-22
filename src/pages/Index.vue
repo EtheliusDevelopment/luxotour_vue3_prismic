@@ -17,16 +17,16 @@
             Luxury Experiences
           </h1>
 
-          <q-separator color="white" inset data-aos="fade-up" data-aos-duration="1000"/>
+          <q-separator color="white" inset data-aos="fade-up" data-aos-duration="2000"/>
 
-          <h6 class="text-white title-header-h6 text-center" data-aos="fade-up" data-aos-duration="1000">
+          <h6 class="text-white title-header-h6 text-center" data-aos="fade-up" data-aos-duration="3000">
             TAILORED TO YOUR PASSIONS AND TASTES
           </h6>
 
           <button
             class="btn-main-index"
             @click="$router.push('/start_planning')"
-            data-aos="fade-up" data-aos-duration="1000"
+            data-aos="fade-up"
           >
             LEARN WHAT WE DO
           </button>
