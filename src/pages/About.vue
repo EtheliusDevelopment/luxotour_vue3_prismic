@@ -12,7 +12,7 @@
         spinner-size="82px"
         height="600px"
       >
-        <div class="figcaption">
+        <div class="figcaption" data-aos="fade-up" data-aos-duration="2000">
           <h6 class="text-white">LUXURY TRAVEL DESIGNERS</h6>
           <q-separator color="white" inset />
           <h1 class="text-white text-center">Paul &amp; Andrea</h1>
