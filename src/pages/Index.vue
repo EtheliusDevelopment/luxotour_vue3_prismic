@@ -2,7 +2,7 @@
   <q-page class="main-content-index">
     <PreLoader />
 
-    <div class="header-block">
+    <div class="header-block" data-aos="fade-up" data-aos-duration="1000">
       <q-img
         class="imgMain"
         img-class="imgMain-index"

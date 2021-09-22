@@ -47,7 +47,7 @@
       </div>
     </div>
 
-    <div class="second-block" data-aos="fade-up" data-aos-duration="2000">
+    <div class="second-block" >
       <!-- <q-img
         class="img2-wine-second-block"
         img-class="img2-wine"
@@ -68,7 +68,7 @@
       </h2>
 
       <div class="sub-section-first">
-        <div class="step-one step-mobile">
+        <div class="step-one step-mobile" data-aos="fade-up" data-aos-duration="2000">
           <div class="card-step">
             <h1 class="text-info h1-card-step">1</h1>
             <q-separator
@@ -100,7 +100,7 @@
           />
         </div>
 
-        <div class="step-two step-mobile">
+        <div class="step-two step-mobile" data-aos="fade-up" data-aos-duration="2000">
           <div class="card-step">
             <h1 class="text-info h1-card-step">2</h1>
             <q-separator
@@ -135,7 +135,7 @@
           />
         </div>
 
-        <div class="step-three step-mobile">
+        <div class="step-three step-mobile" data-aos="fade-up" data-aos-duration="2000">
           <div class="card-step">
             <h1 class="text-info h1-card-step h1-card-step-3">3</h1>
             <q-separator
