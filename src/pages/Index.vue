@@ -160,7 +160,7 @@
       </div>
     </div>
 
-    <div class="sixth-block">
+    <div class="sixth-block" data-aos="fade-up" data-aos-duration="2000">
       <h2 class="text-primary text-center">Why book with Luxo Italia</h2>
 
       <div class="sub-section-first-sixth-block">
