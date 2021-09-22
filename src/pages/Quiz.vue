@@ -118,7 +118,7 @@
               class="general-btn-1"
               style="padding: 1% 2%"
             >
-              FORWARD
+              NEXT
             </button>
           </div>
           <div style="height: 25vh; width: 100%" class="div-spacing"></div>
