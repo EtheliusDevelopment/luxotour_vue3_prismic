@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="first-block">
+    <div class="first-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="info-component">
         <p class="p-info text-center">
           No matter what your interests and passions, no matter what the season,

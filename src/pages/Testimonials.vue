@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="first-block">
+    <div class="first-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first">
         <h2 class="text-primary text-center title-first-block">
           Read about our clients’ travel stories
@@ -56,11 +56,11 @@
       </div>
     </div>
 
-    <div class="second-block-carousel">
+    <div class="second-block-carousel" data-aos="fade-up" data-aos-duration="2000">
       <CarouselTestimonials />
     </div>
 
-    <div class="third-block">
+    <div class="third-block" data-aos="fade-up" data-aos-duration="2000">
         <CarouselFacebook />
     </div>
 

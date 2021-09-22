@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="first-block">
+    <div class="first-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first">
         <h2 class="text-primary text-center">Your Luxury Travel Designers</h2>
         <p class="text-center">
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-    <div class="second-block">
+    <div class="second-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first bg-info">
         <div class="text-box-second-block">
           <h2 class="text-primary title-h2 h2-second-block">
@@ -94,7 +94,7 @@
     </div>
 
 
-  <div class="third-block">
+  <div class="third-block" data-aos="fade-up" data-aos-duration="2000">
       <h2 class="text-primary heading-third-block text-center">Who We Are</h2>
 
       <q-img
@@ -270,7 +270,7 @@
         </button>
     </div>
 
-    <div class="fourth-block">
+    <div class="fourth-block" data-aos="fade-up" data-aos-duration="2000">
       <q-img
         class="img4"
         img-class="img4-index"

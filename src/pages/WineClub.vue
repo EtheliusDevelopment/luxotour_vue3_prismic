@@ -2,7 +2,7 @@
   <q-page>
     <PreLoader />
 
-    <div class="header-block">
+    <div class="header-block" >
       <q-img
         class="img1"
         img-class="img1-wine"
@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="first-block">
+    <div class="first-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first">
         <h2 class="text-primary text-center">Exclusive Italian Experience</h2>
         <p class="text-center">
@@ -47,7 +47,7 @@
       </div>
     </div>
 
-    <div class="second-block">
+    <div class="second-block" data-aos="fade-up" data-aos-duration="2000">
       <!-- <q-img
         class="img2-wine-second-block"
         img-class="img2-wine"
@@ -62,7 +62,7 @@
       </q-parallax>
     </div>
 
-    <div class="third-block">
+    <div class="third-block" data-aos="fade-up" data-aos-duration="2000">
       <h2 class="text-primary text-center title-third-block">
         What do you need to know about Luxo Italia Wine Club
       </h2>
@@ -175,7 +175,7 @@
       </div>
     </div>
 
-    <div class="fourth-block">
+    <div class="fourth-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first">
         <h2 class="text-primary text-center">Wine Club Membership Plans</h2>
 
@@ -222,7 +222,7 @@
       </div>
     </div>
 
-    <div class="fifth-block">
+    <div class="fifth-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first-4">
         <h2 class="text-primary title-h2">Discover our plans</h2>
         <p class="body-p">
@@ -262,7 +262,7 @@
       />
     </div>
 
-    <div class="sixth-block">
+    <div class="sixth-block" data-aos="fade-up" data-aos-duration="2000">
       <h2 class="text-primary text-center h2-title-review">
         What Our Members Are Saying….
       </h2>
@@ -339,7 +339,7 @@
       </div>
     </div>
 
-    <div class="seventh-block">
+    <div class="seventh-block" data-aos="fade-up" data-aos-duration="2000">
       <q-img
         class="img7"
         img-class="img7-wine"

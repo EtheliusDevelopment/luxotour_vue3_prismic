@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <div class="header-block">
+    <div class="header-block" data-aos="fade-up" data-aos-duration="2000">
       <q-img
         class="img1"
         img-class="img1-luxury"
@@ -36,7 +36,7 @@
       </div>
     </div>
 
-    <div class="first-block">
+    <div class="first-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first">
         <h2 class="text-primary text-center title-first-block">
           Start Planning !
@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <div class="cards-block">
+    <div class="cards-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="body flex flex-center">
         <div class="body-card q-mx-md" style="width: 30%">
           <div class="step-number text-primary flex flex-center">
@@ -134,7 +134,7 @@
       </div>
     </div>
 
-    <div class="video-block" @click="medium = true" style="cursor: pointer">
+    <div class="video-block" @click="medium = true" style="cursor: pointer" data-aos="fade-up" data-aos-duration="2000">
        <q-img
         src="~assets/banner-video.jpg"
         :ratio="16 / 9"
@@ -174,7 +174,7 @@
       </div>
     </div>
 
-    <div class="second-block">
+    <div class="second-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first bg-info">
         <div class="text-box-second-block">
           <h2 class="text-primary title-h2 h2-second-block">Luxury Packages</h2>
@@ -214,7 +214,7 @@
       />
     </div>
 
-    <div class="facebook-block">
+    <div class="facebook-block" data-aos="fade-up" data-aos-duration="2000">
       <CarouselFacebook />
     </div>
   </q-page>

@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="first-block">
+    <div class="first-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="sub-section-first">
         <div class="header-component">
           <div class="headcaption">
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="second-block">
+    <div class="second-block" data-aos="fade-up" data-aos-duration="2000">
       <div class="body-component">
         <BlogLoop />
       </div>

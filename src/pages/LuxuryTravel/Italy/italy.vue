@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="first-block">
+    <div class="first-block" data-aos="fade-up" data-aos-duration="1500">
       <h3 class="text-pink text-center">
         {{ testRes }}
       </h3>
@@ -104,11 +104,11 @@
       </div>
     </div>
 
-    <div class="second-block-carousel-luxury">
+    <div class="second-block-carousel-luxury" data-aos="fade-up" data-aos-duration="1500">
       <CarouselLuxurySingle />
     </div>
 
-    <div class="third-block">
+    <div class="third-block" data-aos="fade-up" data-aos-duration="1500">
       <div class="sub-section-first-third">
         <div class="header-component flex flex-center">
           <p
@@ -163,7 +163,7 @@
       </div>
     </div>
 
-    <div class="fourth-block">
+    <div class="fourth-block" data-aos="fade-up" data-aos-duration="1500">
       <div class="sub-section-first-fourth bg-info">
         <h2 class="text-primary h2-fourth-block">MAKE THIS ITINERARY YOURS</h2>
         <p class="p-fourth-block">

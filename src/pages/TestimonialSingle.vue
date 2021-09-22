@@ -2,7 +2,7 @@
   <q-page class="overflow-hidden">
     <PreLoader />
 
-    <TesimonialSingle />
+    <TesimonialSingle data-aos="fade-up" data-aos-duration="2000"/>
   </q-page>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <q-page class="blog-single">
     <PreLoader />
-    <BlogSingle />
+    <BlogSingle data-aos="fade-up" data-aos-duration="2000"/>
 
 
   </q-page>
