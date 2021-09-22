@@ -26,7 +26,7 @@
           <button
             class="btn-main-index"
             @click="$router.push('/start_planning')"
-            data-aos="fade-up"
+
           >
             LEARN WHAT WE DO
           </button>
