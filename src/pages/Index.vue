@@ -263,6 +263,7 @@
         src="~assets/main_sponsors_index.jpg"
         spinner-color="primary"
         spinner-size="82px"
+        style="filter: grayscale(1)"
       />
     </div>
 

@@ -344,6 +344,7 @@
         class="img7"
         img-class="img7-wine"
         src="~assets/wine-partner.jpg"
+        style="filter: grayscale(1)"
       />
     </div>
   </q-page>
