@@ -257,10 +257,20 @@
       </div>
     </div>
 
-    <div class="seventh-block" data-aos="fade-up" data-aos-duration="2000">
+      <div class="seventh-block desktop-only" data-aos="fade-up" data-aos-duration="2000">
       <q-img
         img-class="col-md-2 test22"
         src="~assets/main_sponsors_index.jpg"
+        spinner-color="primary"
+        spinner-size="82px"
+        style="filter: grayscale(1)"
+      />
+    </div>
+
+    <div class="seventh-block mobile-only" data-aos="fade-up" data-aos-duration="2000">
+      <q-img
+        img-class="col-md-2 test22"
+        src="~assets/hotel-logo-luxoitalia-mobile.jpg"
         spinner-color="primary"
         spinner-size="82px"
         style="filter: grayscale(1)"

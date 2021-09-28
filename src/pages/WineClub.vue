@@ -2,7 +2,7 @@
   <q-page>
     <PreLoader />
 
-    <div class="header-block" >
+    <div class="header-block">
       <q-img
         class="img1"
         img-class="img1-wine"
@@ -41,13 +41,17 @@
           at your local store, delivered directly to your doorstep.
         </p>
 
-        <button class="general-btn-1" style="padding: 1% 2%" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
+        <button
+          class="general-btn-1"
+          style="padding: 1% 2%"
+          onclick="window.open('https://luxowineclub.com/wine-club-memberships')"
+        >
           JOIN THE WINE CLUB NOW !
         </button>
       </div>
     </div>
 
-    <div class="second-block" >
+    <div class="second-block">
       <!-- <q-img
         class="img2-wine-second-block"
         img-class="img2-wine"
@@ -68,7 +72,11 @@
       </h2>
 
       <div class="sub-section-first">
-        <div class="step-one step-mobile" data-aos="fade-up" data-aos-duration="2000">
+        <div
+          class="step-one step-mobile"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div class="card-step">
             <h1 class="text-info h1-card-step">1</h1>
             <q-separator
@@ -100,7 +108,11 @@
           />
         </div>
 
-        <div class="step-two step-mobile" data-aos="fade-up" data-aos-duration="2000">
+        <div
+          class="step-two step-mobile"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div class="card-step">
             <h1 class="text-info h1-card-step">2</h1>
             <q-separator
@@ -135,7 +147,11 @@
           />
         </div>
 
-        <div class="step-three step-mobile" data-aos="fade-up" data-aos-duration="2000">
+        <div
+          class="step-three step-mobile"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div class="card-step">
             <h1 class="text-info h1-card-step h1-card-step-3">3</h1>
             <q-separator
@@ -168,7 +184,11 @@
             spinner-size="82px"
           />
 
-          <button class="general-btn-1 btn-step" style="padding: 1% 2%" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
+          <button
+            class="general-btn-1 btn-step"
+            style="padding: 1% 2%"
+            onclick="window.open('https://luxowineclub.com/wine-club-memberships')"
+          >
             JOIN THE WINE CLUB NOW !
           </button>
         </div>
@@ -193,7 +213,10 @@
             <h6 class="h6-wine-card text-center text-primary">CLASSIC</h6>
             <h4 class="h4-wine-card text-center text-info">€ 1100</h4>
             <div class="flex flex-center q-mb-xl">
-              <button class="btn-wine-card" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
+              <button
+                class="btn-wine-card"
+                onclick="window.open('https://luxowineclub.com/wine-club-memberships')"
+              >
                 MORE INFORMATION
               </button>
             </div>
@@ -209,7 +232,11 @@
             <h6 class="h6-wine-card text-center text-primary">PREMIUM</h6>
             <h4 class="h4-wine-card text-center text-info">€ 2350</h4>
             <div class="flex flex-center q-mb-xl">
-              <button type="button" class="btn-wine-card" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
+              <button
+                type="button"
+                class="btn-wine-card"
+                onclick="window.open('https://luxowineclub.com/wine-club-memberships')"
+              >
                 MORE INFORMATION
               </button>
             </div>
@@ -248,7 +275,11 @@
           in your wine box.
         </p>
 
-        <button class="general-btn-1 btn-1 btn-step" style="padding: 2% 4%" onclick="window.open('https://luxowineclub.com/wine-club-memberships')">
+        <button
+          class="general-btn-1 btn-1 btn-step"
+          style="padding: 2% 4%"
+          onclick="window.open('https://luxowineclub.com/wine-club-memberships')"
+        >
           DISCOVER THE PLANS
         </button>
       </div>
@@ -339,11 +370,24 @@
       </div>
     </div>
 
-    <div class="seventh-block" data-aos="fade-up" data-aos-duration="2000">
+    <div
+      class="seventh-block desktop-only"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <q-img
         class="img7"
         img-class="img7-wine"
         src="~assets/wine-partner.jpg"
+        style="filter: grayscale(1)"
+      />
+    </div>
+
+    <div class="seventh-block" data-aos="fade-up" data-aos-duration="2000">
+      <q-img
+        class="img7 mobile-only"
+        img-class="img7-wine"
+        src="~assets/wine-partner-mobile.jpg"
         style="filter: grayscale(1)"
       />
     </div>
@@ -360,10 +404,7 @@ export default defineComponent({
     PreLoader,
   },
   setup() {
-
-    return {
-
-    };
+    return {};
   },
 });
 </script>
@@ -405,12 +446,11 @@ export default defineComponent({
   margin-bottom: 7vh;
 }
 
-  .header-block hr {
+.header-block hr {
   height: 2px !important;
   width: 20% !important;
   margin: 2% !important;
 }
-
 
 // **********FIRST BLOCK**********
 
@@ -518,11 +558,9 @@ export default defineComponent({
   margin-top: 5%;
 }
 
-
-  .h1-card-step-3 {
-    padding: 0 3% !important;
-  }
-
+.h1-card-step-3 {
+  padding: 0 3% !important;
+}
 
 .description-step h5 {
   font-family: "CommutersSans-Regular" !important;
@@ -541,8 +579,8 @@ export default defineComponent({
   height: 110%;
 }
 
-.h1-card-step-3+.q-separator {
-    margin-right: 0% !important;
+.h1-card-step-3 + .q-separator {
+  margin-right: 0% !important;
 }
 
 // **********FOURTH BLOCK**********
@@ -762,7 +800,6 @@ h6.text-primary.subtitle-h6 {
     margin-top: 3%;
   }
 
-
   .card-step {
     flex-direction: column;
     min-height: 20vh !important;
@@ -841,10 +878,10 @@ h6.text-primary.subtitle-h6 {
   }
 
   .header-block hr {
-  height: 2px !important;
-  width: 20% !important;
-  margin: 2% !important;
-}
+    height: 2px !important;
+    width: 20% !important;
+    margin: 2% !important;
+  }
 
   // **********FOURTH BLOCK**********
   .btn-wine-card {

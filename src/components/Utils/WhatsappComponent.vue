@@ -88,8 +88,10 @@ a span {
     background: #ae8e31;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width: 75%;
+    width: 55%;
+    height: 10%;
     text-align: center;
+    border-bottom-left-radius: unset;
   }
   .contact-box a {
     width: 70px;
