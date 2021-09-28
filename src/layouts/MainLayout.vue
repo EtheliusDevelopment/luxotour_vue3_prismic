@@ -313,6 +313,7 @@
     </q-drawer>
 
     <q-page-container>
+      <WhatsappComponent />
       <router-view />
     </q-page-container>
 
@@ -357,8 +358,6 @@
         </h6>
       </div>
 
-
-      
       <div class="instagram-feed">
         <InstagramFeed />
       </div>
@@ -444,13 +443,14 @@ import PreLoader from "../components/PreLoader.vue";
 import { useStore, mapMutations } from "vuex";
 import { useRoute, useRouter } from "vue-router";
 import InstagramFeed from "../components/Utils/InstagramFeed.vue";
-
+import WhatsappComponent from "../components/Utils/WhatsappComponent.vue";
 
 export default {
   components: {
     SocialComponent,
     PreLoader,
     InstagramFeed,
+    WhatsappComponent,
   },
 
   methods: {
@@ -500,13 +500,11 @@ export default {
           ? ((el.style.backgroundColor = "#D9C5A0"),
             (btn.style.display = "none"),
             (navBarOffset.style.display = "block"),
-            (navBarNoOffset.style.display = "none")
-            )
+            (navBarNoOffset.style.display = "none"))
           : ((el.style.backgroundColor = "transparent"),
             (btn.style.display = "flex"),
             (navBarOffset.style.display = "none"),
-            (navBarNoOffset.style.display = "block")
-            );
+            (navBarNoOffset.style.display = "block"));
       },
     };
   },
@@ -596,8 +594,6 @@ header {
 }
 
 // *********DRAWER BLOCK *******************
-
-
 
 .qitem-align {
   align-items: center !important;
@@ -746,25 +742,19 @@ header {
     margin-right: 1% !important;
   }
 
-
   .mobile-navbar {
     width: 100% !important;
     justify-content: space-between !important;
-}
+  }
 
-.mobile-navbar {
+  .mobile-navbar {
     margin: 8px 0 !important;
-}
+  }
 }
 
 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
-
-
-
   /* 2778x1284 pixels at 458ppi */
   @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
-
-
   }
 }
 </style>

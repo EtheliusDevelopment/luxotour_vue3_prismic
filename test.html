@@ -1,241 +1,29 @@
-<!-- 
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-
-    <link rel="shortcut icon" href="https://www.luxoitalia.com/favicon.png">
-    <link rel="apple-touch-icon" href="https://www.luxoitalia.com/apple-touch-icon.png">
-
-	<!--Load Css-->
-    <link rel="stylesheet" href="https://www.luxoitalia.com/wp-content/themes/luxo-italia/css/vendor/reset.css" type="text/css">
-    <!--Load Vendor Css-->
-    <link rel="stylesheet" href="https://www.luxoitalia.com/wp-content/themes/luxo-italia/css/vendor/jquery.fullPage.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <!--Enqueue Font-->
-	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i&amp;display=swap" rel="stylesheet">
-
-	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-
-<!-- Google Tag Manager for WordPress by gtm4wp.com -->
-<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vzAt61JclNZYHl6fEWIBqLbe/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-NA4lgLWKPAgF8u+VoGFofhH3zJmIWIYzCUtuVRHId9dEqculK0wBqMm/XAQ2qqOP"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vzAt61JclNZYHl6fEWIBqLbe/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-NA4lgLWKPAgF8u+VoGFofhH3zJmIWIYzCUtuVRHId9dEqculK0wBqMm/XAQ2qqOP"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vzAt61JclNZYHl6fEWIBqLbe/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-NA4lgLWKPAgF8u+VoGFofhH3zJmIWIYzCUtuVRHId9dEqculK0wBqMm/XAQ2qqOP"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vzAt61JclNZYHl6fEWIBqLbe/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-NA4lgLWKPAgF8u+VoGFofhH3zJmIWIYzCUtuVRHId9dEqculK0wBqMm/XAQ2qqOP"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vzAt61JclNZYHl6fEWIBqLbe/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-NA4lgLWKPAgF8u+VoGFofhH3zJmIWIYzCUtuVRHId9dEqculK0wBqMm/XAQ2qqOP"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vzAt61JclNZYHl6fEWIBqLbe/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-NA4lgLWKPAgF8u+VoGFofhH3zJmIWIYzCUtuVRHId9dEqculK0wBqMm/XAQ2qqOP"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vzAt61JclNZYHl6fEWIBqLbe/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-NA4lgLWKPAgF8u+VoGFofhH3zJmIWIYzCUtuVRHId9dEqculK0wBqMm/XAQ2qqOP"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/vzAt61JclNZYHl6fEWIBqLbe/recaptcha__es.js" crossorigin="anonymous" integrity="sha384-NA4lgLWKPAgF8u+VoGFofhH3zJmIWIYzCUtuVRHId9dEqculK0wBqMm/XAQ2qqOP"></script><script src="https://js.hs-banner.com/3970727.js" type="text/javascript" id="cookieBanner-3970727" data-cookieconsent="ignore" data-hs-ignore="true" data-loader="hs-scriptloader" data-hsjs-portal="3970727" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hscollectedforms.net/collectedforms.js" type="text/javascript" id="CollectedForms-3970727" crossorigin="anonymous" data-leadin-portal-id="3970727" data-leadin-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="3970727" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hsadspixel.net/fb.js" type="text/javascript" id="hs-ads-pixel-3970727" data-ads-portal-id="3970727" data-ads-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="3970727" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hs-analytics.net/analytics/1626542100000/3970727.js" type="text/javascript" id="hs-analytics"></script><script src="https://diffuser-cdn.app-us1.com/diffuser/diffuser.js" async=""></script><script src="https://connect.facebook.net/signals/config/870829236357482?v=2.9.43&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/plugins/identity.js?v=2.9.43" async=""></script><script type="text/javascript" async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-TVL8TNS"></script><script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
-	var gtm4wp_datalayer_name = "dataLayer";
-	var dataLayer = dataLayer || [];
-	var gtm4wp_use_sku_instead        = 0;
-	var gtm4wp_id_prefix              = '';
-	var gtm4wp_remarketing            = false;
-	var gtm4wp_eec                    = 1;
-	var gtm4wp_classicec              = 1;
-	var gtm4wp_currency               = 'EUR';
-	var gtm4wp_product_per_impression = 0;
-	var gtm4wp_needs_shipping_address = false;
-//]]>
-</script>
-<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
-	<!-- This site is optimized with the Yoast SEO plugin v16.7 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Italy's Finest Luxury Journeys, Tailored To Your Passions and Tastes</title>
-	<meta name="description" content="Luxo Italia are Italy's top luxury travel designers. We curate the best private luxury vacations in Italy, with journeys centered on exclusive wine, cuisine &amp; experiences.">
-	<link rel="canonical" href="https://www.luxoitalia.com/">
-	<meta property="og:locale" content="en_US">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="Italy's Finest Luxury Journeys, Tailored To Your Passions and Tastes">
-	<meta property="og:description" content="Luxo Italia are Italy's top luxury travel designers. We curate the best private luxury vacations in Italy, with journeys centered on exclusive wine, cuisine &amp; experiences.">
-	<meta property="og:url" content="https://www.luxoitalia.com/">
-	<meta property="og:site_name" content="Luxo Italia">
-	<meta property="article:modified_time" content="2019-09-10T14:31:56+00:00">
-	<meta name="twitter:card" content="summary_large_image">
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.luxoitalia.com/#organization","name":"Luxo Italia","url":"https://www.luxoitalia.com/","sameAs":[],"logo":{"@type":"ImageObject","@id":"https://www.luxoitalia.com/#logo","inLanguage":"en-US","url":"https://www.luxoitalia.com/wp-content/uploads/2019/09/logo-luxo-italia-gold-white.svg","contentUrl":"https://www.luxoitalia.com/wp-content/uploads/2019/09/logo-luxo-italia-gold-white.svg","caption":"Luxo Italia"},"image":{"@id":"https://www.luxoitalia.com/#logo"}},{"@type":"WebSite","@id":"https://www.luxoitalia.com/#website","url":"https://www.luxoitalia.com/","name":"Luxo Italia","description":"Luxury Italian Travel Designers","publisher":{"@id":"https://www.luxoitalia.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.luxoitalia.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.luxoitalia.com/#webpage","url":"https://www.luxoitalia.com/","name":"Italy's Finest Luxury Journeys, Tailored To Your Passions and Tastes","isPartOf":{"@id":"https://www.luxoitalia.com/#website"},"about":{"@id":"https://www.luxoitalia.com/#organization"},"datePublished":"2019-02-21T10:57:35+00:00","dateModified":"2019-09-10T14:31:56+00:00","description":"Luxo Italia are Italy's top luxury travel designers. We curate the best private luxury vacations in Italy, with journeys centered on exclusive wine, cuisine & experiences.","breadcrumb":{"@id":"https://www.luxoitalia.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.luxoitalia.com/"]}]},{"@type":"BreadcrumbList","@id":"https://www.luxoitalia.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]}]}</script>
-	<!-- / Yoast SEO plugin. -->
-
-
-<link rel="dns-prefetch" href="//js.hs-scripts.com">
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="alternate" type="application/rss+xml" title="Luxo Italia » Feed" href="https://www.luxoitalia.com/feed/">
-<link rel="alternate" type="application/rss+xml" title="Luxo Italia » Comments Feed" href="https://www.luxoitalia.com/comments/feed/">
-<link rel="stylesheet" id="wp-block-library-css" href="https://www.luxoitalia.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2" type="text/css" media="all">
-<link rel="stylesheet" id="activecampaign-form-block-css" href="https://www.luxoitalia.com/wp-content/plugins/activecampaign-subscription-forms/activecampaign-form-block/build/style-index.css?ver=1621014056" type="text/css" media="all">
-<link rel="stylesheet" id="wc-block-vendors-style-css" href="https://www.luxoitalia.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=4.9.1" type="text/css" media="all">
-<link rel="stylesheet" id="wc-block-style-css" href="https://www.luxoitalia.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=4.9.1" type="text/css" media="all">
-<link rel="stylesheet" id="contact-form-7-css" href="https://www.luxoitalia.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2" type="text/css" media="all">
-<link rel="stylesheet" id="rs-plugin-settings-css" href="https://www.luxoitalia.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.9" type="text/css" media="all">
-<style id="rs-plugin-settings-inline-css" type="text/css">
-#rs-demo-id {}
-</style>
-<link rel="stylesheet" id="tve_style_family_tve_flt-css" href="https://www.luxoitalia.com/wp-content/plugins/thrive-visual-editor/editor/css/thrive_flat.css?ver=2.6.10" type="text/css" media="all">
-<link rel="stylesheet" id="tve_leads_forms-css" href="//www.luxoitalia.com/wp-content/plugins/thrive-leads/editor-layouts/css/frontend.css?ver=2.4.2" type="text/css" media="all">
-<link rel="stylesheet" id="woocommerce-layout-css" href="https://www.luxoitalia.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.3.1" type="text/css" media="all">
-<link rel="stylesheet" id="woocommerce-smallscreen-css" href="https://www.luxoitalia.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.3.1" type="text/css" media="only screen and (max-width: 768px)">
-<link rel="stylesheet" id="woocommerce-general-css" href="https://www.luxoitalia.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.3.1" type="text/css" media="all">
-<style id="woocommerce-inline-inline-css" type="text/css">
-.woocommerce form .form-row .required { visibility: visible; }
-</style>
-<link rel="stylesheet" id="wp-review-slider-pro-public_template1-css" href="https://www.luxoitalia.com/wp-content/plugins/wp-facebook-reviews/public/css/wprev-public_template1.css?ver=9.9" type="text/css" media="all">
-<link rel="stylesheet" id="wprev_w3-css" href="https://www.luxoitalia.com/wp-content/plugins/wp-facebook-reviews/public/css/wprev_w3.css?ver=9.9" type="text/css" media="all">
-<link rel="stylesheet" id="unslider-css" href="https://www.luxoitalia.com/wp-content/plugins/wp-facebook-reviews/public/css/wprs_unslider.css?ver=9.9" type="text/css" media="all">
-<link rel="stylesheet" id="unslider-dots-css" href="https://www.luxoitalia.com/wp-content/plugins/wp-facebook-reviews/public/css/wprs_unslider-dots.css?ver=9.9" type="text/css" media="all">
-<link rel="stylesheet" id="extensive-vc-main-style-css" href="https://www.luxoitalia.com/wp-content/plugins/extensive-vc-addon/assets/css/main.min.css?ver=5.7.2" type="text/css" media="all">
-<link rel="stylesheet" id="ionicons-css" href="https://www.luxoitalia.com/wp-content/plugins/extensive-vc-addon/assets/css/ion-icons/css/ionicons.min.css?ver=5.7.2" type="text/css" media="all">
-<link rel="stylesheet" id="luxo-italia-style-css" href="https://www.luxoitalia.com/wp-content/themes/luxo-italia/style.css?ver=5.7.2" type="text/css" media="all">
-<link rel="stylesheet" id="owb-style-css" href="https://www.luxoitalia.com/wp-content/themes/luxo-italia/owb/style.css?ver=1.7" type="text/css" media="all">
-<link rel="stylesheet" id="select2-css" href="https://www.luxoitalia.com/wp-content/plugins/woocommerce/assets/css/select2.css?ver=5.3.1" type="text/css" media="all">
-<link rel="stylesheet" id="extensive-vc-google-fonts-css" href="https://fonts.googleapis.com/css?family=Raleway%3A400%2C500%2C600%2C700%2C800%2C900%7CPoppins%3A400%2C700&amp;subset=latin-ext&amp;ver=1.0" type="text/css" media="all">
-<link rel="stylesheet" id="js_composer_front-css" href="https://www.luxoitalia.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.6.0" type="text/css" media="all">
-<link rel="stylesheet" id="popup-maker-site-css" href="//www.luxoitalia.com/wp-content/uploads/pum/pum-site-styles.css?generated=1618557726&amp;ver=1.16.1" type="text/css" media="all">
-<link rel="stylesheet" id="cf7cf-style-css" href="https://www.luxoitalia.com/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.0.3" type="text/css" media="all">
-<link rel="stylesheet" id="dvk-social-sharing-css" href="https://www.luxoitalia.com/wp-content/plugins/dvk-social-sharing/assets/css/styles.min.css?ver=1.3.3" type="text/css" media="all">
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-includes/js/plupload/moxie.min.js?ver=1.3.5" id="moxiejs-js"></script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-includes/js/plupload/plupload.min.js?ver=2.1.9" id="plupload-js"></script>
-<script type="text/javascript" id="wp-fb-reviews_plublic-js-extra">
-/* <![CDATA[ */
-var wprevpublicjs_script_vars = {"wpfb_nonce":"20093978e6","wpfb_ajaxurl":"https:\/\/www.luxoitalia.com\/wp-admin\/admin-ajax.php","wprevpluginsurl":"https:\/\/www.luxoitalia.com\/wp-content\/plugins\/wp-facebook-reviews"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-content/plugins/wp-facebook-reviews/public/js/wprev-public.js?ver=9.9" id="wp-fb-reviews_plublic-js"></script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-content/plugins/wp-facebook-reviews/public/js/wprs-unslider-min.js?ver=9.9" id="wp-fb-reviews_unslider-min-js"></script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.12.3" id="gtm4wp-form-move-tracker-js"></script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-woocommerce-classic.js?ver=1.12.3" id="gtm4wp-woocommerce-classic-js"></script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-woocommerce-enhanced.js?ver=1.12.3" id="gtm4wp-woocommerce-enhanced-js"></script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-content/themes/luxo-italia/owb/support.js?ver=5.7.2" id="owb-script-support-js"></script>
-<script type="text/javascript" src="https://www.luxoitalia.com/wp-content/themes/luxo-italia/owb/modernizr-custom.min.js?ver=5.7.2" id="owb-script-mdrnz-support-js"></script>
-<link rel="https://api.w.org/" href="https://www.luxoitalia.com/wp-json/"><link rel="alternate" type="application/json" href="https://www.luxoitalia.com/wp-json/wp/v2/pages/1507"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.luxoitalia.com/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.luxoitalia.com/wp-includes/wlwmanifest.xml">
-<meta name="generator" content="WordPress 5.7.2">
-<meta name="generator" content="WooCommerce 5.3.1">
-<link rel="shortlink" href="https://www.luxoitalia.com/">
-<link rel="alternate" type="application/json+oembed" href="https://www.luxoitalia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.luxoitalia.com%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://www.luxoitalia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.luxoitalia.com%2F&amp;format=xml">
-			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v8.0.1-->
-			<script type="text/javascript">
-				var _hsq = _hsq || [];
-				_hsq.push(["setContentType", "standard-page"]);
-			</script>
-			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
-						<script>
-				(function() {
-					var hbspt = window.hbspt = window.hbspt || {};
-					hbspt.forms = hbspt.forms || {};
-					hbspt._wpFormsQueue = [];
-					hbspt.enqueueForm = function(formDef) {
-						if (hbspt.forms && hbspt.forms.create) {
-							hbspt.forms.create(formDef);
-						} else {
-							hbspt._wpFormsQueue.push(formDef);
-						}
-					}
-					if (!window.hbspt.forms.create) {
-						Object.defineProperty(window.hbspt.forms, 'create', {
-							configurable: true,
-							get: function() {
-								return hbspt._wpCreateForm;
-							},
-							set: function(value) {
-								hbspt._wpCreateForm = value;
-								while (hbspt._wpFormsQueue.length) {
-									var formDef = hbspt._wpFormsQueue.shift();
-									if (!document.currentScript) {
-										var formScriptId = 'leadin-forms-v2-js';
-										hubspot.utils.currentScript = document.getElementById(formScriptId);
-									}
-									hbspt._wpCreateForm.call(hbspt.forms, formDef);
-								}
-							},
-						});
-					}
-				})();
-			</script>
-		<style type="text/css" id="tve_global_variables">:root{}</style>
-<!-- Google Tag Manager for WordPress by gtm4wp.com -->
-<script data-cfasync="false" data-pagespeed-no-defer="" type="text/javascript">//<![CDATA[
-	var dataLayer_content = {"pagePostType":"frontpage","pagePostType2":"single-page","pagePostAuthor":"luxoitalia"};
-	dataLayer.push( dataLayer_content );//]]>
-</script>
-<script data-cfasync="false">//<![CDATA[
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TVL8TNS');//]]>
-</script>
-<!-- End Google Tag Manager -->
-<!-- End Google Tag Manager for WordPress by gtm4wp.com -->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
-<meta name="generator" content="Powered by Slider Revolution 6.2.9 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-<style type="text/css" id="thrive-default-styles"></style><script type="text/javascript">function setREVStartSize(e){
-			//window.requestAnimationFrame(function() {
-				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
-				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
-				try {
-					var pw = document.getElementById(e.c).parentNode.offsetWidth,
-						newh;
-					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
-					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
-					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
-					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
-					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
-					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
-					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
-					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
-					if(e.layout==="fullscreen" || e.l==="fullscreen")
-						newh = Math.max(e.mh,window.RSIH);
-					else{
-						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
-						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
-						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
-						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
-
-						var nl = new Array(e.rl.length),
-							ix = 0,
-							sl;
-						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
-						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
-						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
-						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
-						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
-						sl = nl[0];
-						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
-						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
-						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
-					}
-					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
-					document.getElementById(e.c).height = newh+"px";
-					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";
-				} catch(e){
-					console.log("Failure at Presize of Slider:" + e)
-				}
-			//});
-		  };</script>
-		<style type="text/css" id="wp-custom-css">
-			#gform_2 .gform_wrapper .top_label input.medium, #gform_fields_2 .gform_wrapper .top_label select.medium, #gform_2 .gform_wrapper .top_label input {
-    width: 100% !Important;
-}
-@media only screen and (min-width: 641px) {
-#gform_2 .gform_wrapper .top_label input.medium, #gform_fields_2 .gform_wrapper .top_label select.medium, #gform_2 .gform_wrapper .top_label input {
-    width: 100% !Important;
-}
-}
-
-li {
-    font-size: 1rem;
-    letter-spacing: 0;
-}
-
-.tqb-template-style-1 .tqb-question-wrapper {
-    overflow-x: auto;
-    height: 500px;
-}		</style>
-		<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>    <script type="text/javascript" src="https://cdn.iubenda.com/consent_solution/iubenda_cons.js"></script>
-<script type="text/javascript">
- _iub.cons.init({
-    api_key: "V3iY6Wn5SQ2aeyaSmd0QdyUYuANpFwh5"
- });
-</script>
-<script type="text/javascript" charset="utf-8" src="//www.google.com/recaptcha/api.js?onload=recaptcha_callback&amp;render=explicit"></script><script type="text/javascript" charset="utf-8" src="//d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js"></script><script type="text/javascript" charset="utf-8" src="//www.google.com/recaptcha/api.js?onload=recaptcha_callback&amp;render=explicit"></script><script type="text/javascript" charset="utf-8" src="//d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js"></script><script type="text/javascript" charset="utf-8" src="//www.google.com/recaptcha/api.js?onload=recaptcha_callback&amp;render=explicit"></script><script type="text/javascript" charset="utf-8" src="//d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js"></script><script type="text/javascript" charset="utf-8" src="//www.google.com/recaptcha/api.js?onload=recaptcha_callback&amp;render=explicit"></script><script type="text/javascript" charset="utf-8" src="//d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js"></script><script type="text/javascript" charset="utf-8" src="//www.google.com/recaptcha/api.js?onload=recaptcha_callback&amp;render=explicit"></script><script type="text/javascript" charset="utf-8" src="//d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js"></script><script type="text/javascript" charset="utf-8" src="//www.google.com/recaptcha/api.js?onload=recaptcha_callback&amp;render=explicit"></script><script type="text/javascript" charset="utf-8" src="//d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js"></script><script type="text/javascript" charset="utf-8" src="//www.google.com/recaptcha/api.js?onload=recaptcha_callback&amp;render=explicit"></script><script type="text/javascript" charset="utf-8" src="//d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js"></script><script type="text/javascript" charset="utf-8" src="//www.google.com/recaptcha/api.js?onload=recaptcha_callback&amp;render=explicit"></script><script type="text/javascript" charset="utf-8" src="//d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js"></script><style type="text/css">div.eapps-widget{position:relative}div.eapps-widget.eapps-widget-show-toolbar:before{position:absolute;content:"";display:block;bottom:0;top:0;left:0;right:0;pointer-events:none;border:1px solid transparent;transition:border .3s ease;z-index:1}.eapps-widget-toolbar{position:absolute;top:-32px;left:0;right:0;display:block;z-index:99999;padding-bottom:4px;transition:all .3s ease;pointer-events:none;opacity:0}.eapps-widget:hover .eapps-widget-toolbar{opacity:1;pointer-events:auto}.eapps-widget-toolbar a{text-decoration:none;box-shadow:none!important}.eapps-widget-toolbar-panel{border-radius:6px;background-color:#222;color:#fff;display:-ms-inline-flexbox;display:inline-flex;-ms-flex-align:center;align-items:center;top:0;position:relative;transition:all .3s ease;opacity:0;overflow:hidden;-webkit-backface-visibility:hidden;backface-visibility:hidden;box-shadow:0 0 0 1px hsla(0,0%,100%,.2);height:28px}.eapps-widget:hover .eapps-widget-toolbar-panel{opacity:1}.eapps-widget-toolbar-panel-wrapper{width:100%;position:relative}.eapps-widget-toolbar-panel-only-you{position:absolute;top:-24px;font-size:11px;line-height:14px;color:#9c9c9c;padding:5px 4px}.eapps-widget-toolbar-panel-logo{width:28px;height:28px;border-right:1px solid hsla(0,0%,100%,.2);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}.eapps-widget-toolbar-panel-logo svg{display:block;width:15px;height:15px;fill:#f93262}.eapps-widget-toolbar-panel-edit{font-size:12px;font-weight:400;line-height:14px;display:-ms-inline-flexbox;display:inline-flex;-ms-flex-align:center;align-items:center;padding:9px;border-right:1px solid hsla(0,0%,100%,.2);color:#fff;text-decoration:none}.eapps-widget-toolbar-panel-edit-icon{width:14px;height:14px;margin-right:8px}.eapps-widget-toolbar-panel-edit-icon svg{display:block;width:100%;height:100%;fill:#fff}.eapps-widget-toolbar-panel-views{display:-ms-inline-flexbox;display:inline-flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}.eapps-widget-toolbar-panel-views-label{font-size:12px;font-weight:400;line-height:14px;margin-left:8px}.eapps-widget-toolbar-panel-views-bar{display:-ms-inline-flexbox;display:inline-flex;width:70px;height:3px;border-radius:2px;margin-left:8px;background-color:hsla(0,0%,100%,.3)}.eapps-widget-toolbar-panel-views-bar-inner{border-radius:2px;background-color:#4ad504}.eapps-widget-toolbar-panel-views-green .eapps-widget-toolbar-panel-views-bar-inner{background-color:#4ad504}.eapps-widget-toolbar-panel-views-red .eapps-widget-toolbar-panel-views-bar-inner{background-color:#ff4734}.eapps-widget-toolbar-panel-views-orange .eapps-widget-toolbar-panel-views-bar-inner{background-color:#ffb400}.eapps-widget-toolbar-panel-views-percent{display:-ms-inline-flexbox;display:inline-flex;margin-left:8px;margin-right:8px;font-size:12px;font-weight:400;line-height:14px}.eapps-widget-toolbar-panel-views-get-more{padding:9px 16px;background-color:#f93262;color:#fff;font-size:12px;font-weight:400;border-radius:0 6px 6px 0}.eapps-widget-toolbar-panel-share{position:absolute;top:0;display:inline-block;margin-left:8px;width:83px;height:28px;padding-bottom:4px;box-sizing:content-box!important}.eapps-widget-toolbar-panel-share:hover .eapps-widget-toolbar-panel-share-block{opacity:1;pointer-events:all}.eapps-widget-toolbar-panel-share-button{padding:0 18px;height:28px;background-color:#1c91ff;color:#fff;font-size:12px;font-weight:400;border-radius:6px;position:absolute;top:0;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;cursor:default;-ms-flex-align:center;align-items:center}.eapps-widget-toolbar-panel-share-button svg{display:inline-block;margin-right:6px;fill:#fff;position:relative;top:-1px}.eapps-widget-toolbar-panel-share-block{position:absolute;background:#fff;border:1px solid hsla(0,0%,7%,.1);border-radius:10px;width:209px;top:32px;transform:translateX(-63px);opacity:0;pointer-events:none;transition:all .3s ease;box-shadow:0 4px 6px rgba(0,0,0,.05)}.eapps-widget-toolbar-panel-share-block:hover{opacity:1;pointer-events:all}.eapps-widget-toolbar-panel-share-block-text{color:#111;font-size:15px;font-weight:400;padding:12px 0;text-align:center}.eapps-widget-toolbar-panel-share-block-text-icon{padding-bottom:4px}.eapps-widget-toolbar-panel-share-block-actions{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;border-top:1px solid hsla(0,0%,7%,.1)}.eapps-widget-toolbar-panel-share-block-actions-item{width:33.333333%;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;height:39px;transition:all .3s ease;background-color:transparent}.eapps-widget-toolbar-panel-share-block-actions-item:hover{background-color:#fafafa}.eapps-widget-toolbar-panel-share-block-actions-item a{width:100%;height:100%;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}.eapps-widget-toolbar-panel-share-block-actions-item-icon{width:16px;height:16px;display:block}.eapps-widget-toolbar-panel-share-block-actions-item-facebook .eapps-widget-toolbar-panel-share-block-actions-item-icon{fill:#3c5a9b}.eapps-widget-toolbar-panel-share-block-actions-item-twitter .eapps-widget-toolbar-panel-share-block-actions-item-icon{fill:#1ab2e8}.eapps-widget-toolbar-panel-share-block-actions-item-google .eapps-widget-toolbar-panel-share-block-actions-item-icon{fill:#dd4b39}.eapps-widget-toolbar-panel-share-block-actions-item:not(:last-child){border-right:1px solid hsla(0,0%,7%,.1)}</style><script type="text/javascript" charset="utf-8" src="https://prism.app-us1.com?a=252697879&amp;u=https%3A%2F%2Fwww.luxoitalia.com%2F&amp;r=https%3A%2F%2Fwww.google.com%2F" async=""></script><script type="text/javascript" charset="utf-8" src="https://prism.app-us1.com?a=252697879&amp;u=https%3A%2F%2Fwww.luxoitalia.com%2F&amp;r=https%3A%2F%2Fwww.google.com%2F" async=""></script><script src="https://static.elfsight.com/apps/trustpilot-reviews/release/3783f856-6730-47fd-8de6-6a1434605b91/app/trustpilotReviews.js" defer="defer"></script><script type="text/javascript" charset="utf-8" src="https://trackcmp.net/t_prism_sitemessages.php?trackid=252697879&amp;prismid=011dd47f-9d04-42e6-9738-6cbf6045e405&amp;url=https%3A%2F%2Fwww.luxoitalia.com%2F" async=""></script><style>.eapp-trustpilot-reviews-root-layout-component{position:relative;width:100%;-webkit-font-smoothing:antialiased}.eapp-trustpilot-reviews-root-layout-component,.eapp-trustpilot-reviews-root-layout-component *{box-sizing:border-box !important;outline:none !important}.eapp-trustpilot-reviews-root-layout-component a{text-decoration:none}.eapp-trustpilot-reviews-root-layout-component a:hover,.eapp-trustpilot-reviews-root-layout-component a:focus{text-decoration:underline}</style><style data-styled="active" data-styled-version="5.3.0"></style></head> -->
+    <style>
+      textarea,
+      iframe {
+        display: block;
+        margin: 10px 0;
+      }
+    </style>
+    <script>
+      function updateIframe() {
+        document.domain = "domain.com";
+        var myFrame = $("#myframe").contents().find("body");
+        var textareaValue = "<h1>test2</h1>";
+        myFrame.html(textareaValue);
+      }
+    </script>
+  </head>
+  <body>
+    <img
+      src="https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/242987635_811912269487937_1246908527292465830_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=105&_nc_ohc=cRvu7CW4Hb8AX84uZzQ&tn=6Ik5eS57PpA6yjuS&edm=ALY_pVYBAAAA&ccb=7-4&oh=91a99a1585dee2164dcf492ea6f9a45b&oe=615A6872&_nc_sid=1ffb93"
+      alt=""
+    />
+  </body>
+</html>
