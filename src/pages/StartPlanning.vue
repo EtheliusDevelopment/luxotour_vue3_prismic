@@ -68,7 +68,7 @@
             >
           </div>
           <q-img
-            src="~assets/13-easy-going.jpg"
+            src="~assets/luxo-italia-1.jpg"
             class="img-body-card"
             :ratio="16 / 9"
             spinner-color="primary"
@@ -89,7 +89,7 @@
             >
           </div>
           <q-img
-            src="~assets/8-art-culture.jpg"
+            src="~assets/luxo-italia-2.jpg"
             class="img-body-card"
             :ratio="16 / 9"
             spinner-color="primary"
@@ -110,7 +110,7 @@
             >
           </div>
           <q-img
-            src="~assets/9-crystalline-water.jpg"
+            src="~assets/luxo-italia-3.jpg"
             class="img-body-card"
             :ratio="16 / 9"
             spinner-color="primary"
@@ -208,7 +208,7 @@
       <q-img
         class="img1 img-about"
         img-class="img1-luxury"
-        src="~assets/capri_faraglioni.jpg"
+        src="~assets/luxury-packages.jpg"
         spinner-color="primary"
         spinner-size="82px"
       />
