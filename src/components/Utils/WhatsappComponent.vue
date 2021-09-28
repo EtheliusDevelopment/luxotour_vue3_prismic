@@ -73,6 +73,7 @@ a span {
 
 .envelope {
   width: 48%;
+  margin-top: 50%;
 }
 
 @media screen and (max-width: 800px) {
@@ -102,6 +103,10 @@ a span {
     transition: all 0.3s ease;
     opacity: 0.7;
     padding-top: 13px;
+  }
+
+  .envelope {
+    margin-top: unset;
   }
 }
 </style>
