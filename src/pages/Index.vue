@@ -9,10 +9,14 @@
         src="~assets/img_main_index.jpg"
         spinner-color="primary"
         spinner-size="82px"
-        height="120vh"
+        height="100vh"
       >
         <div class="absolute-top figcaption" style="height: 100%">
-          <h1 class="text-white text-center h1-header-block">
+          <h1
+            class="text-white text-center h1-header-block"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             Italy’s Finest <br />
             Luxury Experiences
           </h1>
@@ -21,13 +25,13 @@
             color="white"
             inset
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="2000"
           />
 
           <h6
             class="text-white title-header-h6 text-center"
             data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="2500"
           >
             TAILORED TO YOUR PASSIONS AND TASTES
           </h6>
@@ -35,6 +39,8 @@
           <button
             class="btn-main-index"
             @click="$router.push('/start_planning')"
+            data-aos="fade-up"
+            data-aos-duration="3000"
           >
             LEARN WHAT WE DO
           </button>
@@ -57,22 +63,24 @@
     </div>
 
     <div class="first-block">
-      <div
-        class="sub-section-first"
-        data-aos="fade-up"
-        data-aos-duration="2000"
-      >
-        <h2 class="text-primary text-center">
+      <div class="sub-section-first">
+        <h2
+          class="text-primary text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Luxury private tour of Italy and custom experiences
         </h2>
-        <p class="text-center p-first-block">
+        <p class="text-center p-first-block"  data-aos="fade-up"
+        data-aos-duration="1500">
           A special and unique time to create wonderful memories with the people
           you love the most. So don’t limit your expectations and dreams! An
           exclusive visit to the secret rooms of the Vatican. A private vineyard
           experience in Tuscany led by the owners. We will design your perfect
           italian luxury travel together.
         </p>
-        <p class="text-center p-first-block">
+        <p class="text-center p-first-block"  data-aos="fade-up"
+        data-aos-duration="2000">
           We are here to listen to your travel interests and special needs, then
           we will plan a detailed itinerary togheter and take care of all the
           pre-trip arrangements. You’ll save time on planning complex
@@ -83,6 +91,8 @@
           class="general-btn-1 q-mt-xl"
           style="padding: 1% 2%"
           @click="$router.push('/start_planning')"
+           data-aos="fade-up"
+        data-aos-duration="2500"
         >
           LEARN WHAT WE DO
         </button>
@@ -257,7 +267,11 @@
       </div>
     </div>
 
-      <div class="seventh-block desktop-only" data-aos="fade-up" data-aos-duration="2000">
+    <div
+      class="seventh-block desktop-only"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <q-img
         img-class="col-md-2 test22"
         src="~assets/main_sponsors_index.jpg"
@@ -267,7 +281,11 @@
       />
     </div>
 
-    <div class="seventh-block mobile-only" data-aos="fade-up" data-aos-duration="2000">
+    <div
+      class="seventh-block mobile-only"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <q-img
         img-class="col-md-2 test22"
         src="~assets/hotel-logo-luxoitalia-mobile.jpg"

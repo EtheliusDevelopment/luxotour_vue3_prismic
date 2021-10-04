@@ -1,8 +1,6 @@
 <template>
   <div class="head-main">
-
     <div class="navigation-mobile head-navigation">
-
       <div class="chip-filter" @click="myLib">
         <q-chip outline class="activeb li-item" color="primary">ALL</q-chip>
       </div>
@@ -48,13 +46,15 @@
   <div class="loop-block">
     <div class="blog-card" v-for="(item, index) in dataResults" :key="index">
       <div class="img-blog-card">
-        <q-img
-          class="img-blog-card-class"
-          :src="item.data.main_img.url"
-          :ratio="16 / 9"
-          spinner-color="primary"
-          spinner-size="82px"
-        />
+        <router-link :to="'/blog/' + item.slugs[0]">
+          <q-img
+            class="img-blog-card-class"
+            :src="item.data.main_img.url"
+            :ratio="16 / 9"
+            spinner-color="primary"
+            spinner-size="82px"
+          />
+        </router-link>
       </div>
 
       <h2 class="text-primary h2-blog-card text-center">
