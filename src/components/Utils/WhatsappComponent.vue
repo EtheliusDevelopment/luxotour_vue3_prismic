@@ -30,7 +30,7 @@ export default {};
   top: 45%;
   transform: translateY(-50%);
   transition: all 0.3s ease;
-  background: #ae8e31;
+  background: #D9C69F;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }

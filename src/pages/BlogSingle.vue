@@ -3,7 +3,7 @@
     <PreLoader />
     <BlogSingle data-aos="fade-up" data-aos-duration="2000"/>
 
-    <h3>CIAO</h3>
+
   </q-page>
 </template>
 

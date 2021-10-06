@@ -71,16 +71,22 @@
         >
           Luxury private tour of Italy and custom experiences
         </h2>
-        <p class="text-center p-first-block"  data-aos="fade-up"
-        data-aos-duration="1500">
+        <p
+          class="text-center p-first-block"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           A special and unique time to create wonderful memories with the people
           you love the most. So don’t limit your expectations and dreams! An
           exclusive visit to the secret rooms of the Vatican. A private vineyard
           experience in Tuscany led by the owners. We will design your perfect
           italian luxury travel together.
         </p>
-        <p class="text-center p-first-block"  data-aos="fade-up"
-        data-aos-duration="2000">
+        <p
+          class="text-center p-first-block"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           We are here to listen to your travel interests and special needs, then
           we will plan a detailed itinerary togheter and take care of all the
           pre-trip arrangements. You’ll save time on planning complex
@@ -91,8 +97,8 @@
           class="general-btn-1 q-mt-xl"
           style="padding: 1% 2%"
           @click="$router.push('/start_planning')"
-           data-aos="fade-up"
-        data-aos-duration="2500"
+          data-aos="fade-up"
+          data-aos-duration="2500"
         >
           LEARN WHAT WE DO
         </button>
@@ -117,10 +123,20 @@
       />
     </div>
 
-    <div class="second-block-add" data-aos="fade-up" data-aos-duration="2000">
+    <div class="second-block-add">
       <div class="sub-section-first-2">
-        <h2 class="text-primary h2-inspiration">Need some inspiration?</h2>
-        <p class="p-first-block p-inspiration">
+        <h2
+          class="text-primary h2-inspiration"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Need some inspiration?
+        </h2>
+        <p
+          class="p-first-block p-inspiration"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           At Luxo Italia, we pride ourselves in offering our clients luxury
           private tours of Italy that are exclusive, authentic and that treat
           each guest as an individual. Our founders, Andrea and Paul, are
@@ -187,14 +203,30 @@
       </div>
     </div>
 
-    <div class="sixth-block" data-aos="fade-up" data-aos-duration="2000">
-      <h2 class="text-primary text-center">Why book with Luxo Italia</h2>
+    <div class="sixth-block">
+      <h2
+        class="text-primary text-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        Why book with Luxo Italia
+      </h2>
 
       <div class="sub-section-first-sixth-block">
         <div class="members-review">
-          <p class="text-center title-card-six text-primary">Lorem Ipsum</p>
+          <p
+            class="text-center title-card-six text-primary"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Lorem Ipsum
+          </p>
 
-          <p class="text-center body-card-six">
+          <p
+            class="text-center body-card-six"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
@@ -202,9 +234,19 @@
         </div>
 
         <div class="members-review">
-          <p class="text-center title-card-six text-primary">Lorem Ipsum</p>
+          <p
+            class="text-center title-card-six text-primary"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Lorem Ipsum
+          </p>
 
-          <p class="text-center body-card-six">
+          <p
+            class="text-center body-card-six"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
@@ -212,9 +254,19 @@
         </div>
 
         <div class="members-review">
-          <p class="text-center title-card-six text-primary">Lorem Ipsum</p>
+          <p
+            class="text-center title-card-six text-primary"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            Lorem Ipsum
+          </p>
 
-          <p class="text-center body-card-six">
+          <p
+            class="text-center body-card-six"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat, sed diam voluptua.
@@ -295,8 +347,12 @@
       />
     </div>
 
-    <div class="fifth-block" data-aos="fade-up" data-aos-duration="2000">
-      <div class="sub-section-first-4">
+    <div class="fifth-block">
+      <div
+        class="sub-section-first-4"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <h6 class="text-primary subtitle-h6">
           HELP US CREATE THE MOST BEAUTIFUL SCRIPT FOR YOUR HOLIDAY
         </h6>

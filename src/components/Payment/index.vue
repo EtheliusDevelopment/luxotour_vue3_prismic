@@ -12,7 +12,9 @@
     <div class="payment-block">
       <img :src="image" alt="" />
       <div class="text-box">
-        <h2 class="text-primary">Package Balance: {{ packageName }}</h2>
+        <h2 class="text-primary" style="line-height: 60px">
+          Package Balance: {{ packageName }}
+        </h2>
         <h6 style="text-transform: uppercase" class="text-primary">
           DATE: {{ travelDate }}
         </h6>
@@ -45,7 +47,6 @@ export default {
       const response = await this.$prismic.client.query(
         this.$prismic.Predicates.at("my.payments.uid", this.thisRoute)
       );
-      console.log(response.results[0].data.date[0]);
       this.customerName = response.results[0].data.cutomer_name[0].text;
       this.travelDate = response.results[0].data.date[0].text;
       this.packageName = response.results[0].data.package_name[0].text;
@@ -100,6 +101,10 @@ export default {
   margin: 2%;
 }
 
+.figcaption {
+  padding-bottom: 3%;
+}
+
 /* PAYMENT BLOCK */
 
 .payment-block-wrapper {
@@ -133,6 +138,26 @@ export default {
 
   .text-box {
     width: 100%;
+    align-items: center !important;
+  }
+
+  .figcaption h6 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  /* HEADER BLOCK */
+  .header-block {
+    min-height: 35vh;
+  }
+
+  .figcaption h6 {
+    font-size: 18px;
+  }
+
+  .text-box {
+    align-items: center !important;
   }
 }
 </style>

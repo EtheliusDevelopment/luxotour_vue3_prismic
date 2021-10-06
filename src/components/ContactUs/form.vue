@@ -35,6 +35,7 @@
       transition-show="jump-up"
       transition-hide="jump-up"
       use-chips
+      :rules="[(val) => val === null || 'Please select an option']"
     />
     <q-select
       filled
@@ -44,6 +45,7 @@
       transition-show="jump-up"
       transition-hide="jump-up"
       use-chips
+      :rules="[(val) => val === null || 'Please select an option']"
     />
     <q-select
       filled
@@ -53,6 +55,7 @@
       transition-show="jump-up"
       transition-hide="jump-up"
       use-chips
+      :rules="[(val) => val === null || 'Please select an option']"
     />
 
     <q-input
@@ -125,6 +128,7 @@
       transition-show="jump-up"
       transition-hide="jump-up"
       use-chips
+      :rules="[(val) => val === null || 'Please select an option']"
     />
 
     <q-input
@@ -175,25 +179,13 @@ export default {
       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
     const options_stay = [
-      "1 to 7 days",
-      "7 to 15 days",
-      "15 to 30 days",
-      "Undefined",
+      "1 to 3 days",
+      "3 to 7 days",
+      "7 to 9 days",
+      "9+ days",
     ];
-    const options_travel_with = [
-      "Family",
-      "Friends",
-      "Family and Friends",
-      "Alone",
-      "Special Event",
-      "Incentive",
-    ];
-    const options_budget = [
-      "up to 300 Eur",
-      "up to 1000 Eur",
-      "up to 3000 Eur",
-      "Full Credit",
-    ];
+    const options_travel_with = ["Partner", "Family", "Group"];
+    const options_budget = ["800 - 1000 $us", "1000 to 1200 $us", "1500+ $us"];
 
     const options_countries = countries;
 

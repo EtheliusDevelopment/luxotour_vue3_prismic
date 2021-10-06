@@ -99,7 +99,7 @@ export default {
   },
   created() {
     // Call the API query method
-    this.getContent();
+    // this.getContent();
   },
   setup() {
     const feed = ref();

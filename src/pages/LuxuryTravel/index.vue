@@ -13,9 +13,9 @@
         height="600px"
       >
         <div class="figcaption">
-          <h6 class="text-white" >NEED SOME INSPIRATION?</h6>
+          <h6 class="text-white">NEED SOME INSPIRATION?</h6>
           <q-separator color="white" inset />
-          <h1 class="text-white text-center" >Italy Luxury Travel</h1>
+          <h1 class="text-white text-center">Italy Luxury Travel</h1>
         </div>
       </q-img>
 
@@ -32,34 +32,38 @@
       </div>
     </div>
 
-    <div class="first-block" data-aos="fade-up" data-aos-duration="2000">
+    <div class="first-block">
       <div class="sub-section-first">
-        <h2 class="text-primary text-center">
+        <h2
+          class="text-primary text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Meticulusly curated itineraries by Luxoitalia
         </h2>
-        <p class="text-center">
+        <p class="text-center" data-aos="fade-up" data-aos-duration="1500">
           Choosing Luxo Italia, and relying on our experience, means embarking
           on the trip to Italy that you’ve always dreamed of, experiencing the
           true meaning of luxury in the Bel Paese.
         </p>
-        <p class="text-center">
+        <p class="text-center" data-aos="fade-up" data-aos-duration="1500">
           Get ready to explore enchanting places, historical landscapes, and
           breathtaking experiences off the beaten path in signature style – not
           to mention staying in Italy’s most luxurious boutique hotels
         </p>
-        <p class="text-center">
+        <p class="text-center" data-aos="fade-up" data-aos-duration="1500">
           For us, luxury travel means curating exclusive and unforgettable
           experiences that invigorates your heart and mind. We love and savour
           Italy, what it offers, its history. We are passionate about this
           country, and we want to help you share in our passion.
         </p>
-        <p class="text-center">
+        <p class="text-center" data-aos="fade-up" data-aos-duration="1500">
           We do not limit ourselves to organizing and booking a pre-established
           and undistinguished itinerary. Our objective is different; we want to
           offer you an exclusive, unique and inimitable luxury experience that
           is completely customized. What travel experience do you seek?
         </p>
-        <p class="text-center">
+        <p class="text-center" data-aos="fade-up" data-aos-duration="1500">
           Stimulate all your senses. Get some inspiration below:
         </p>
       </div>

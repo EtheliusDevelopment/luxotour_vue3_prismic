@@ -32,21 +32,25 @@
       </div>
     </div>
 
-    <div class="first-block" data-aos="fade-up" data-aos-duration="2000">
+    <div class="first-block">
       <div class="sub-section-first">
-        <h2 class="text-primary text-center title-first-block">
+        <h2
+          class="text-primary text-center title-first-block"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Read about our clients’ travel stories
         </h2>
-        <p class="text-center">
+        <p class="text-center" data-aos="fade-up" data-aos-duration="1500">
           Every travel experience that our clients have with us inevitably
           becomes a story, and it is because it remains indelible and
           unforgettable in their eyes and especially in their hearts.
         </p>
-        <p class="text-center">
+        <p class="text-center" data-aos="fade-up" data-aos-duration="1500">
           Many have wanted to share with us how beautiful their luxury holiday
           experience was and tell us why it was so special for them.
         </p>
-        <p class="text-center">
+        <p class="text-center" data-aos="fade-up" data-aos-duration="1500">
           There are several and varied experiences, from art to those dedicated
           to outdoor activities or immersing yourself in the most beautiful
           Italian cities, without forgetting the well-being and comfort of the
@@ -56,14 +60,17 @@
       </div>
     </div>
 
-    <div class="second-block-carousel" data-aos="fade-up" data-aos-duration="2000">
+    <div
+      class="second-block-carousel"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <CarouselTestimonials />
     </div>
 
     <div class="third-block" data-aos="fade-up" data-aos-duration="2000">
-        <CarouselFacebook />
+      <CarouselFacebook />
     </div>
-
   </q-page>
 </template>
 
@@ -161,10 +168,8 @@ export default {
 // **********THIRD BLOCK**********
 
 .third-block {
-
 }
 .third-block .sub-section-first {
-
 }
 
 .payoff {
@@ -213,14 +218,13 @@ export default {
   }
 }
 @media screen and (max-width: 680px) {
-
-    // **********HEADER BLOCK**********
+  // **********HEADER BLOCK**********
 
   .figcaption h1.text-white.text-center {
-        margin-bottom: 3vh !important;
+    margin-bottom: 3vh !important;
   }
 
-   .img1 {
+  .img1 {
     height: 35vh !important;
   }
 
@@ -239,14 +243,10 @@ export default {
 
   // **********THIRD BLOCK**********
 
-
   .title-first-block {
     padding: unset;
     font-size: 30px;
     line-height: 38px;
-}
-
-
-
+  }
 }
 </style>
