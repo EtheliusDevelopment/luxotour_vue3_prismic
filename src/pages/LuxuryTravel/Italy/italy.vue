@@ -104,8 +104,12 @@
       </div>
     </div>
 
-    <div class="second-block-carousel-luxury" data-aos="fade-up" data-aos-duration="1500">
-      <CarouselLuxurySingle />
+    <div
+      class="second-block-carousel-luxury"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
+      <CarouselLuxurySingle :imageList="responseObj.other_imgs" />
     </div>
 
     <div class="third-block" data-aos="fade-up" data-aos-duration="1500">
@@ -155,7 +159,11 @@
             <h6 class="h6-body-title text-primary">
               {{ text.itinerary_title[0].text }}
             </h6>
-            <p class="p-body-component" v-for="(par, index) in text.itinerary_paragraph" :key="index">
+            <p
+              class="p-body-component"
+              v-for="(par, index) in text.itinerary_paragraph"
+              :key="index"
+            >
               {{ par.text }}
             </p>
           </div>
@@ -213,6 +221,8 @@ export default {
       const dataRes = response.results;
       this.responseObj = dataRes[0].data;
       this.bulletPoints = dataRes[0].data.at_glance_bullet_point;
+
+      console.log(dataRes[0].data);
 
       // this.bgImg = response.results[0].data.main_img.url;
       // this.dataContent = response.results[0].data.post_body;

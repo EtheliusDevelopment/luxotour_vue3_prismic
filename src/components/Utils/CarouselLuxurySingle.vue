@@ -1,17 +1,16 @@
 <template>
   <Carousel :items-to-show="1.8" :wrap-around="true">
-    <Slide v-for="slide in db" :key="slide">
+    <Slide v-for="(item, index) in $props.imageList" :key="index">
       <div class="carousel__item">
         <q-img
           class="img-carousel-testimonials-1"
           img-class="img1-carousel-testimonials"
-          :src="slide.img"
+          :src="item.other_img.url"
           :ratio="16 / 9"
           height="75vh"
           no-spinner
         >
-          <div class="figcaption">
-          </div>
+          <div class="figcaption"></div>
         </q-img>
       </div>
     </Slide>
@@ -31,6 +30,11 @@ import "vue3-carousel/dist/carousel.css";
 
 export default defineComponent({
   name: "WrapAround",
+  props: {
+    imageList: {
+      type: Array,
+    },
+  },
   components: {
     Carousel,
     Slide,
@@ -47,13 +51,11 @@ export default defineComponent({
 </script>
 
 <style scoped lang="scss">
-
 .carousel__slide--active {
   .figcaption {
     display: none;
   }
 }
-
 
 .carousel__item {
   min-height: 200px;
@@ -68,7 +70,6 @@ export default defineComponent({
 }
 
 .carousel__slide {
-
 }
 
 .carousel__prev,
