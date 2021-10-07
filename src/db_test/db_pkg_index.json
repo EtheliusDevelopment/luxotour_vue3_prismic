@@ -1,41 +1,37 @@
 [
   {
-    "title": "Grand Tour in Italy 2",
+    "title": "Ultimate Tuscany",
     "img": "/carousel/como-to-portofino.jpg",
-    "to": "/luxury-travel/italy/the-grand-classic"
+    "to": "/luxury-travel/italy/ultimate-tuscany"
   },
   {
-    "title": "Grand Tour in Italy 3",
+    "title": "Umbria Yoga Retreat ",
     "img": "/carousel/green-experience.jpg",
-    "to": "/luxury-travel/italy/the-grand-classic"
+    "to": "/luxury-travel/italy/umbria-yoga-retreat"
   },
   {
-    "title": "Grand Tour in Italy 2",
+    "title": "Luxury Wine Tour",
     "img": "/carousel/Luxury-wine-tour.jpg",
-    "to": "/luxury-travel/italy/the-grand-classic"
+    "to": "/luxury-travel/italy/luxury-wine-tour"
   },
   {
-    "title": "Grand Tour in Italy 3",
+    "title": "La Dolcevita",
     "img": "/carousel/Sicily-in-style.jpg",
-    "to": "/luxury-travel/italy/the-grand-classic"
-  },{
-    "title": "Grand Tour in Italy 2",
+    "to": "/luxury-travel/italy/la-dolcevita"
+  },
+  {
+    "title": "Amalfi Coast & Capri",
     "img": "/carousel/the-grand-classic.jpg",
-    "to": "/luxury-travel/italy/the-grand-classic"
+    "to": "/luxury-travel/italy/amalfi-coast--capri"
   },
   {
-    "title": "Grand Tour in Italy 3",
+    "title": "Sicily in Style",
     "img": "/carousel/Ultimate-tuscany.jpg",
-    "to": "/luxury-travel/italy/the-grand-classic"
+    "to": "/luxury-travel/italy/sicily-in-stylec"
   },
   {
-    "title": "Grand Tour in Italy 2",
+    "title": "The Grand Classic",
     "img": "/carousel/Umbria-yoga-retreat.jpg",
-    "to": "/luxury-travel/italy/the-grand-classic"
-  },
-  {
-    "title": "Grand Tour in Italy 3",
-    "img": "/carousel/amalfi-coast.jpg",
     "to": "/luxury-travel/italy/the-grand-classic"
   }
 ]
