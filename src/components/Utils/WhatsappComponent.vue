@@ -85,19 +85,20 @@ a span {
 
 .mobile-contact-box {
   position: fixed;
-  z-index: 999;
   bottom: 0;
   right: 0;
   background: #d9c69f;
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
   border-radius: 50%;
   margin: 2%;
+  z-index: 99999;
 }
 
 .wa-image {
-  width: 60%;
-  margin-top: 17%;
+  width: 50%;
+  margin-top: 22.5%;
 }
 
 /* @media screen and (max-width: 800px) {
