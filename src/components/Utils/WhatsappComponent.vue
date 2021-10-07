@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-box">
+  <div class="contact-box desktop-only">
     <a href="mailto:info@luxoitalia.com" title="Email Us">
       <div style="text-align: center">
         <img class="barimage envelope" src="~assets/envelope.svg" /><span
@@ -13,6 +13,13 @@
         <img class="barimage" src="~assets/whatsapp.png" /><span class="title"
           >Whatsapp</span
         >
+      </div>
+    </a>
+  </div>
+  <div class="mobile-contact-box mobile-only">
+    <a href="https://wa.me/393478198849" target="_blank" title="Chat Whatsapp">
+      <div style="text-align: center">
+        <img class="wa-image" src="~assets/whatsapp.png" />
       </div>
     </a>
   </div>
@@ -30,7 +37,7 @@ export default {};
   top: 45%;
   transform: translateY(-50%);
   transition: all 0.3s ease;
-  background: #D9C69F;
+  background: #d9c69f;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -76,7 +83,24 @@ a span {
   margin-top: 50%;
 }
 
-@media screen and (max-width: 800px) {
+.mobile-contact-box {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+  background: #d9c69f;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+.wa-image {
+  width: 60%;
+  margin-top: 17%;
+}
+
+/* @media screen and (max-width: 800px) {
   .contact-box {
     max-width: 250px;
     position: fixed;
@@ -113,5 +137,5 @@ a span {
   a span {
     opacity: 1;
   }
-}
+} */
 </style>
