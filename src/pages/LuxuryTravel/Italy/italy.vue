@@ -6,16 +6,16 @@
       <q-img
         class="img1"
         img-class="img1-luxury"
-        src="~assets/umbria_luxo.jpg"
+        :src="mainImage"
         :ratio="16 / 9"
         spinner-color="primary"
         spinner-size="82px"
         height="600px"
       >
         <div class="figcaption">
-          <h6 class="text-white">LUXURY TRAVEL DESIGNERS</h6>
+          <h6 class="text-white">{{ packageSubTitle }}</h6>
           <q-separator color="white" inset />
-          <h1 class="text-white text-center">PAUL &amp; ANDREA</h1>
+          <h1 class="text-white text-center">{{ packageTitle }}</h1>
         </div>
       </q-img>
 
@@ -221,6 +221,9 @@ export default {
       const dataRes = response.results;
       this.responseObj = dataRes[0].data;
       this.bulletPoints = dataRes[0].data.at_glance_bullet_point;
+      this.mainImage = dataRes[0].data.main_img.url;
+      this.packageTitle =dataRes[0].data.package_title[0].text
+      this.packageSubTitle =dataRes[0].data.location_title[0].text
 
       console.log(dataRes[0].data);
 
@@ -245,6 +248,9 @@ export default {
     const active = ref("active-header-component");
     const activeItin = ref("");
     const testRes = ref();
+    const mainImage = ref();
+    const packageTitle = ref();
+    const packageSubTitle = ref();
 
     const endPoint =
       "https://luxobackend.cdn.prismic.io/api/v2/documents/search?ref=YRkXHRIAAC4A4F15";
@@ -275,6 +281,7 @@ export default {
       active,
       activeItin,
       testRes,
+      mainImage,
       clickMenu() {
         atglance.value = true;
         activeItin.value = "";
