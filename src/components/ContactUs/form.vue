@@ -35,7 +35,7 @@
       transition-show="jump-up"
       transition-hide="jump-up"
       use-chips
-      :rules="[(val) => val === null || 'Please select an option']"
+      :rules="[(val) => val !== null || 'Please select an option']"
     />
     <q-select
       filled
@@ -45,7 +45,7 @@
       transition-show="jump-up"
       transition-hide="jump-up"
       use-chips
-      :rules="[(val) => val === null || 'Please select an option']"
+      :rules="[(val) => val !== null || 'Please select an option']"
     />
     <q-select
       filled
@@ -55,7 +55,7 @@
       transition-show="jump-up"
       transition-hide="jump-up"
       use-chips
-      :rules="[(val) => val === null || 'Please select an option']"
+      :rules="[(val) => val !== null || 'Please select an option']"
     />
 
     <q-input
@@ -128,7 +128,8 @@
       transition-show="jump-up"
       transition-hide="jump-up"
       use-chips
-      :rules="[(val) => val === null || 'Please select an option']"
+      :rules="[(val) => val !== null || 'Please select an option']"
+
     />
 
     <q-input

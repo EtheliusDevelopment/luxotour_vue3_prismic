@@ -151,7 +151,7 @@ export default {
 .first-block {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 0.6fr;
+  grid-auto-rows: 200px;
   grid-gap: 2%;
   margin: 0 8%;
   margin-bottom: 5% !important;

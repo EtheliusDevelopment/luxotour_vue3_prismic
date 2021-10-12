@@ -219,7 +219,7 @@
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Lorem Ipsum
+            Personalised design
           </p>
 
           <p
@@ -227,9 +227,9 @@
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
+            We’ll plan your trip around your specific interests, tastes and
+            preferences, providing helpful tips and honest advice based on
+            first-hand knowledge of the destination.
           </p>
         </div>
 
@@ -239,7 +239,7 @@
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Lorem Ipsum
+            Authentic experiences
           </p>
 
           <p
@@ -247,9 +247,9 @@
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
+            Our expert guides and brilliant travel concierges are hand-picked to
+            provide a genuine experience, bringing your destination to life with
+            care and passion.
           </p>
         </div>
 
@@ -259,7 +259,7 @@
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Lorem Ipsum
+            Responsible travel
           </p>
 
           <p
@@ -267,9 +267,9 @@
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
+            Our luxury trips are designed with responsible travel principles
+            that prioritise travel experiences that are both good for you and
+            good for the planet.
           </p>
         </div>
       </div>

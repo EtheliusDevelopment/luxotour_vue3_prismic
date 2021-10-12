@@ -74,7 +74,7 @@
           />
 
           <h4 class="title-component text-primary">PRICE</h4>
-          <p class="p-component">{{ responseObj.price }} € PP</p>
+          <p class="p-component">Starting from {{ responseObj.price }} € PP</p>
         </div>
 
         <div class="third-component component-box">
