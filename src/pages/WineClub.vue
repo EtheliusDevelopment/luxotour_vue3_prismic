@@ -207,7 +207,7 @@
             <q-img
               class="img-step"
               img-class="img1-step-wine"
-              src="~assets/ca_del_bosco.3544ef38.jpg"
+              src="~assets/classic.jpg"
               fit="contain"
             />
             <h6 class="h6-wine-card text-center text-primary">CLASSIC</h6>
@@ -226,7 +226,7 @@
             <q-img
               class="img-step"
               img-class="img1-step-wine"
-              src="~assets/ca_del_bosco.3544ef38.jpg"
+              src="~assets/premium.jpg"
               fit="contain"
             />
             <h6 class="h6-wine-card text-center text-primary">PREMIUM</h6>

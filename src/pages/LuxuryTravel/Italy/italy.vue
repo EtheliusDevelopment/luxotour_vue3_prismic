@@ -33,9 +33,6 @@
     </div>
 
     <div class="first-block" data-aos="fade-up" data-aos-duration="1500">
-      <h3 class="text-pink text-center">
-        {{ testRes }}
-      </h3>
       <div class="sub-section-first">
         <div class="first-component component-box">
           <q-img
@@ -222,8 +219,8 @@ export default {
       this.responseObj = dataRes[0].data;
       this.bulletPoints = dataRes[0].data.at_glance_bullet_point;
       this.mainImage = dataRes[0].data.main_img.url;
-      this.packageTitle =dataRes[0].data.package_title[0].text
-      this.packageSubTitle =dataRes[0].data.location_title[0].text
+      this.packageTitle = dataRes[0].data.package_title[0].text;
+      this.packageSubTitle = dataRes[0].data.location_title[0].text;
 
       console.log(dataRes[0].data);
 
