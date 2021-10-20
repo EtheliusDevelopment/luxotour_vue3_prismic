@@ -94,13 +94,14 @@
         </div>
 
         <div class="fourth-component component-box">
-          <button class="general-btn-1" style="padding: 4% 4%">
-            DOWNLOAD JOURNEY DETAIL
-          </button>
+          <a :href="redirectUrl" target="_blank">
+            <button class="general-btn-1" style="padding: 4% 4%">
+              DOWNLOAD JOURNEY DETAIL
+            </button>
+          </a>
         </div>
       </div>
     </div>
-
     <div
       class="second-block-carousel-luxury"
       data-aos="fade-up"
@@ -221,6 +222,7 @@ export default {
       this.mainImage = dataRes[0].data.main_img.url;
       this.packageTitle = dataRes[0].data.package_title[0].text;
       this.packageSubTitle = dataRes[0].data.location_title[0].text;
+      this.redirectUrl = dataRes[0].data.link_travefy.url;
 
       console.log(dataRes[0].data);
 
@@ -246,6 +248,7 @@ export default {
     const activeItin = ref("");
     const testRes = ref();
     const mainImage = ref();
+    const redirectUrl = ref();
     const packageTitle = ref();
     const packageSubTitle = ref();
 
@@ -278,6 +281,7 @@ export default {
       active,
       activeItin,
       testRes,
+      redirectUrl,
       mainImage,
       clickMenu() {
         atglance.value = true;

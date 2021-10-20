@@ -12,38 +12,49 @@
       >
         <div class="facebook-slide flex">
           <p class="text-center body-review">
-            I just wanted to share my experience with my friends and family, to
-            show them what is it - to be an Italian. And then I found the Luxo
-            wine club.
+            Paul coordinated an incredible, once in a lifetime Italian travel
+            experience for us - hotels, cooking classes, dinners, wine tastings,
+            winery visits (during the harvest!), and truffle hunting - all 5
+            star ++, truly authentic and with warm personal, professional
+            service. We couldn't have asked for anything more, especially after
+            missing Italy for 2 years.
           </p>
 
           <p class="text-center body-review">
-            The wine selection, gifts, the community itself - is a literal
-            experience of Italy I wanted to share with my family!
+            Paul ensured that we more than made up for lost time! In addition,
+            Paul's attention to detail and service from start to finish made
+            this trip truly luxurious and special. We loved it all! Mille
+            grazie, Paul!
           </p>
 
-          <p class="payoff text-center text-primary">Mario Rossi</p>
+          <p class="payoff text-center text-primary">Maria Perrella</p>
 
-          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+          <!-- <p class="payoff-echo text-center text-info">Maureen, Florida</p> -->
         </div>
 
         <hr color="#D9C5A0" class="desktop-only" />
 
         <div class="facebook-slide flex desktop-only">
           <p class="text-center body-review">
-            I just wanted to share my experience with my friends and family, to
-            show them what is it - to be an Italian. And then I found the Luxo
-            wine club.
+            We travelled to Italy from the 15th of September to the 2nd of
+            October 2021. Even prior to departure, Paul was on top of every
+            detail. When we arrived in Milan and at every step along the way,
+            the service, attention to detail and response of Paul and his
+            partner Andrea and the staff at every luxury hotel, restaurant and
+            excursion was amazing.
           </p>
 
           <p class="text-center body-review">
-            The wine selection, gifts, the community itself - is a literal
-            experience of Italy I wanted to share with my family!
+            This only confirmed that Luxo Italia is highly regarded and
+            respected. We especially loved Portofino and thanks to Paul &
+            Andrea, those memories will be with us forever. We would not
+            hesitate to recommended and use their wonderful services again!!
+            Thank you !! Lorraine & Walter Fusco
           </p>
 
-          <p class="payoff text-center text-primary">Mario Rossi</p>
+          <p class="payoff text-center text-primary">Lorraine Fusco</p>
 
-          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+          <!-- <p class="payoff-echo text-center text-info">Maureen, Florida</p> -->
         </div>
       </div>
 
@@ -54,38 +65,47 @@
       >
         <div class="facebook-slide flex">
           <p class="text-center body-review">
-            I just wanted to share my experience with my friends and family, to
-            show them what is it - to be an Italian. And then I found the Luxo
-            wine club.
+            Top client service and amazing high end itineraries Planning our
+            vacation with Luxo Italia was one of the best decisions for our trip
+            to Italy. Paul put together an itinerary that fulfilled all of our
+            expectations and beyond.
           </p>
 
           <p class="text-center body-review">
-            The wine selection, gifts, the community itself - is a literal
-            experience of Italy I wanted to share with my family!
+            He made amazing reservations at restaurants and hotels. He was
+            always in touch with us coordinating our transfers to one city to
+            another. Even when we decided to make some last minute changes he
+            managed to rearrange everything for us seamlessly. I will make my
+            next trip to Italy with Luxo Italia without a doubt.
           </p>
 
-          <p class="payoff text-center text-primary">Filippo de Sanctis</p>
+          <p class="payoff text-center text-primary">Adri Sandova</p>
 
-          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+          <!-- <p class="payoff-echo text-center text-info">Maureen, Florida</p> -->
         </div>
 
         <hr color="#D9C5A0" class="desktop-only" />
 
         <div class="facebook-slide flex desktop-only">
           <p class="text-center body-review">
-            I just wanted to share my experience with my friends and family, to
-            show them what is it - to be an Italian. And then I found the Luxo
-            wine club.
+            My husband and I were in Italy for 2 weeks. The first we spent
+            visiting our daughter in Milan . We asked Paul & Andrea to plan our
+            2nd week for us. We wanted an authentic Italian experience with
+            great food, wine, culture and making new friends. We did not want a
+            typical tourist itinerary.
           </p>
 
           <p class="text-center body-review">
-            The wine selection, gifts, the community itself - is a literal
-            experience of Italy I wanted to share with my family!
+            They delivered the most perfect week spent relaxing in Tuscany
+            during the harvest and finishing in Rome being pampered in luxury.
+            Every day was spectacular, but our favorite had to be the day spent
+            with a chef in Tuscany at his home, learning his family’s pasta and
+            Tiramisu traditions. Outstanding!!
           </p>
 
-          <p class="payoff text-center text-primary">Pietro Binachi</p>
+          <p class="payoff text-center text-primary">Cindy Hill Murphy</p>
 
-          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+          <!-- <p class="payoff-echo text-center text-info">Maureen, Florida</p> -->
         </div>
       </div>
 
@@ -115,19 +135,20 @@
 
         <div class="facebook-slide flex desktop-only">
           <p class="text-center body-review">
-            I just wanted to share my experience with my friends and family, to
-            show them what is it - to be an Italian. And then I found the Luxo
-            wine club.
+            Wow doesn't even begin to describe their experiences. They had the
+            highest quality adventures with impeccable attention to detail. Luxo
+            worked diligently with us to customize a beautifully authentic tour
+            of classic sights and unforgettable eating.
           </p>
 
           <p class="text-center body-review">
-            The wine selection, gifts, the community itself - is a literal
-            experience of Italy I wanted to share with my family!
+            We would call them in a heartbeat, I suggest you do the same! Thank
+            you to Paul, Andrea, and their whole team.
           </p>
 
-          <p class="payoff text-center text-primary">Mario Rossi</p>
+          <p class="payoff text-center text-primary">Mike Olek</p>
 
-          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+          <!-- <p class="payoff-echo text-center text-info">Maureen, Florida</p> -->
         </div>
       </div>
     </div>
@@ -140,38 +161,45 @@
       >
         <div class="facebook-slide flex">
           <p class="text-center body-review">
-            And then I found the Luxo wine club. I just wanted to share my
-            experience with my friends and family, to show them what is it - to
-            be an Italian.
+            The best tour company. Would definitely recommend. I have just
+            returned from one of the best vacations my husband and I ever had,
+            thanks to LuxoItalia. We visited the italian's lakes Garda,
+            Iseo,Como, Orta and Maggiore; the hotels were all 5 stars, the tours
+            also. We visited 2 wineries that produce italian champaign and a
+            grappa distellery, what a great experience.
           </p>
 
           <p class="text-center body-review">
-            I wanted to share with my family! The wine selection, gifts, the
-            community itself - is a literal experience of Italy.
+            I would like to thank Andrea and Paul for organizing this great
+            vacation for us; I have used LuxoItalia 2 years ago for a family
+            vacation and was also well organized. These 2 young men have created
+            a tour company that tops all others .Giving a five star rating is
+            too low it should be 6 +++. Thank you Andrea and Paul; A Presto!!!
           </p>
 
-          <p class="payoff text-center text-primary">Mario Rossi</p>
+          <p class="payoff text-center text-primary">Clorinda D’Alessandro</p>
 
-          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+          <!-- <p class="payoff-echo text-center text-info">Maureen, Florida</p> -->
         </div>
 
         <hr color="#D9C5A0" class="desktop-only" />
 
         <div class="facebook-slide flex desktop-only">
           <p class="text-center body-review">
-            I just wanted to share my experience with my friends and family, to
-            show them what is it - to be an Italian. And then I found the Luxo
-            wine club.
+            Unbelievable trip! Paul Lewis you are amazing. Thank you for putting
+            this once in a lifetime excursion together for us. Every single
+            detail was handled beautifully and every minute of our journey was
+            truly delightful.
           </p>
 
           <p class="text-center body-review">
-            The wine selection, gifts, the community itself - is a literal
-            experience of Italy I wanted to share with my family!
+            If you are planning a trip to Italy, make sure you let Luxo Italia
+            handle all the details if you want a perfect trip.
           </p>
 
-          <p class="payoff text-center text-primary">Mario Rossi</p>
+          <p class="payoff text-center text-primary">Patti Maloy</p>
 
-          <p class="payoff-echo text-center text-info">Maureen, Florida</p>
+          <!-- <p class="payoff-echo text-center text-info">Maureen, Florida</p> -->
         </div>
       </div>
 
@@ -201,8 +229,8 @@
 
         <div class="facebook-slide flex desktop-only">
           <p class="text-center body-review">
-            to be an Italian. And then I found the Luxo
-            wine club Lorem ipsum dolor sit amet.
+            to be an Italian. And then I found the Luxo wine club Lorem ipsum
+            dolor sit amet.
           </p>
 
           <p class="text-center body-review">
