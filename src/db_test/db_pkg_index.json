@@ -1,12 +1,12 @@
 [
   {
     "title": "Ultimate Tuscany",
-    "img": "/carousel/como-to-portofino.jpg",
+    "img": "/carousel/Ultimate-tuscany.jpg",
     "to": "/luxury-travel/italy/ultimate-tuscany"
   },
   {
     "title": "Umbria Yoga Retreat ",
-    "img": "/carousel/green-experience.jpg",
+    "img": "/carousel/Umbria-yoga-retreat.jpg",
     "to": "/luxury-travel/italy/umbria-yoga-retreat"
   },
   {
@@ -16,22 +16,22 @@
   },
   {
     "title": "La Dolcevita",
-    "img": "/carousel/Sicily-in-style.jpg",
+    "img": "/carousel/green-experience.jpg",
     "to": "/luxury-travel/italy/la-dolcevita"
   },
   {
     "title": "Amalfi Coast & Capri",
-    "img": "/carousel/the-grand-classic.jpg",
+    "img": "/carousel/amalfi-coast.jpg",
     "to": "/luxury-travel/italy/amalfi-coast--capri"
   },
   {
     "title": "Sicily in Style",
-    "img": "/carousel/Ultimate-tuscany.jpg",
+    "img": "/carousel/Sicily-in-style.jpg",
     "to": "/luxury-travel/italy/sicily-in-stylec"
   },
   {
     "title": "The Grand Classic",
-    "img": "/carousel/Umbria-yoga-retreat.jpg",
+    "img": "/carousel/the-grand-classic.jpg",
     "to": "/luxury-travel/italy/the-grand-classic"
   }
 ]
